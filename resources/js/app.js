@@ -30,6 +30,7 @@ import MultiSelect from 'primevue/multiselect';
 import Breadcrumb from 'primevue/breadcrumb';
 import Toast from 'primevue/toast';
 import Sidebar from 'primevue/sidebar';
+import Textarea from 'primevue/textarea';
 
 
 Vue.use(PrimeVue)
@@ -63,6 +64,9 @@ Vue.component('MultiSelect', MultiSelect);
 Vue.component('Breadcrumb', Breadcrumb);
 Vue.component('Toast',Toast);
 Vue.component('Sidebar',Sidebar);
+Vue.component('Textarea',Textarea);
+
+
 
 
 

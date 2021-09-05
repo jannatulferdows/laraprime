@@ -85,8 +85,14 @@ export default {
               ]
             },
             {
-              label: "Delete",
-              icon: "pi pi-fw pi-trash"
+              label: "demo",
+              icon: "pi pi-fw pi-trash",
+              to: "/demo"
+            },
+             {
+              label: "Supplier Details",
+              icon: "pi pi-fw pi-trash",
+              to: "/sp_details"
             },
             {
               separator: true
