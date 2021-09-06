@@ -22,7 +22,7 @@ import ToastService from 'primevue/toastservice';
 
 import InputText from 'primevue/inputtext';
 import Card from 'primevue/card';
-import Button from 'primevue/Button';
+// import Button from 'primevue/Button';
 import DataTable from 'primevue/datatable';
 import Column from 'primevue/column';
 import ColumnGroup from 'primevue/columngroup';
@@ -30,11 +30,8 @@ import MultiSelect from 'primevue/multiselect';
 import Breadcrumb from 'primevue/breadcrumb';
 import Toast from 'primevue/toast';
 import Sidebar from 'primevue/sidebar';
-<<<<<<< HEAD
-import Textarea from 'primevue/textarea';
-=======
 import InputMask from 'primevue/inputmask';
->>>>>>> 4550f40a474e97ea194e311d1ed800b1bbe0b370
+import Dropdown from 'primevue/dropdown';
 
 
 Vue.use(PrimeVue)
@@ -59,7 +56,7 @@ import App from './views/App.vue'
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 Vue.component('Sidebar', require('./views/Sidebar.vue').default);
 Vue.component('Card', Card);
-Vue.component('Button', Button);
+// Vue.component('Button', Button);
 Vue.component('DataTable', DataTable);
 Vue.component('Column', Column);
 Vue.component('ColumnGroup', ColumnGroup);
@@ -67,13 +64,10 @@ Vue.component('MultiSelect', MultiSelect);
 Vue.component('Breadcrumb', Breadcrumb);
 Vue.component('Toast',Toast);
 Vue.component('Sidebar',Sidebar);
-<<<<<<< HEAD
-Vue.component('Textarea',Textarea);
-
-=======
 Vue.component('InputText', InputText)
 Vue.component('InputMask', InputMask)
->>>>>>> 4550f40a474e97ea194e311d1ed800b1bbe0b370
+Vue.component('Dropdown', Dropdown)
+
 
 
 

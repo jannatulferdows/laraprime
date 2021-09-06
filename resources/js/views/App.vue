@@ -94,6 +94,22 @@
 						</li>
 					</ul>
 				</li>
+					<li>
+					<a href="javascript:;" class="has-arrow">
+						<div class="parent-icon"><i class="pi pi-folder"></i>
+						</div>
+						<div class="menu-title">Customers</div>
+					</a>
+					<ul>
+						<li> <a ><i class="pi pi-arrow-right"></i><router-link to="/CreateCustomer">Create Customer</router-link></a>
+						</li>
+						<li> <a ><i class="pi pi-arrow-right"></i><router-link to="/EditCustomer">Edit Customer</router-link></a>
+						</li>
+						<li> <a ><i class="pi pi-arrow-right"></i><router-link to="/CustomerList">Customer List</router-link></a>
+						</li>
+						
+					</ul>
+				</li>
 				<li class="menu-label">UI Elements</li>
 				<li>
 					<a href="widgets.html">
@@ -863,143 +879,6 @@ export default {
 //   },
   data() {
     return {
-<<<<<<< HEAD
-      items: [
-        {
-          label: "File",
-          icon: "pi pi-fw pi-file",
-          items: [
-            {
-              label: "New",
-              icon: "pi pi-fw pi-plus",
-              items: [
-                {
-                  label: "Bookmark",
-                  icon: "pi pi-fw pi-bookmark",
-                  to: "/"
-                },
-                {
-                  label: "Video",
-                  icon: "pi pi-fw pi-video",
-                  to: "/about"
-                }
-              ]
-            },
-            {
-              label: "demo",
-              icon: "pi pi-fw pi-trash",
-              to: "/demo"
-            },
-             {
-              label: "Supplier Details",
-              icon: "pi pi-fw pi-trash",
-              to: "/sp_details"
-            },
-            {
-              separator: true
-            },
-            {
-              label: "Export",
-              icon: "pi pi-fw pi-external-link"
-            }
-          ]
-        },
-        {
-          label: "Edit",
-          icon: "pi pi-fw pi-pencil",
-          items: [
-            {
-              label: "Left",
-              icon: "pi pi-fw pi-align-left",
-              to: "/create-designation"
-            },
-            {
-              label: "Right",
-              icon: "pi pi-fw pi-align-right"
-            },
-            {
-              label: "Center",
-              icon: "pi pi-fw pi-align-center"
-            },
-            {
-              label: "Justify",
-              icon: "pi pi-fw pi-align-justify"
-            }
-          ]
-        },
-        {
-          label: "Users",
-          icon: "pi pi-fw pi-user",
-          items: [
-            {
-              label: "New",
-              icon: "pi pi-fw pi-user-plus"
-            },
-            {
-              label: "Delete",
-              icon: "pi pi-fw pi-user-minus"
-            },
-            {
-              label: "Search",
-              icon: "pi pi-fw pi-users",
-              items: [
-                {
-                  label: "Filter",
-                  icon: "pi pi-fw pi-filter",
-                  items: [
-                    {
-                      label: "Print",
-                      icon: "pi pi-fw pi-print"
-                    }
-                  ]
-                },
-                {
-                  icon: "pi pi-fw pi-bars",
-                  label: "List"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          label: "Events",
-          icon: "pi pi-fw pi-calendar",
-          items: [
-            {
-              label: "Edit",
-              icon: "pi pi-fw pi-pencil",
-              items: [
-                {
-                  label: "Save",
-                  icon: "pi pi-fw pi-calendar-plus"
-                },
-                {
-                  label: "Delete",
-                  icon: "pi pi-fw pi-calendar-minus"
-                }
-              ]
-            },
-            {
-              label: "Archieve",
-              icon: "pi pi-fw pi-calendar-times",
-              items: [
-                {
-                  label: "Remove",
-                  icon: "pi pi-fw pi-calendar-minus"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          label: "Quit",
-          icon: "pi pi-fw pi-power-off"
-        }
-      ],
-      toggle: true,
-      classItem: "p-col-9 p-mt-2",
-      theme: false
-=======
     //   items: [
     //     {
     //       label: "File",
@@ -1131,7 +1010,6 @@ export default {
     //   classItem: "p-col-9 p-mt-2",
     //   theme: false,
     //   side:true,
->>>>>>> 4550f40a474e97ea194e311d1ed800b1bbe0b370
     };
   },
 //   methods: {
