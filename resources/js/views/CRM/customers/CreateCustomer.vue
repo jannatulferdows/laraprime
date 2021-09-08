@@ -36,7 +36,7 @@
               />
             </div>
             <div class="p-field p-col-12 p-md-6">
-              <label for="regDate"><strong>Registration date</strong></label> <br />
+              <label for="regDate"><strong>Registration Date</strong></label> <br />
               <Calendar v-model="value"  placeholder="Enter Registation Date" />
             
             </div>

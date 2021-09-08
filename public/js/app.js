@@ -2741,6 +2741,533 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 
@@ -3362,6 +3889,46 @@ var EditCustomer = function EditCustomer() {
   return __webpack_require__.e(/*! import() */ "resources_js_views_CRM_customers_EditCustomer_vue").then(__webpack_require__.bind(__webpack_require__, /*! ./views/CRM/customers/EditCustomer.vue */ "./resources/js/views/CRM/customers/EditCustomer.vue"));
 };
 
+var CreateShift = function CreateShift() {
+  return __webpack_require__.e(/*! import() */ "resources_js_views_HRM_shifts_CreateShift_vue").then(__webpack_require__.bind(__webpack_require__, /*! ./views/HRM/shifts/CreateShift.vue */ "./resources/js/views/HRM/shifts/CreateShift.vue"));
+};
+
+var EditShift = function EditShift() {
+  return __webpack_require__.e(/*! import() */ "resources_js_views_HRM_shifts_EditShift_vue").then(__webpack_require__.bind(__webpack_require__, /*! ./views/HRM/shifts/EditShift.vue */ "./resources/js/views/HRM/shifts/EditShift.vue"));
+};
+
+var ShiftList = function ShiftList() {
+  return __webpack_require__.e(/*! import() */ "resources_js_views_HRM_shifts_ShiftList_vue").then(__webpack_require__.bind(__webpack_require__, /*! ./views/HRM/shifts/ShiftList.vue */ "./resources/js/views/HRM/shifts/ShiftList.vue"));
+};
+
+var DutyType = function DutyType() {
+  return __webpack_require__.e(/*! import() */ "resources_js_views_HRM_dutyTypes_DutyTypes_vue").then(__webpack_require__.bind(__webpack_require__, /*! ./views/HRM/dutyTypes/DutyTypes.vue */ "./resources/js/views/HRM/dutyTypes/DutyTypes.vue"));
+};
+
+var EditDutyType = function EditDutyType() {
+  return __webpack_require__.e(/*! import() */ "resources_js_views_HRM_dutyTypes_EditDutyType_vue").then(__webpack_require__.bind(__webpack_require__, /*! ./views/HRM/dutyTypes/EditDutyType.vue */ "./resources/js/views/HRM/dutyTypes/EditDutyType.vue"));
+};
+
+var SalaryType = function SalaryType() {
+  return __webpack_require__.e(/*! import() */ "resources_js_views_HRM_salaryTypes_SalaryTypes_vue").then(__webpack_require__.bind(__webpack_require__, /*! ./views/HRM/salaryTypes/SalaryTypes.vue */ "./resources/js/views/HRM/salaryTypes/SalaryTypes.vue"));
+};
+
+var EditSalaryType = function EditSalaryType() {
+  return __webpack_require__.e(/*! import() */ "resources_js_views_HRM_salaryTypes_EditSalaryType_vue").then(__webpack_require__.bind(__webpack_require__, /*! ./views/HRM/salaryTypes/EditSalaryType.vue */ "./resources/js/views/HRM/salaryTypes/EditSalaryType.vue"));
+};
+
+var CreateSales = function CreateSales() {
+  return __webpack_require__.e(/*! import() */ "resources_js_views_Sales_CreateSales_vue").then(__webpack_require__.bind(__webpack_require__, /*! ./views/Sales/CreateSales.vue */ "./resources/js/views/Sales/CreateSales.vue"));
+};
+
+var SaleList = function SaleList() {
+  return __webpack_require__.e(/*! import() */ "resources_js_views_Sales_SaleList_vue").then(__webpack_require__.bind(__webpack_require__, /*! ./views/Sales/SaleList.vue */ "./resources/js/views/Sales/SaleList.vue"));
+};
+
+var demo = function demo() {
+  return __webpack_require__.e(/*! import() */ "resources_js_views_demo_vue").then(__webpack_require__.bind(__webpack_require__, /*! ./views/demo.vue */ "./resources/js/views/demo.vue"));
+};
+
 var routes = [{
   path: '/',
   name: 'Welcome',
@@ -3378,6 +3945,46 @@ var routes = [{
   path: '/CustomerList',
   name: 'CustomerList',
   component: CustomerList
+}, {
+  path: '/CreateShift',
+  name: 'CreateShift',
+  component: CreateShift
+}, {
+  path: '/EditShift',
+  name: 'EditShift',
+  component: EditShift
+}, {
+  path: '/ShiftList',
+  name: 'ShiftList',
+  component: ShiftList
+}, {
+  path: '/DutyType',
+  name: 'DutyType',
+  component: DutyType
+}, {
+  path: '/EditDutyType',
+  name: 'EditDutyType',
+  component: EditDutyType
+}, {
+  path: '/SalaryType',
+  name: 'SalaryType',
+  component: SalaryType
+}, {
+  path: '/EditSalaryType',
+  name: 'EditSalaryType',
+  component: EditSalaryType
+}, {
+  path: '/CreateSales',
+  name: 'CreateSales',
+  component: CreateSales
+}, {
+  path: '/SaleList',
+  name: 'SaleList',
+  component: SaleList
+}, {
+  path: '/demo',
+  name: 'demo',
+  component: demo
 }];
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (new vue_router__WEBPACK_IMPORTED_MODULE_0__.default({
   // mode: 'history',
@@ -58399,56 +59006,184 @@ var render = function() {
               ])
             ]),
             _vm._v(" "),
+            _c("li", [
+              _vm._m(7),
+              _vm._v(" "),
+              _c("ul", [
+                _c("li", [
+                  _c(
+                    "a",
+                    [
+                      _c("i", { staticClass: "pi pi-arrow-right" }),
+                      _c("router-link", { attrs: { to: "/CreateShift" } }, [
+                        _vm._v("Create Shift")
+                      ])
+                    ],
+                    1
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c(
+                    "a",
+                    [
+                      _c("i", { staticClass: "pi pi-arrow-right" }),
+                      _c("router-link", { attrs: { to: "/EditShift" } }, [
+                        _vm._v("Edit Shift")
+                      ])
+                    ],
+                    1
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c(
+                    "a",
+                    [
+                      _c("i", { staticClass: "pi pi-arrow-right" }),
+                      _c("router-link", { attrs: { to: "/ShiftList" } }, [
+                        _vm._v("Shift List")
+                      ])
+                    ],
+                    1
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c(
+                    "a",
+                    [
+                      _c("i", { staticClass: "pi pi-arrow-right" }),
+                      _c("router-link", { attrs: { to: "/demo" } }, [
+                        _vm._v("Demo")
+                      ])
+                    ],
+                    1
+                  )
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("li", [
+              _vm._m(8),
+              _vm._v(" "),
+              _c("ul", [
+                _c("li", [
+                  _c(
+                    "a",
+                    [
+                      _c("i", { staticClass: "pi pi-arrow-right" }),
+                      _c("router-link", { attrs: { to: "/DutyType" } }, [
+                        _vm._v("Duty Types")
+                      ])
+                    ],
+                    1
+                  )
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("li", [
+              _vm._m(9),
+              _vm._v(" "),
+              _c("ul", [
+                _c("li", [
+                  _c(
+                    "a",
+                    [
+                      _c("i", { staticClass: "pi pi-arrow-right" }),
+                      _c("router-link", { attrs: { to: "/SalaryType" } }, [
+                        _vm._v("Salary Types")
+                      ])
+                    ],
+                    1
+                  )
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("li", [
+              _vm._m(10),
+              _vm._v(" "),
+              _c("ul", [
+                _c("li", [
+                  _c(
+                    "a",
+                    [
+                      _c("i", { staticClass: "pi pi-arrow-right" }),
+                      _c("router-link", { attrs: { to: "/CreateSales" } }, [
+                        _vm._v("Create Sales")
+                      ])
+                    ],
+                    1
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c(
+                    "a",
+                    [
+                      _c("i", { staticClass: "pi pi-arrow-right" }),
+                      _c("router-link", { attrs: { to: "/SaleList" } }, [
+                        _vm._v("Sales List")
+                      ])
+                    ],
+                    1
+                  )
+                ])
+              ])
+            ]),
+            _vm._v(" "),
             _c("li", { staticClass: "menu-label" }, [_vm._v("UI Elements")]),
             _vm._v(" "),
-            _vm._m(7),
-            _vm._v(" "),
-            _vm._m(8),
-            _vm._v(" "),
-            _vm._m(9),
-            _vm._v(" "),
-            _vm._m(10),
-            _vm._v(" "),
             _vm._m(11),
-            _vm._v(" "),
-            _c("li", { staticClass: "menu-label" }, [_vm._v("Forms & Tables")]),
             _vm._v(" "),
             _vm._m(12),
             _vm._v(" "),
             _vm._m(13),
             _vm._v(" "),
-            _c("li", { staticClass: "menu-label" }, [_vm._v("Pages")]),
-            _vm._v(" "),
             _vm._m(14),
             _vm._v(" "),
             _vm._m(15),
+            _vm._v(" "),
+            _c("li", { staticClass: "menu-label" }, [_vm._v("Forms & Tables")]),
             _vm._v(" "),
             _vm._m(16),
             _vm._v(" "),
             _vm._m(17),
             _vm._v(" "),
+            _c("li", { staticClass: "menu-label" }, [_vm._v("Pages")]),
+            _vm._v(" "),
             _vm._m(18),
             _vm._v(" "),
             _vm._m(19),
-            _vm._v(" "),
-            _c("li", { staticClass: "menu-label" }, [_vm._v("Charts & Maps")]),
             _vm._v(" "),
             _vm._m(20),
             _vm._v(" "),
             _vm._m(21),
             _vm._v(" "),
-            _c("li", { staticClass: "menu-label" }, [_vm._v("Others")]),
-            _vm._v(" "),
             _vm._m(22),
             _vm._v(" "),
             _vm._m(23),
             _vm._v(" "),
-            _vm._m(24)
+            _c("li", { staticClass: "menu-label" }, [_vm._v("Charts & Maps")]),
+            _vm._v(" "),
+            _vm._m(24),
+            _vm._v(" "),
+            _vm._m(25),
+            _vm._v(" "),
+            _c("li", { staticClass: "menu-label" }, [_vm._v("Others")]),
+            _vm._v(" "),
+            _vm._m(26),
+            _vm._v(" "),
+            _vm._m(27),
+            _vm._v(" "),
+            _vm._m(28)
           ])
         ]
       ),
       _vm._v(" "),
-      _vm._m(25),
+      _vm._m(29),
       _vm._v(" "),
       _c("div", { staticClass: "page-wrapper" }, [
         _c("div", { staticClass: "page-content" }, [_c("router-view")], 1)
@@ -58456,12 +59191,12 @@ var render = function() {
       _vm._v(" "),
       _c("div", { staticClass: "overlay toggle-icon" }),
       _vm._v(" "),
-      _vm._m(26),
+      _vm._m(30),
       _vm._v(" "),
-      _vm._m(27)
+      _vm._m(31)
     ]),
     _vm._v(" "),
-    _vm._m(28)
+    _vm._m(32)
   ])
 }
 var staticRenderFns = [
@@ -58606,6 +59341,70 @@ var staticRenderFns = [
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "menu-title" }, [_vm._v("Customers")])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "a",
+      { staticClass: "has-arrow", attrs: { href: "javascript:;" } },
+      [
+        _c("div", { staticClass: "parent-icon" }, [
+          _c("i", { staticClass: "pi pi-folder" })
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "menu-title" }, [_vm._v("Shifts")])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "a",
+      { staticClass: "has-arrow", attrs: { href: "javascript:;" } },
+      [
+        _c("div", { staticClass: "parent-icon" }, [
+          _c("i", { staticClass: "pi pi-folder" })
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "menu-title" }, [_vm._v("Duty Types")])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "a",
+      { staticClass: "has-arrow", attrs: { href: "javascript:;" } },
+      [
+        _c("div", { staticClass: "parent-icon" }, [
+          _c("i", { staticClass: "pi pi-folder" })
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "menu-title" }, [_vm._v("Salary Types")])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "a",
+      { staticClass: "has-arrow", attrs: { href: "javascript:;" } },
+      [
+        _c("div", { staticClass: "parent-icon" }, [
+          _c("i", { staticClass: "pi pi-folder" })
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "menu-title" }, [_vm._v("Sales")])
       ]
     )
   },
@@ -59026,7 +59825,7 @@ var staticRenderFns = [
             },
             [
               _c("i", { staticClass: "pi pi-arrow-right" }),
-              _vm._v("Sign In with Header & Footer")
+              _vm._v("Sign In with Header &\n                  Footer")
             ]
           )
         ]),
@@ -59042,7 +59841,7 @@ var staticRenderFns = [
             },
             [
               _c("i", { staticClass: "pi pi-arrow-right" }),
-              _vm._v("Sign Up with Header & Footer")
+              _vm._v("Sign Up with Header &\n                  Footer")
             ]
           )
         ]),
@@ -59540,7 +60339,7 @@ var staticRenderFns = [
                   "a",
                   {
                     staticClass:
-                      "nav-link dropdown-toggle dropdown-toggle-nocaret position-relative",
+                      "\n                      nav-link\n                      dropdown-toggle dropdown-toggle-nocaret\n                      position-relative\n                    ",
                     attrs: {
                       href: "#",
                       role: "button",
@@ -59572,7 +60371,9 @@ var staticRenderFns = [
                         ]),
                         _vm._v(" "),
                         _c("p", { staticClass: "msg-header-clear ms-auto" }, [
-                          _vm._v("Marks all as read")
+                          _vm._v(
+                            "\n                          Marks all as read\n                        "
+                          )
                         ])
                       ])
                     ]),
@@ -59600,15 +60401,13 @@ var staticRenderFns = [
                               _vm._v(" "),
                               _c("div", { staticClass: "flex-grow-1" }, [
                                 _c("h6", { staticClass: "msg-name" }, [
-                                  _vm._v("New Customers"),
+                                  _vm._v(
+                                    "\n                              New Customers"
+                                  ),
                                   _c(
                                     "span",
                                     { staticClass: "msg-time float-end" },
-                                    [
-                                      _vm._v(
-                                        "14 Sec\n\t\t\t\t\t\t\t\t\t\t\t\tago"
-                                      )
-                                    ]
+                                    [_vm._v("14 Sec ago")]
                                   )
                                 ]),
                                 _vm._v(" "),
@@ -59643,15 +60442,13 @@ var staticRenderFns = [
                               _vm._v(" "),
                               _c("div", { staticClass: "flex-grow-1" }, [
                                 _c("h6", { staticClass: "msg-name" }, [
-                                  _vm._v("New Orders "),
+                                  _vm._v(
+                                    "\n                              New Orders\n                              "
+                                  ),
                                   _c(
                                     "span",
                                     { staticClass: "msg-time float-end" },
-                                    [
-                                      _vm._v(
-                                        "2 min\n\t\t\t\t\t\t\t\t\t\t\t\tago"
-                                      )
-                                    ]
+                                    [_vm._v("2 min ago")]
                                   )
                                 ]),
                                 _vm._v(" "),
@@ -59686,15 +60483,13 @@ var staticRenderFns = [
                               _vm._v(" "),
                               _c("div", { staticClass: "flex-grow-1" }, [
                                 _c("h6", { staticClass: "msg-name" }, [
-                                  _vm._v("24 PDF File"),
+                                  _vm._v(
+                                    "\n                              24 PDF File"
+                                  ),
                                   _c(
                                     "span",
                                     { staticClass: "msg-time float-end" },
-                                    [
-                                      _vm._v(
-                                        "19 min\n\t\t\t\t\t\t\t\t\t\t\t\tago"
-                                      )
-                                    ]
+                                    [_vm._v("19 min ago")]
                                   )
                                 ]),
                                 _vm._v(" "),
@@ -59729,20 +60524,20 @@ var staticRenderFns = [
                               _vm._v(" "),
                               _c("div", { staticClass: "flex-grow-1" }, [
                                 _c("h6", { staticClass: "msg-name" }, [
-                                  _vm._v("Time Response "),
+                                  _vm._v(
+                                    "\n                              Time Response\n                              "
+                                  ),
                                   _c(
                                     "span",
                                     { staticClass: "msg-time float-end" },
-                                    [
-                                      _vm._v(
-                                        "28 min\n\t\t\t\t\t\t\t\t\t\t\t\tago"
-                                      )
-                                    ]
+                                    [_vm._v("28 min ago")]
                                   )
                                 ]),
                                 _vm._v(" "),
                                 _c("p", { staticClass: "msg-info" }, [
-                                  _vm._v("5.1 min avarage time response")
+                                  _vm._v(
+                                    "\n                              5.1 min avarage time response\n                            "
+                                  )
                                 ])
                               ])
                             ]
@@ -59771,7 +60566,9 @@ var staticRenderFns = [
                               _vm._v(" "),
                               _c("div", { staticClass: "flex-grow-1" }, [
                                 _c("h6", { staticClass: "msg-name" }, [
-                                  _vm._v("New Product Approved "),
+                                  _vm._v(
+                                    "\n                              New Product Approved\n                              "
+                                  ),
                                   _c(
                                     "span",
                                     { staticClass: "msg-time float-end" },
@@ -59780,7 +60577,9 @@ var staticRenderFns = [
                                 ]),
                                 _vm._v(" "),
                                 _c("p", { staticClass: "msg-info" }, [
-                                  _vm._v("Your new product has approved")
+                                  _vm._v(
+                                    "\n                              Your new product has approved\n                            "
+                                  )
                                 ])
                               ])
                             ]
@@ -59814,20 +60613,20 @@ var staticRenderFns = [
                               _vm._v(" "),
                               _c("div", { staticClass: "flex-grow-1" }, [
                                 _c("h6", { staticClass: "msg-name" }, [
-                                  _vm._v("New Comments "),
+                                  _vm._v(
+                                    "\n                              New Comments\n                              "
+                                  ),
                                   _c(
                                     "span",
                                     { staticClass: "msg-time float-end" },
-                                    [
-                                      _vm._v(
-                                        "4 hrs\n\t\t\t\t\t\t\t\t\t\t\t\tago"
-                                      )
-                                    ]
+                                    [_vm._v("4 hrs ago")]
                                   )
                                 ]),
                                 _vm._v(" "),
                                 _c("p", { staticClass: "msg-info" }, [
-                                  _vm._v("New customer comments recived")
+                                  _vm._v(
+                                    "\n                              New customer comments recived\n                            "
+                                  )
                                 ])
                               ])
                             ]
@@ -59857,20 +60656,20 @@ var staticRenderFns = [
                               _vm._v(" "),
                               _c("div", { staticClass: "flex-grow-1" }, [
                                 _c("h6", { staticClass: "msg-name" }, [
-                                  _vm._v("Your item is shipped "),
+                                  _vm._v(
+                                    "\n                              Your item is shipped\n                              "
+                                  ),
                                   _c(
                                     "span",
                                     { staticClass: "msg-time float-end" },
-                                    [
-                                      _vm._v(
-                                        "5 hrs\n\t\t\t\t\t\t\t\t\t\t\t\tago"
-                                      )
-                                    ]
+                                    [_vm._v("5 hrs ago")]
                                   )
                                 ]),
                                 _vm._v(" "),
                                 _c("p", { staticClass: "msg-info" }, [
-                                  _vm._v("Successfully shipped your item")
+                                  _vm._v(
+                                    "\n                              Successfully shipped your item\n                            "
+                                  )
                                 ])
                               ])
                             ]
@@ -59900,20 +60699,20 @@ var staticRenderFns = [
                               _vm._v(" "),
                               _c("div", { staticClass: "flex-grow-1" }, [
                                 _c("h6", { staticClass: "msg-name" }, [
-                                  _vm._v("New 24 authors"),
+                                  _vm._v(
+                                    "\n                              New 24 authors"
+                                  ),
                                   _c(
                                     "span",
                                     { staticClass: "msg-time float-end" },
-                                    [
-                                      _vm._v(
-                                        "1 day\n\t\t\t\t\t\t\t\t\t\t\t\tago"
-                                      )
-                                    ]
+                                    [_vm._v("1 day ago")]
                                   )
                                 ]),
                                 _vm._v(" "),
                                 _c("p", { staticClass: "msg-info" }, [
-                                  _vm._v("24 new authors joined last week")
+                                  _vm._v(
+                                    "\n                              24 new authors joined last week\n                            "
+                                  )
                                 ])
                               ])
                             ]
@@ -59943,15 +60742,13 @@ var staticRenderFns = [
                               _vm._v(" "),
                               _c("div", { staticClass: "flex-grow-1" }, [
                                 _c("h6", { staticClass: "msg-name" }, [
-                                  _vm._v("Defense Alerts "),
+                                  _vm._v(
+                                    "\n                              Defense Alerts\n                              "
+                                  ),
                                   _c(
                                     "span",
                                     { staticClass: "msg-time float-end" },
-                                    [
-                                      _vm._v(
-                                        "2 weeks\n\t\t\t\t\t\t\t\t\t\t\t\tago"
-                                      )
-                                    ]
+                                    [_vm._v("2 weeks ago")]
                                   )
                                 ]),
                                 _vm._v(" "),
@@ -59967,7 +60764,9 @@ var staticRenderFns = [
                     _vm._v(" "),
                     _c("a", { attrs: { href: "javascript:;" } }, [
                       _c("div", { staticClass: "text-center msg-footer" }, [
-                        _vm._v("View All Notifications")
+                        _vm._v(
+                          "\n                        View All Notifications\n                      "
+                        )
                       ])
                     ])
                   ]
@@ -59979,7 +60778,7 @@ var staticRenderFns = [
                   "a",
                   {
                     staticClass:
-                      "nav-link dropdown-toggle dropdown-toggle-nocaret position-relative",
+                      "\n                      nav-link\n                      dropdown-toggle dropdown-toggle-nocaret\n                      position-relative\n                    ",
                     attrs: {
                       href: "#",
                       role: "button",
@@ -60011,7 +60810,9 @@ var staticRenderFns = [
                         ]),
                         _vm._v(" "),
                         _c("p", { staticClass: "msg-header-clear ms-auto" }, [
-                          _vm._v("Marks all as read")
+                          _vm._v(
+                            "\n                          Marks all as read\n                        "
+                          )
                         ])
                       ])
                     ]),
@@ -60032,15 +60833,13 @@ var staticRenderFns = [
                               _vm._v(" "),
                               _c("div", { staticClass: "flex-grow-1" }, [
                                 _c("h6", { staticClass: "msg-name" }, [
-                                  _vm._v("Daisy Anderson "),
+                                  _vm._v(
+                                    "\n                              Daisy Anderson\n                              "
+                                  ),
                                   _c(
                                     "span",
                                     { staticClass: "msg-time float-end" },
-                                    [
-                                      _vm._v(
-                                        "5 sec\n\t\t\t\t\t\t\t\t\t\t\t\tago"
-                                      )
-                                    ]
+                                    [_vm._v("5 sec ago")]
                                   )
                                 ]),
                                 _vm._v(" "),
@@ -60068,129 +60867,19 @@ var staticRenderFns = [
                               _vm._v(" "),
                               _c("div", { staticClass: "flex-grow-1" }, [
                                 _c("h6", { staticClass: "msg-name" }, [
-                                  _vm._v("Althea Cabardo "),
+                                  _vm._v(
+                                    "\n                              Althea Cabardo\n                              "
+                                  ),
                                   _c(
                                     "span",
                                     { staticClass: "msg-time float-end" },
-                                    [
-                                      _vm._v(
-                                        "14\n\t\t\t\t\t\t\t\t\t\t\t\tsec ago"
-                                      )
-                                    ]
-                                  )
-                                ]),
-                                _vm._v(" "),
-                                _c("p", { staticClass: "msg-info" }, [
-                                  _vm._v("Many desktop publishing packages")
-                                ])
-                              ])
-                            ]
-                          )
-                        ]
-                      ),
-                      _vm._v(" "),
-                      _c(
-                        "a",
-                        {
-                          staticClass: "dropdown-item",
-                          attrs: { href: "javascript:;" }
-                        },
-                        [
-                          _c(
-                            "div",
-                            { staticClass: "d-flex align-items-center" },
-                            [
-                              _c("div", { staticClass: "user-online" }),
-                              _vm._v(" "),
-                              _c("div", { staticClass: "flex-grow-1" }, [
-                                _c("h6", { staticClass: "msg-name" }, [
-                                  _vm._v("Oscar Garner "),
-                                  _c(
-                                    "span",
-                                    { staticClass: "msg-time float-end" },
-                                    [
-                                      _vm._v(
-                                        "8 min\n\t\t\t\t\t\t\t\t\t\t\t\tago"
-                                      )
-                                    ]
-                                  )
-                                ]),
-                                _vm._v(" "),
-                                _c("p", { staticClass: "msg-info" }, [
-                                  _vm._v("Various versions have evolved over")
-                                ])
-                              ])
-                            ]
-                          )
-                        ]
-                      ),
-                      _vm._v(" "),
-                      _c(
-                        "a",
-                        {
-                          staticClass: "dropdown-item",
-                          attrs: { href: "javascript:;" }
-                        },
-                        [
-                          _c(
-                            "div",
-                            { staticClass: "d-flex align-items-center" },
-                            [
-                              _c("div", { staticClass: "user-online" }),
-                              _vm._v(" "),
-                              _c("div", { staticClass: "flex-grow-1" }, [
-                                _c("h6", { staticClass: "msg-name" }, [
-                                  _vm._v("Katherine Pechon "),
-                                  _c(
-                                    "span",
-                                    { staticClass: "msg-time float-end" },
-                                    [
-                                      _vm._v(
-                                        "15\n\t\t\t\t\t\t\t\t\t\t\t\tmin ago"
-                                      )
-                                    ]
-                                  )
-                                ]),
-                                _vm._v(" "),
-                                _c("p", { staticClass: "msg-info" }, [
-                                  _vm._v("Making this the first true generator")
-                                ])
-                              ])
-                            ]
-                          )
-                        ]
-                      ),
-                      _vm._v(" "),
-                      _c(
-                        "a",
-                        {
-                          staticClass: "dropdown-item",
-                          attrs: { href: "javascript:;" }
-                        },
-                        [
-                          _c(
-                            "div",
-                            { staticClass: "d-flex align-items-center" },
-                            [
-                              _c("div", { staticClass: "user-online" }),
-                              _vm._v(" "),
-                              _c("div", { staticClass: "flex-grow-1" }, [
-                                _c("h6", { staticClass: "msg-name" }, [
-                                  _vm._v("Amelia Doe "),
-                                  _c(
-                                    "span",
-                                    { staticClass: "msg-time float-end" },
-                                    [
-                                      _vm._v(
-                                        "22 min\n\t\t\t\t\t\t\t\t\t\t\t\tago"
-                                      )
-                                    ]
+                                    [_vm._v("14 sec ago")]
                                   )
                                 ]),
                                 _vm._v(" "),
                                 _c("p", { staticClass: "msg-info" }, [
                                   _vm._v(
-                                    "Duis aute irure dolor in reprehenderit"
+                                    "\n                              Many desktop publishing packages\n                            "
                                   )
                                 ])
                               ])
@@ -60214,21 +60903,19 @@ var staticRenderFns = [
                               _vm._v(" "),
                               _c("div", { staticClass: "flex-grow-1" }, [
                                 _c("h6", { staticClass: "msg-name" }, [
-                                  _vm._v("Cristina Jhons "),
+                                  _vm._v(
+                                    "\n                              Oscar Garner\n                              "
+                                  ),
                                   _c(
                                     "span",
                                     { staticClass: "msg-time float-end" },
-                                    [
-                                      _vm._v(
-                                        "2 hrs\n\t\t\t\t\t\t\t\t\t\t\t\tago"
-                                      )
-                                    ]
+                                    [_vm._v("8 min ago")]
                                   )
                                 ]),
                                 _vm._v(" "),
                                 _c("p", { staticClass: "msg-info" }, [
                                   _vm._v(
-                                    "The passage is attributed to an unknown"
+                                    "\n                              Various versions have evolved over\n                            "
                                   )
                                 ])
                               ])
@@ -60252,15 +60939,121 @@ var staticRenderFns = [
                               _vm._v(" "),
                               _c("div", { staticClass: "flex-grow-1" }, [
                                 _c("h6", { staticClass: "msg-name" }, [
-                                  _vm._v("James Caviness "),
+                                  _vm._v(
+                                    "\n                              Katherine Pechon\n                              "
+                                  ),
                                   _c(
                                     "span",
                                     { staticClass: "msg-time float-end" },
-                                    [
-                                      _vm._v(
-                                        "4 hrs\n\t\t\t\t\t\t\t\t\t\t\t\tago"
-                                      )
-                                    ]
+                                    [_vm._v("15 min ago")]
+                                  )
+                                ]),
+                                _vm._v(" "),
+                                _c("p", { staticClass: "msg-info" }, [
+                                  _vm._v(
+                                    "\n                              Making this the first true generator\n                            "
+                                  )
+                                ])
+                              ])
+                            ]
+                          )
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          staticClass: "dropdown-item",
+                          attrs: { href: "javascript:;" }
+                        },
+                        [
+                          _c(
+                            "div",
+                            { staticClass: "d-flex align-items-center" },
+                            [
+                              _c("div", { staticClass: "user-online" }),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "flex-grow-1" }, [
+                                _c("h6", { staticClass: "msg-name" }, [
+                                  _vm._v(
+                                    "\n                              Amelia Doe\n                              "
+                                  ),
+                                  _c(
+                                    "span",
+                                    { staticClass: "msg-time float-end" },
+                                    [_vm._v("22 min ago")]
+                                  )
+                                ]),
+                                _vm._v(" "),
+                                _c("p", { staticClass: "msg-info" }, [
+                                  _vm._v(
+                                    "\n                              Duis aute irure dolor in reprehenderit\n                            "
+                                  )
+                                ])
+                              ])
+                            ]
+                          )
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          staticClass: "dropdown-item",
+                          attrs: { href: "javascript:;" }
+                        },
+                        [
+                          _c(
+                            "div",
+                            { staticClass: "d-flex align-items-center" },
+                            [
+                              _c("div", { staticClass: "user-online" }),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "flex-grow-1" }, [
+                                _c("h6", { staticClass: "msg-name" }, [
+                                  _vm._v(
+                                    "\n                              Cristina Jhons\n                              "
+                                  ),
+                                  _c(
+                                    "span",
+                                    { staticClass: "msg-time float-end" },
+                                    [_vm._v("2 hrs ago")]
+                                  )
+                                ]),
+                                _vm._v(" "),
+                                _c("p", { staticClass: "msg-info" }, [
+                                  _vm._v(
+                                    "\n                              The passage is attributed to an unknown\n                            "
+                                  )
+                                ])
+                              ])
+                            ]
+                          )
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          staticClass: "dropdown-item",
+                          attrs: { href: "javascript:;" }
+                        },
+                        [
+                          _c(
+                            "div",
+                            { staticClass: "d-flex align-items-center" },
+                            [
+                              _c("div", { staticClass: "user-online" }),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "flex-grow-1" }, [
+                                _c("h6", { staticClass: "msg-name" }, [
+                                  _vm._v(
+                                    "\n                              James Caviness\n                              "
+                                  ),
+                                  _c(
+                                    "span",
+                                    { staticClass: "msg-time float-end" },
+                                    [_vm._v("4 hrs ago")]
                                   )
                                 ]),
                                 _vm._v(" "),
@@ -60288,20 +61081,20 @@ var staticRenderFns = [
                               _vm._v(" "),
                               _c("div", { staticClass: "flex-grow-1" }, [
                                 _c("h6", { staticClass: "msg-name" }, [
-                                  _vm._v("Peter Costanzo "),
+                                  _vm._v(
+                                    "\n                              Peter Costanzo\n                              "
+                                  ),
                                   _c(
                                     "span",
                                     { staticClass: "msg-time float-end" },
-                                    [
-                                      _vm._v(
-                                        "6 hrs\n\t\t\t\t\t\t\t\t\t\t\t\tago"
-                                      )
-                                    ]
+                                    [_vm._v("6 hrs ago")]
                                   )
                                 ]),
                                 _vm._v(" "),
                                 _c("p", { staticClass: "msg-info" }, [
-                                  _vm._v("It was popularised in the 1960s")
+                                  _vm._v(
+                                    "\n                              It was popularised in the 1960s\n                            "
+                                  )
                                 ])
                               ])
                             ]
@@ -60324,20 +61117,20 @@ var staticRenderFns = [
                               _vm._v(" "),
                               _c("div", { staticClass: "flex-grow-1" }, [
                                 _c("h6", { staticClass: "msg-name" }, [
-                                  _vm._v("David Buckley "),
+                                  _vm._v(
+                                    "\n                              David Buckley\n                              "
+                                  ),
                                   _c(
                                     "span",
                                     { staticClass: "msg-time float-end" },
-                                    [
-                                      _vm._v(
-                                        "2 hrs\n\t\t\t\t\t\t\t\t\t\t\t\tago"
-                                      )
-                                    ]
+                                    [_vm._v("2 hrs ago")]
                                   )
                                 ]),
                                 _vm._v(" "),
                                 _c("p", { staticClass: "msg-info" }, [
-                                  _vm._v("Various versions have evolved over")
+                                  _vm._v(
+                                    "\n                              Various versions have evolved over\n                            "
+                                  )
                                 ])
                               ])
                             ]
@@ -60360,20 +61153,20 @@ var staticRenderFns = [
                               _vm._v(" "),
                               _c("div", { staticClass: "flex-grow-1" }, [
                                 _c("h6", { staticClass: "msg-name" }, [
-                                  _vm._v("Thomas Wheeler "),
+                                  _vm._v(
+                                    "\n                              Thomas Wheeler\n                              "
+                                  ),
                                   _c(
                                     "span",
                                     { staticClass: "msg-time float-end" },
-                                    [
-                                      _vm._v(
-                                        "2 days\n\t\t\t\t\t\t\t\t\t\t\t\tago"
-                                      )
-                                    ]
+                                    [_vm._v("2 days ago")]
                                   )
                                 ]),
                                 _vm._v(" "),
                                 _c("p", { staticClass: "msg-info" }, [
-                                  _vm._v("If you are going to use a passage")
+                                  _vm._v(
+                                    "\n                              If you are going to use a passage\n                            "
+                                  )
                                 ])
                               ])
                             ]
@@ -60396,20 +61189,20 @@ var staticRenderFns = [
                               _vm._v(" "),
                               _c("div", { staticClass: "flex-grow-1" }, [
                                 _c("h6", { staticClass: "msg-name" }, [
-                                  _vm._v("Johnny Seitz "),
+                                  _vm._v(
+                                    "\n                              Johnny Seitz\n                              "
+                                  ),
                                   _c(
                                     "span",
                                     { staticClass: "msg-time float-end" },
-                                    [
-                                      _vm._v(
-                                        "5 days\n\t\t\t\t\t\t\t\t\t\t\t\tago"
-                                      )
-                                    ]
+                                    [_vm._v("5 days ago")]
                                   )
                                 ]),
                                 _vm._v(" "),
                                 _c("p", { staticClass: "msg-info" }, [
-                                  _vm._v("All the Lorem Ipsum generators")
+                                  _vm._v(
+                                    "\n                              All the Lorem Ipsum generators\n                            "
+                                  )
                                 ])
                               ])
                             ]
@@ -60420,7 +61213,9 @@ var staticRenderFns = [
                     _vm._v(" "),
                     _c("a", { attrs: { href: "javascript:;" } }, [
                       _c("div", { staticClass: "text-center msg-footer" }, [
-                        _vm._v("View All Messages")
+                        _vm._v(
+                          "\n                        View All Messages\n                      "
+                        )
                       ])
                     ])
                   ]
@@ -60434,7 +61229,7 @@ var staticRenderFns = [
               "a",
               {
                 staticClass:
-                  "d-flex align-items-center nav-link dropdown-toggle dropdown-toggle-nocaret",
+                  "\n                  d-flex\n                  align-items-center\n                  nav-link\n                  dropdown-toggle dropdown-toggle-nocaret\n                ",
                 attrs: {
                   href: "#",
                   role: "button",
@@ -76273,7 +77068,7 @@ Vue.compile = compileToFunctions;
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames not based on template
-/******/ 			if ({"resources_js_views_Welcome_vue":1,"resources_js_views_CRM_customers_CreateCustomer_vue":1,"resources_js_views_CRM_customers_CustomerList_vue":1,"resources_js_views_CRM_customers_EditCustomer_vue":1}[chunkId]) return "js/" + chunkId + ".js";
+/******/ 			if ({"resources_js_views_Welcome_vue":1,"resources_js_views_CRM_customers_CreateCustomer_vue":1,"resources_js_views_CRM_customers_CustomerList_vue":1,"resources_js_views_CRM_customers_EditCustomer_vue":1,"resources_js_views_HRM_shifts_CreateShift_vue":1,"resources_js_views_HRM_shifts_EditShift_vue":1,"resources_js_views_HRM_shifts_ShiftList_vue":1,"resources_js_views_HRM_dutyTypes_DutyTypes_vue":1,"resources_js_views_HRM_dutyTypes_EditDutyType_vue":1,"resources_js_views_HRM_salaryTypes_SalaryTypes_vue":1,"resources_js_views_HRM_salaryTypes_EditSalaryType_vue":1,"resources_js_views_Sales_CreateSales_vue":1,"resources_js_views_Sales_SaleList_vue":1,"resources_js_views_demo_vue":1}[chunkId]) return "js/" + chunkId + ".js";
 /******/ 			// return url for filenames based on template
 /******/ 			return undefined;
 /******/ 		};

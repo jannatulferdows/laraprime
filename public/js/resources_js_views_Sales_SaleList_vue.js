@@ -1,16 +1,66 @@
 "use strict";
-(self["webpackChunk"] = self["webpackChunk"] || []).push([["resources_js_views_CRM_customers_CustomerList_vue"],{
+(self["webpackChunk"] = self["webpackChunk"] || []).push([["resources_js_views_Sales_SaleList_vue"],{
 
-/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/views/CRM/customers/CustomerList.vue?vue&type=script&lang=js&":
-/*!****************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/views/CRM/customers/CustomerList.vue?vue&type=script&lang=js& ***!
-  \****************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/views/Sales/SaleList.vue?vue&type=script&lang=js&":
+/*!****************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/views/Sales/SaleList.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -165,88 +215,115 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
-  name: "CustomerList",
+  name: "SaleList",
   data: function data() {
     return {
-      selectedCustomers: [],
+      selectedsales: [],
       filters: {},
       editingRows: [],
-      cutomers: [{
+      sales: [{
         id: "1",
-        logo: "images/color.png",
+        date: "images/color.png",
         name: "Volksw",
-        email: 2012,
-        companyName: "Orange",
-        mobileNumber: "dsad2f31ff",
-        clientCategory: "dsad231ff",
-        parentClient: "dsad231ff",
-        discount: "dsad231ff",
-        branch: "dsad231ff"
+        warehouse: 2012,
+        refNumber: "Orange",
+        invoiceNumber: "dsad2f31ff",
+        salesStatus: "dsad231ff",
+        paymentStatus: "dsad231ff",
+        salesBy: "dsad231ff",
+        note: "dsad231ff",
+        totalProduct: "dsad231ff",
+        totalQuantity: "dsad231ff",
+        subtotalPrice: "dsad231ff",
+        totalPrice: "dsad231ff"
       }, {
         id: "2",
-        name: "Volksdfbwagen",
-        email: 2012,
-        companyName: "Orange",
-        mobileNumber: "dsad231ff",
-        clientCategory: "dsad231ff",
-        parentClient: "dsad231ff",
-        discount: "dsad231ff",
-        branch: "dsad231ff"
+        date: "images/color.png",
+        name: "Volksw",
+        warehouse: 2012,
+        refNumber: "Orange",
+        invoiceNumber: "dsad2f31ff",
+        salesStatus: "dsad231ff",
+        paymentStatus: "dsad231ff",
+        salesBy: "dsad231ff",
+        note: "dsad231ff",
+        totalProduct: "dsad231ff",
+        totalQuantity: "dsad231ff",
+        subtotalPrice: "dsad231ff",
+        totalPrice: "dsad231ff"
       }, {
         id: "3",
-        name: "Volkswagen",
-        email: 2012,
-        companyName: "Orange",
-        mobileNumber: "dsaabdsfd231ff",
-        clientCategory: "dsad231ff",
-        parentClient: "dsad231ff",
-        discount: "dsad231ff",
-        branch: "dsad231ff"
+        date: "images/color.png",
+        name: "Volksw",
+        warehouse: 2012,
+        refNumber: "Orange",
+        invoiceNumber: "dsad2f31ff",
+        salesStatus: "dsad231ff",
+        paymentStatus: "dsad231ff",
+        salesBy: "dsad231ff",
+        note: "dsad231ff",
+        totalProduct: "dsad231ff",
+        totalQuantity: "dsad231ff",
+        subtotalPrice: "dsad231ff",
+        totalPrice: "dsad231ff"
       }, {
         id: "4",
-        name: "Volkswagen",
-        email: 2012,
-        companyName: "Orange",
-        mobileNumber: "ddfnbsad231ff",
-        clientCategory: "dsad231ff",
-        parentClient: "dsad231ff",
-        discount: "dsad231ff",
-        branch: "dsad231ff"
+        date: "images/color.png",
+        name: "Volksw",
+        warehouse: 2012,
+        refNumber: "Orange",
+        invoiceNumber: "dsad2f31ff",
+        salesStatus: "dsad231ff",
+        paymentStatus: "dsad231ff",
+        salesBy: "dsad231ff",
+        note: "dsad231ff",
+        totalProduct: "dsad231ff",
+        totalQuantity: "dsad231ff",
+        subtotalPrice: "dsad231ff",
+        totalPrice: "dsad231ff"
       }, {
         id: "5",
-        name: "Volkswagen",
-        email: 2012,
-        companyName: "Orange",
-        mobileNumber: "dsad231ff",
-        clientCategory: "dsad231ff",
-        parentClient: "dsad231ff",
-        discount: "dsad231ff",
-        branch: "dsad231ff"
+        date: "images/color.png",
+        name: "Volksw",
+        warehouse: 2012,
+        refNumber: "Orange",
+        invoiceNumber: "dsad2f31ff",
+        salesStatus: "dsad231ff",
+        paymentStatus: "dsad231ff",
+        salesBy: "dsad231ff",
+        note: "dsad231ff",
+        totalProduct: "dsad231ff",
+        totalQuantity: "dsad231ff",
+        subtotalPrice: "dsad231ff",
+        totalPrice: "dsad231ff"
       }, {
         id: "6",
-        name: "Volkswagen",
-        email: 2012,
-        companyName: "Orange",
-        mobileNumber: "dsad231ff",
-        clientCategory: "dsad231ff",
-        parentClient: "dsad231ff",
-        discount: "dsad231ff",
-        branch: "dsad231ff"
+        date: "images/color.png",
+        name: "Volksw",
+        warehouse: 2012,
+        refNumber: "Orange",
+        invoiceNumber: "dsad2f31ff",
+        salesStatus: "dsad231ff",
+        paymentStatus: "dsad231ff",
+        salesBy: "dsad231ff",
+        note: "dsad231ff",
+        totalProduct: "dsad231ff",
+        totalQuantity: "dsad231ff",
+        subtotalPrice: "dsad231ff",
+        totalPrice: "dsad231ff"
       }],
       home: {
         icon: "pi pi-home",
         to: "/"
       },
       items: [{
-        label: "CRM"
+        label: "Sales"
       }, {
-        label: "Customers"
+        label: "Create Sales",
+        to: "/CreateSales"
       }, {
-        label: "Create Customer",
-        to: "/CreateCustomer"
-      }, {
-        label: "Customer List",
-        to: "/CustomerList"
+        label: "Sales List",
+        to: "/SaleList"
       }]
     };
   }
@@ -254,19 +331,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/js/views/CRM/customers/CustomerList.vue":
-/*!***********************************************************!*\
-  !*** ./resources/js/views/CRM/customers/CustomerList.vue ***!
-  \***********************************************************/
+/***/ "./resources/js/views/Sales/SaleList.vue":
+/*!***********************************************!*\
+  !*** ./resources/js/views/Sales/SaleList.vue ***!
+  \***********************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _CustomerList_vue_vue_type_template_id_4c14bd34___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CustomerList.vue?vue&type=template&id=4c14bd34& */ "./resources/js/views/CRM/customers/CustomerList.vue?vue&type=template&id=4c14bd34&");
-/* harmony import */ var _CustomerList_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CustomerList.vue?vue&type=script&lang=js& */ "./resources/js/views/CRM/customers/CustomerList.vue?vue&type=script&lang=js&");
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _SaleList_vue_vue_type_template_id_65081bb2___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./SaleList.vue?vue&type=template&id=65081bb2& */ "./resources/js/views/Sales/SaleList.vue?vue&type=template&id=65081bb2&");
+/* harmony import */ var _SaleList_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./SaleList.vue?vue&type=script&lang=js& */ "./resources/js/views/Sales/SaleList.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
 
@@ -275,9 +352,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 ;
 var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
-  _CustomerList_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
-  _CustomerList_vue_vue_type_template_id_4c14bd34___WEBPACK_IMPORTED_MODULE_0__.render,
-  _CustomerList_vue_vue_type_template_id_4c14bd34___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  _SaleList_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _SaleList_vue_vue_type_template_id_65081bb2___WEBPACK_IMPORTED_MODULE_0__.render,
+  _SaleList_vue_vue_type_template_id_65081bb2___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
   false,
   null,
   null,
@@ -287,46 +364,46 @@ var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/views/CRM/customers/CustomerList.vue"
+component.options.__file = "resources/js/views/Sales/SaleList.vue"
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/views/CRM/customers/CustomerList.vue?vue&type=script&lang=js&":
-/*!************************************************************************************!*\
-  !*** ./resources/js/views/CRM/customers/CustomerList.vue?vue&type=script&lang=js& ***!
-  \************************************************************************************/
+/***/ "./resources/js/views/Sales/SaleList.vue?vue&type=script&lang=js&":
+/*!************************************************************************!*\
+  !*** ./resources/js/views/Sales/SaleList.vue?vue&type=script&lang=js& ***!
+  \************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CustomerList_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./CustomerList.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/views/CRM/customers/CustomerList.vue?vue&type=script&lang=js&");
- /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CustomerList_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_SaleList_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./SaleList.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/views/Sales/SaleList.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_SaleList_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
 
 /***/ }),
 
-/***/ "./resources/js/views/CRM/customers/CustomerList.vue?vue&type=template&id=4c14bd34&":
-/*!******************************************************************************************!*\
-  !*** ./resources/js/views/CRM/customers/CustomerList.vue?vue&type=template&id=4c14bd34& ***!
-  \******************************************************************************************/
+/***/ "./resources/js/views/Sales/SaleList.vue?vue&type=template&id=65081bb2&":
+/*!******************************************************************************!*\
+  !*** ./resources/js/views/Sales/SaleList.vue?vue&type=template&id=65081bb2& ***!
+  \******************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CustomerList_vue_vue_type_template_id_4c14bd34___WEBPACK_IMPORTED_MODULE_0__.render),
-/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CustomerList_vue_vue_type_template_id_4c14bd34___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SaleList_vue_vue_type_template_id_65081bb2___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SaleList_vue_vue_type_template_id_65081bb2___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
 /* harmony export */ });
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CustomerList_vue_vue_type_template_id_4c14bd34___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./CustomerList.vue?vue&type=template&id=4c14bd34& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/views/CRM/customers/CustomerList.vue?vue&type=template&id=4c14bd34&");
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SaleList_vue_vue_type_template_id_65081bb2___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./SaleList.vue?vue&type=template&id=65081bb2& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/views/Sales/SaleList.vue?vue&type=template&id=65081bb2&");
 
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/views/CRM/customers/CustomerList.vue?vue&type=template&id=4c14bd34&":
-/*!*********************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/views/CRM/customers/CustomerList.vue?vue&type=template&id=4c14bd34& ***!
-  \*********************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/views/Sales/SaleList.vue?vue&type=template&id=65081bb2&":
+/*!*********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/views/Sales/SaleList.vue?vue&type=template&id=65081bb2& ***!
+  \*********************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -355,9 +432,9 @@ var render = function() {
                 "router-link",
                 {
                   staticStyle: { "text-decoration": "none", color: "#fff" },
-                  attrs: { to: "/CreateCustomer" }
+                  attrs: { to: "/CreateSales" }
                 },
-                [_vm._v("Add Customer")]
+                [_vm._v("Add Sale")]
               )
             ],
             1
@@ -369,8 +446,8 @@ var render = function() {
         "DataTable",
         {
           attrs: {
-            value: _vm.cutomers,
-            selection: _vm.selectedCustomers,
+            value: _vm.sales,
+            selection: _vm.selectedSales,
             paginator: true,
             rows: 10,
             paginatorTemplate:
@@ -386,7 +463,7 @@ var render = function() {
           },
           on: {
             "update:selection": function($event) {
-              _vm.selectedCustomers = $event
+              _vm.selectedSales = $event
             },
             "update:editingRows": function($event) {
               _vm.editingRows = $event
@@ -436,7 +513,7 @@ var render = function() {
             {
               key: "empty",
               fn: function() {
-                return [_vm._v(" No customers found. ")]
+                return [_vm._v(" No sales found. ")]
               },
               proxy: true
             }
@@ -451,18 +528,53 @@ var render = function() {
           _vm._v(" "),
           _c("Column", {
             attrs: {
-              field: "logo",
-              header: "Logo",
+              field: "invoiceNumber",
+              header: "Invoice No.",
               headerStyle: "width: 200px",
               sortable: ""
             },
             scopedSlots: _vm._u([
               {
-                key: "body",
+                key: "editor",
                 fn: function(slotProps) {
                   return [
-                    _c("img", {
-                      attrs: { src: slotProps.data[slotProps.column.field] }
+                    _c("InputText", {
+                      staticStyle: { width: "100%" },
+                      model: {
+                        value: slotProps.data[slotProps.column.field],
+                        callback: function($$v) {
+                          _vm.$set(slotProps.data, slotProps.column.field, $$v)
+                        },
+                        expression: "slotProps.data[slotProps.column.field]"
+                      }
+                    })
+                  ]
+                }
+              }
+            ])
+          }),
+          _vm._v(" "),
+          _c("Column", {
+            attrs: {
+              field: "date",
+              header: "Sell Date",
+              headerStyle: "width: 200px",
+              sortable: ""
+            },
+            scopedSlots: _vm._u([
+              {
+                key: "editor",
+                fn: function(slotProps) {
+                  return [
+                    _c("InputText", {
+                      staticStyle: { width: "100%" },
+                      model: {
+                        value: slotProps.data[slotProps.column.field],
+                        callback: function($$v) {
+                          _vm.$set(slotProps.data, slotProps.column.field, $$v)
+                        },
+                        expression: "slotProps.data[slotProps.column.field]"
+                      }
                     })
                   ]
                 }
@@ -500,8 +612,8 @@ var render = function() {
           _vm._v(" "),
           _c("Column", {
             attrs: {
-              field: "email",
-              header: "Email",
+              field: "warehouse",
+              header: "Warehouse",
               headerStyle: "width: 200px",
               sortable: ""
             },
@@ -528,8 +640,8 @@ var render = function() {
           _vm._v(" "),
           _c("Column", {
             attrs: {
-              field: "companyName",
-              header: "Company Name",
+              field: "refNumber",
+              header: "Reference No.",
               headerStyle: "width: 200px",
               sortable: ""
             },
@@ -556,8 +668,8 @@ var render = function() {
           _vm._v(" "),
           _c("Column", {
             attrs: {
-              field: "mobileNumber",
-              header: "Mobile Number",
+              field: "salesStatus",
+              header: "Sales Status",
               headerStyle: "width: 200px",
               sortable: ""
             },
@@ -584,8 +696,8 @@ var render = function() {
           _vm._v(" "),
           _c("Column", {
             attrs: {
-              field: "clientCategory",
-              header: "Client Category",
+              field: "paymentStatus",
+              header: "Payment Status",
               headerStyle: "width: 200px",
               sortable: ""
             },
@@ -612,8 +724,8 @@ var render = function() {
           _vm._v(" "),
           _c("Column", {
             attrs: {
-              field: "parentClient",
-              header: "Parent Client",
+              field: "salesBy",
+              header: "Sales By",
               headerStyle: "width: 200px",
               sortable: ""
             },
@@ -640,8 +752,8 @@ var render = function() {
           _vm._v(" "),
           _c("Column", {
             attrs: {
-              field: "discount",
-              header: "Discount",
+              field: "totalProduct",
+              header: "Total Product",
               headerStyle: "width: 200px",
               sortable: ""
             },
@@ -668,8 +780,64 @@ var render = function() {
           _vm._v(" "),
           _c("Column", {
             attrs: {
-              field: "branch",
-              header: "Branch",
+              field: "totalQuantity",
+              header: "Total Quantity",
+              headerStyle: "width: 200px",
+              sortable: ""
+            },
+            scopedSlots: _vm._u([
+              {
+                key: "editor",
+                fn: function(slotProps) {
+                  return [
+                    _c("InputText", {
+                      staticStyle: { width: "100%" },
+                      model: {
+                        value: slotProps.data[slotProps.column.field],
+                        callback: function($$v) {
+                          _vm.$set(slotProps.data, slotProps.column.field, $$v)
+                        },
+                        expression: "slotProps.data[slotProps.column.field]"
+                      }
+                    })
+                  ]
+                }
+              }
+            ])
+          }),
+          _vm._v(" "),
+          _c("Column", {
+            attrs: {
+              field: "subtotalPrice",
+              header: "Subtotal Price",
+              headerStyle: "width: 200px",
+              sortable: ""
+            },
+            scopedSlots: _vm._u([
+              {
+                key: "editor",
+                fn: function(slotProps) {
+                  return [
+                    _c("InputText", {
+                      staticStyle: { width: "100%" },
+                      model: {
+                        value: slotProps.data[slotProps.column.field],
+                        callback: function($$v) {
+                          _vm.$set(slotProps.data, slotProps.column.field, $$v)
+                        },
+                        expression: "slotProps.data[slotProps.column.field]"
+                      }
+                    })
+                  ]
+                }
+              }
+            ])
+          }),
+          _vm._v(" "),
+          _c("Column", {
+            attrs: {
+              field: "totalPrice",
+              header: "Total Price",
               headerStyle: "width: 200px",
               sortable: ""
             },
@@ -697,8 +865,8 @@ var render = function() {
           _c("Column", {
             attrs: {
               rowEditor: true,
-              field: "Action",
-              header: "Action",
+              field: "Actions",
+              header: "Actions",
               headerStyle: "width: 200px"
             }
           })
@@ -715,7 +883,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", [
-      _c("h2", { staticClass: "title" }, [_vm._v("List of Customers")])
+      _c("h2", { staticClass: "title" }, [_vm._v("List of Sells")])
     ])
   }
 ]
