@@ -3268,6 +3268,44 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 
@@ -3925,8 +3963,20 @@ var SaleList = function SaleList() {
   return __webpack_require__.e(/*! import() */ "resources_js_views_Sales_SaleList_vue").then(__webpack_require__.bind(__webpack_require__, /*! ./views/Sales/SaleList.vue */ "./resources/js/views/Sales/SaleList.vue"));
 };
 
-var demo = function demo() {
-  return __webpack_require__.e(/*! import() */ "resources_js_views_demo_vue").then(__webpack_require__.bind(__webpack_require__, /*! ./views/demo.vue */ "./resources/js/views/demo.vue"));
+var SaleInvoice = function SaleInvoice() {
+  return __webpack_require__.e(/*! import() */ "resources_js_views_Sales_SaleInvoice_vue").then(__webpack_require__.bind(__webpack_require__, /*! ./views/Sales/SaleInvoice.vue */ "./resources/js/views/Sales/SaleInvoice.vue"));
+};
+
+var CreateSupplier = function CreateSupplier() {
+  return __webpack_require__.e(/*! import() */ "resources_js_views_Suppliers_CreateSupplier_vue").then(__webpack_require__.bind(__webpack_require__, /*! ./views/Suppliers/CreateSupplier.vue */ "./resources/js/views/Suppliers/CreateSupplier.vue"));
+};
+
+var SupplierList = function SupplierList() {
+  return __webpack_require__.e(/*! import() */ "resources_js_views_Suppliers_SupplierList_vue").then(__webpack_require__.bind(__webpack_require__, /*! ./views/Suppliers/SupplierList.vue */ "./resources/js/views/Suppliers/SupplierList.vue"));
+};
+
+var EditSupplier = function EditSupplier() {
+  return __webpack_require__.e(/*! import() */ "resources_js_views_Suppliers_EditSupplier_vue").then(__webpack_require__.bind(__webpack_require__, /*! ./views/Suppliers/EditSupplier.vue */ "./resources/js/views/Suppliers/EditSupplier.vue"));
 };
 
 var routes = [{
@@ -3945,6 +3995,18 @@ var routes = [{
   path: '/CustomerList',
   name: 'CustomerList',
   component: CustomerList
+}, {
+  path: '/CreateSupplier',
+  name: 'CreateSupplier',
+  component: CreateSupplier
+}, {
+  path: '/EditSupplier',
+  name: 'EditSupplier',
+  component: EditSupplier
+}, {
+  path: '/SupplierList',
+  name: 'SupplierList',
+  component: SupplierList
 }, {
   path: '/CreateShift',
   name: 'CreateShift',
@@ -3982,9 +4044,9 @@ var routes = [{
   name: 'SaleList',
   component: SaleList
 }, {
-  path: '/demo',
-  name: 'demo',
-  component: demo
+  path: '/SaleInvoice',
+  name: 'SaleInvoice',
+  component: SaleInvoice
 }];
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (new vue_router__WEBPACK_IMPORTED_MODULE_0__.default({
   // mode: 'history',
@@ -59015,6 +59077,51 @@ var render = function() {
                     "a",
                     [
                       _c("i", { staticClass: "pi pi-arrow-right" }),
+                      _c("router-link", { attrs: { to: "/CreateSupplier" } }, [
+                        _vm._v("Create Supplier")
+                      ])
+                    ],
+                    1
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c(
+                    "a",
+                    [
+                      _c("i", { staticClass: "pi pi-arrow-right" }),
+                      _c("router-link", { attrs: { to: "/EditSupplier" } }, [
+                        _vm._v("Edit Supplier")
+                      ])
+                    ],
+                    1
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c(
+                    "a",
+                    [
+                      _c("i", { staticClass: "pi pi-arrow-right" }),
+                      _c("router-link", { attrs: { to: "/SupplierList" } }, [
+                        _vm._v("Supplier List")
+                      ])
+                    ],
+                    1
+                  )
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("li", [
+              _vm._m(8),
+              _vm._v(" "),
+              _c("ul", [
+                _c("li", [
+                  _c(
+                    "a",
+                    [
+                      _c("i", { staticClass: "pi pi-arrow-right" }),
                       _c("router-link", { attrs: { to: "/CreateShift" } }, [
                         _vm._v("Create Shift")
                       ])
@@ -59065,7 +59172,7 @@ var render = function() {
             ]),
             _vm._v(" "),
             _c("li", [
-              _vm._m(8),
+              _vm._m(9),
               _vm._v(" "),
               _c("ul", [
                 _c("li", [
@@ -59084,7 +59191,7 @@ var render = function() {
             ]),
             _vm._v(" "),
             _c("li", [
-              _vm._m(9),
+              _vm._m(10),
               _vm._v(" "),
               _c("ul", [
                 _c("li", [
@@ -59103,7 +59210,7 @@ var render = function() {
             ]),
             _vm._v(" "),
             _c("li", [
-              _vm._m(10),
+              _vm._m(11),
               _vm._v(" "),
               _c("ul", [
                 _c("li", [
@@ -59130,13 +59237,24 @@ var render = function() {
                     ],
                     1
                   )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c(
+                    "a",
+                    [
+                      _c("i", { staticClass: "pi pi-arrow-right" }),
+                      _c("router-link", { attrs: { to: "/SaleInvoice" } }, [
+                        _vm._v("Sale Invoice")
+                      ])
+                    ],
+                    1
+                  )
                 ])
               ])
             ]),
             _vm._v(" "),
             _c("li", { staticClass: "menu-label" }, [_vm._v("UI Elements")]),
-            _vm._v(" "),
-            _vm._m(11),
             _vm._v(" "),
             _vm._m(12),
             _vm._v(" "),
@@ -59146,15 +59264,15 @@ var render = function() {
             _vm._v(" "),
             _vm._m(15),
             _vm._v(" "),
-            _c("li", { staticClass: "menu-label" }, [_vm._v("Forms & Tables")]),
-            _vm._v(" "),
             _vm._m(16),
+            _vm._v(" "),
+            _c("li", { staticClass: "menu-label" }, [_vm._v("Forms & Tables")]),
             _vm._v(" "),
             _vm._m(17),
             _vm._v(" "),
-            _c("li", { staticClass: "menu-label" }, [_vm._v("Pages")]),
-            _vm._v(" "),
             _vm._m(18),
+            _vm._v(" "),
+            _c("li", { staticClass: "menu-label" }, [_vm._v("Pages")]),
             _vm._v(" "),
             _vm._m(19),
             _vm._v(" "),
@@ -59166,24 +59284,26 @@ var render = function() {
             _vm._v(" "),
             _vm._m(23),
             _vm._v(" "),
-            _c("li", { staticClass: "menu-label" }, [_vm._v("Charts & Maps")]),
-            _vm._v(" "),
             _vm._m(24),
+            _vm._v(" "),
+            _c("li", { staticClass: "menu-label" }, [_vm._v("Charts & Maps")]),
             _vm._v(" "),
             _vm._m(25),
             _vm._v(" "),
-            _c("li", { staticClass: "menu-label" }, [_vm._v("Others")]),
-            _vm._v(" "),
             _vm._m(26),
+            _vm._v(" "),
+            _c("li", { staticClass: "menu-label" }, [_vm._v("Others")]),
             _vm._v(" "),
             _vm._m(27),
             _vm._v(" "),
-            _vm._m(28)
+            _vm._m(28),
+            _vm._v(" "),
+            _vm._m(29)
           ])
         ]
       ),
       _vm._v(" "),
-      _vm._m(29),
+      _vm._m(30),
       _vm._v(" "),
       _c("div", { staticClass: "page-wrapper" }, [
         _c("div", { staticClass: "page-content" }, [_c("router-view")], 1)
@@ -59191,12 +59311,12 @@ var render = function() {
       _vm._v(" "),
       _c("div", { staticClass: "overlay toggle-icon" }),
       _vm._v(" "),
-      _vm._m(30),
+      _vm._m(31),
       _vm._v(" "),
-      _vm._m(31)
+      _vm._m(32)
     ]),
     _vm._v(" "),
-    _vm._m(32)
+    _vm._m(33)
   ])
 }
 var staticRenderFns = [
@@ -59341,6 +59461,22 @@ var staticRenderFns = [
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "menu-title" }, [_vm._v("Customers")])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "a",
+      { staticClass: "has-arrow", attrs: { href: "javascript:;" } },
+      [
+        _c("div", { staticClass: "parent-icon" }, [
+          _c("i", { staticClass: "pi pi-folder" })
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "menu-title" }, [_vm._v("Suppliers")])
       ]
     )
   },
@@ -77068,7 +77204,7 @@ Vue.compile = compileToFunctions;
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames not based on template
-/******/ 			if ({"resources_js_views_Welcome_vue":1,"resources_js_views_CRM_customers_CreateCustomer_vue":1,"resources_js_views_CRM_customers_CustomerList_vue":1,"resources_js_views_CRM_customers_EditCustomer_vue":1,"resources_js_views_HRM_shifts_CreateShift_vue":1,"resources_js_views_HRM_shifts_EditShift_vue":1,"resources_js_views_HRM_shifts_ShiftList_vue":1,"resources_js_views_HRM_dutyTypes_DutyTypes_vue":1,"resources_js_views_HRM_dutyTypes_EditDutyType_vue":1,"resources_js_views_HRM_salaryTypes_SalaryTypes_vue":1,"resources_js_views_HRM_salaryTypes_EditSalaryType_vue":1,"resources_js_views_Sales_CreateSales_vue":1,"resources_js_views_Sales_SaleList_vue":1,"resources_js_views_demo_vue":1}[chunkId]) return "js/" + chunkId + ".js";
+/******/ 			if ({"resources_js_views_Welcome_vue":1,"resources_js_views_CRM_customers_CreateCustomer_vue":1,"resources_js_views_CRM_customers_CustomerList_vue":1,"resources_js_views_CRM_customers_EditCustomer_vue":1,"resources_js_views_HRM_shifts_CreateShift_vue":1,"resources_js_views_HRM_shifts_EditShift_vue":1,"resources_js_views_HRM_shifts_ShiftList_vue":1,"resources_js_views_HRM_dutyTypes_DutyTypes_vue":1,"resources_js_views_HRM_dutyTypes_EditDutyType_vue":1,"resources_js_views_HRM_salaryTypes_SalaryTypes_vue":1,"resources_js_views_HRM_salaryTypes_EditSalaryType_vue":1,"resources_js_views_Sales_CreateSales_vue":1,"resources_js_views_Sales_SaleList_vue":1,"resources_js_views_Sales_SaleInvoice_vue":1,"resources_js_views_Suppliers_CreateSupplier_vue":1,"resources_js_views_Suppliers_SupplierList_vue":1,"resources_js_views_Suppliers_EditSupplier_vue":1}[chunkId]) return "js/" + chunkId + ".js";
 /******/ 			// return url for filenames based on template
 /******/ 			return undefined;
 /******/ 		};

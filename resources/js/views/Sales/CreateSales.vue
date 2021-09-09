@@ -106,7 +106,7 @@
                 <InputNumber v-model="item.tax" placeholder="Tax" />
               </div>
               <div class="p-field p-col-12 p-md-1 p-pt-0">
-                <label for="perPiece"><strong>Per Piece</strong></label> <br />
+                <label for="perPiece"><strong>1 Piece</strong></label> <br />
                 <InputNumber
                   v-model="item.perPiece"
                   placeholder="Per Piece Price"
@@ -151,7 +151,7 @@
                 </div>
               </div>
               <div class="p-col-5 p-offset-7">
-                <div class="p-d-flex p-jc-between">
+              <div class="p-d-flex p-jc-between">
                 <label for="totalDiscount"><strong>Total Discount</strong></label>
               <InputNumber v-model="value" placeholder="Enter Total Discount" class=""  />
               </div>

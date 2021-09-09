@@ -163,6 +163,38 @@
               </li>
             </ul>
           </li>
+            <li>
+            <a href="javascript:;" class="has-arrow">
+              <div class="parent-icon"><i class="pi pi-folder"></i></div>
+              <div class="menu-title">Suppliers</div>
+            </a>
+            <ul>
+              <li>
+                <a
+                  ><i class="pi pi-arrow-right"></i
+                  ><router-link to="/CreateSupplier"
+                    >Create Supplier</router-link
+                  ></a
+                >
+              </li>
+              <li>
+                <a
+                  ><i class="pi pi-arrow-right"></i
+                  ><router-link to="/EditSupplier"
+                    >Edit Supplier</router-link
+                  ></a
+                >
+              </li>
+              <li>
+                <a
+                  ><i class="pi pi-arrow-right"></i
+                  ><router-link to="/SupplierList"
+                    >Supplier List</router-link
+                  ></a
+                >
+              </li>
+            </ul>
+          </li>
           <li>
             <a href="javascript:;" class="has-arrow">
               <div class="parent-icon"><i class="pi pi-folder"></i></div>
@@ -243,6 +275,12 @@
                 <a
                   ><i class="pi pi-arrow-right"></i
                   ><router-link to="/SaleList">Sales List</router-link></a
+                >
+              </li>
+               <li>
+                <a
+                  ><i class="pi pi-arrow-right"></i
+                  ><router-link to="/SaleInvoice">Sale Invoice</router-link></a
                 >
               </li>
             </ul>

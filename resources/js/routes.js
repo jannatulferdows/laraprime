@@ -12,8 +12,12 @@ const SalaryType = () => import('./views/HRM/salaryTypes/SalaryTypes.vue');
 const EditSalaryType = () => import('./views/HRM/salaryTypes/EditSalaryType.vue');
 const CreateSales = () => import('./views/Sales/CreateSales.vue');
 const SaleList = () => import('./views/Sales/SaleList.vue');
+const SaleInvoice = () => import('./views/Sales/SaleInvoice.vue');
+const CreateSupplier = () => import('./views/Suppliers/CreateSupplier.vue');
+const SupplierList = () => import('./views/Suppliers/SupplierList.vue');
+const EditSupplier = () => import('./views/Suppliers/EditSupplier.vue');
 
-const demo = () => import('./views/demo.vue');
+
 
 const routes = [
     {
@@ -37,6 +41,21 @@ const routes = [
         path: '/CustomerList',
         name: 'CustomerList',
         component: CustomerList
+    },
+    {
+        path: '/CreateSupplier',
+        name: 'CreateSupplier',
+        component: CreateSupplier
+    },
+    {
+        path: '/EditSupplier',
+        name: 'EditSupplier',
+        component: EditSupplier
+    },
+    {
+        path: '/SupplierList',
+        name: 'SupplierList',
+        component: SupplierList
     },
     {
         path: '/CreateShift',
@@ -85,11 +104,10 @@ const routes = [
     },
     
     {
-        path: '/demo',
-        name: 'demo',
-        component: demo
+        path: '/SaleInvoice',
+        name: 'SaleInvoice',
+        component: SaleInvoice
     },
-    
     
 ]
 
