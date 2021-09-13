@@ -70,7 +70,7 @@ export default {
     name:"ShiftList",
        data() {
         return {
-            selectedShifts:[],
+             selectedShifts:[],
              filters: {},
              editingRows: [],
             "shifts": [

@@ -1,80 +1,95 @@
 <template>
   <div>
     <Breadcrumb :home="home" :model="items" />
-    <div class="p-d-flex p-jc-between p-mt-4 p-mb-2" >
+    <div class="p-d-flex p-jc-between p-mt-4 p-mb-2">
       <div><h2 class="title">Add Customer</h2></div>
-      <div><button class="btn btn-success"><router-link to="/CustomerList" style=" text-decoration:none; color: #fff">Customer List</router-link></button></div>
+      <div>
+        <button class="btn btn-success">
+          <router-link
+            to="/CustomerList"
+            style="text-decoration: none; color: #fff"
+            >Customer List</router-link
+          >
+        </button>
+      </div>
     </div>
-      <Card >
-        <template #content>
+    <Card>
+      <template #content>
         <form action="">
           <div class="p-fluid p-formgrid p-grid">
-            <div class="p-field p-col-12 p-md-6">
-              <label for="name"> <strong> Name</strong></label> <br />
-              <InputText type="text" v-model="value" placeholder="Enter Name" />
+            <div class="p-field p-col-12 p-md-6 p-mt-2">
+              <span class="p-float-label">
+                <InputText type="text" v-model="name" id="name" />
+                <label for="name"> <strong> Name</strong></label>
+              </span>
             </div>
-            <div class="p-field p-col-12 p-md-6">
-              <label for="email"><strong>Email</strong></label> <br />
-              <InputText type="email" v-model="value" placeholder="Enter Email" />
+            <div class="p-field p-col-12 p-md-6 p-mt-2">
+              <span class="p-float-label">
+                <InputText type="email" v-model="email" id="email" />
+                <label for="email"><strong>Email</strong></label> <br />
+              </span>
             </div>
-            <div class="p-field p-col-12 p-md-6">
-              <label for="companyName"><strong>Company Name</strong></label> <br />
-              <Dropdown
-                v-model="selectedCompany"
-                :options="companies"
-                optionLabel="name"
-                placeholder="Select Company Name"
-              />
+            <div class="p-field p-col-12 p-md-6 p-mt-2">
+              <span class="p-float-label">
+                <Dropdown
+                  v-model="selectedCompany"
+                  :options="companies"
+                  optionLabel="name"
+                  id="companyName"
+                />
+                <label for="companyName"><strong>Company Name</strong></label>
+              </span>
             </div>
-            <div class="p-field p-col-12 p-md-6">
-              <label for="designation"><strong>Designation</strong></label> <br />
-              <Dropdown
-                v-model="selectedDesignation"
-                :options="designations"
-                optionLabel="designation"
-                placeholder="Select Designation"
-              />
+            <div class="p-field p-col-12 p-md-6 p-mt-2">
+              <span class="p-float-label">
+                <Dropdown
+                  v-model="selectedDesignation"
+                  :options="designations"
+                  optionLabel="designation"
+                />
+                <label for="selectedDesignation"
+                  ><strong>Designation</strong></label
+                >
+              </span>
             </div>
-            <div class="p-field p-col-12 p-md-6">
-              <label for="regDate"><strong>Registration Date</strong></label> <br />
-              <Calendar v-model="value"  placeholder="Enter Registation Date" />
-            
+            <div class="p-field p-col-12 p-md-6 p-mt-2">
+              <span class="p-float-label">
+                <Calendar v-model="regDate" id="regDate" />
+                <label for="regDate"><strong>Registration Date</strong></label>
+              </span>
             </div>
-            <div class="p-field p-col-12 p-md-6">
-              <label for="number"><strong>Phone Number</strong></label> <br />
-              <InputText
-                type="number"
-                v-model="value"
-                placeholder="Enter Phone Number"
-              />
+            <div class="p-field p-col-12 p-md-6 p-mt-2">
+              <span class="p-float-label">
+                <InputText type="number" v-model="pNumber" id="pNumber" />
+                <label for="pNumber"><strong>Phone Number</strong></label>
+              </span>
             </div>
-          
-            <div class="p-field p-col-12 p-md-6">
-              <label for="contactPerson"><strong>Contact Person</strong></label> <br />
-              <MultiSelect
-                v-model="selectedPerson"
-                :options="persons"
-                optionLabel="persons"
-                placeholder="Select Contact Persons"
-              />
-              <br>
-              <label for="refPerson"><strong>Reference Person</strong></label> <br />
-              <InputText
-                type="text"
-                v-model="value"
-                placeholder="Enter Reference Person"
-              />
+
+            <div class="p-field p-col-12 p-md-6 p-mt-2">
+              <span class="p-float-label">
+                <MultiSelect
+                  v-model="selectedPerson"
+                  :options="persons"
+                  optionLabel="persons"
+                  id="contactPerson"
+                />
+                <label for="contactPerson"
+                  ><strong>Contact Person</strong></label
+                >
+              </span>
+              <br />
+              <span class="p-float-label">
+                <InputText type="text" v-model="refPerson" id="refPerson" />
+                <label for="refPerson"><strong>Reference Person</strong></label>
+              </span>
             </div>
-            <div class="p-field p-col-12 p-md-6">
-              <label for="address"><strong>Address</strong></label> <br />
-              <Textarea
-                v-model="value"
-                rows="5"
-                cols="60"
-                placeholder="Enter Address"
-              />
+            <div class="p-field p-col-12 p-md-6 p-mt-2">
+              <span class="p-float-label">
+                <Textarea v-model="address" rows="5" cols="60" id="address" />
+                <label for="address"><strong>Address</strong></label>
+              </span>
             </div>
-            <!-- <div class="p-field p-col-12 p-md-6">
+            <!-- <div class="p-field p-col-12 p-md-6 p-mt-2">
               <label for="refPerson">Reference Person</label> <br />
               <InputText
                 type="text"
@@ -82,86 +97,107 @@
                 placeholder="Enter Reference Person"
               />
             </div> -->
-            <div class="p-field p-col-12 p-md-6">
-              <label for="birthDate"><strong>Date of Birth</strong></label> <br />
-              <Calendar v-model="value"   placeholder="Enter Birth Date" />
-           
+            <div class="p-field p-col-12 p-md-6 p-mt-2">
+              <span class="p-float-label">
+                <Calendar v-model="birthDate" id="birthDate" />
+                <label for="birthDate"><strong>Date of Birth</strong></label>
+              </span>
             </div>
-            <div class="p-field p-col-12 p-md-6">
-              <label for="clientCategory"><strong>Client Category</strong></label> <br />
-              <Dropdown
-                v-model="selectedCategory"
-                :options="clientCategories"
-                optionLabel="category"
-                placeholder="Select Client Category"
-              />
+            <div class="p-field p-col-12 p-md-6 p-mt-2">
+              <span class="p-float-label">
+                <Dropdown
+                  v-model="selectedCategory"
+                  :options="clientCategories"
+                  optionLabel="category"
+                  id="clientCategory"
+                />
+                <label for="clientCategory"
+                  ><strong>Client Category</strong></label
+                >
+              </span>
             </div>
-            <div class="p-field p-col-12 p-md-6">
-              <label for="parentClient"><strong>Parent Client</strong></label> <br />
-              <Dropdown
-                v-model="selectedParent"
-                :options="parentClients"
-                optionLabel="parentClients"
-                placeholder="Select Parent Client"
-              />
+            <div class="p-field p-col-12 p-md-6 p-mt-2">
+              <span class="p-float-label">
+                <Dropdown
+                  v-model="selectedParent"
+                  :options="parentClients"
+                  optionLabel="parentClients"
+                  id="parentClient"
+                />
+                <label for="parentClient"><strong>Parent Client</strong></label>
+              </span>
             </div>
-          
-            <div class="p-field p-col-12 p-md-6">
-              <label for="number"><strong>Discount</strong></label> <br />
-              <InputNumber v-model="value" placeholder="Enter Discount Amount" />
+
+            <div class="p-field p-col-12 p-md-6 p-mt-2">
+              <span class="p-float-label">
+                <InputNumber v-model="dNumber" id="dNumber" />
+                <label for="dNumber"><strong>Discount</strong></label>
+              </span>
             </div>
-            <div class="p-field p-col-12 p-md-6">
-              <label for="credit"><strong>Credit Tx</strong></label> <br />
-              <InputNumber v-model="value" placeholder="Enter Credit Tx" />
+            <div class="p-field p-col-12 p-md-6 p-mt-2">
+              <span class="p-float-label">
+                <InputNumber v-model="credit" id="credit" />
+                <label for="credit"><strong>Credit Tx</strong></label>
+              </span>
             </div>
-            <div class="p-field p-col-12 p-md-6">
-              <label for="return"><strong>Return No</strong></label> <br />
-              <InputNumber v-model="value" placeholder="Enter Return No." />
+            <div class="p-field p-col-12 p-md-6 p-mt-2">
+              <span class="p-float-label">
+                <InputNumber v-model="Return" id="return" />
+                <label for="Return"><strong>Return No</strong></label>
+              </span>
             </div>
-            <div class="p-field p-col-12 p-md-6">
-              <label for="tin"><strong>TIN No</strong></label> <br />
-              <InputNumber v-model="value" placeholder="Enter TIN No." />
+            <div class="p-field p-col-12 p-md-6 p-mt-2">
+              <span class="p-float-label">
+                <InputNumber v-model="tin" id="tin" />
+                <label for="tin"><strong>TIN No</strong></label>
+              </span>
             </div>
-            <div class="p-field p-col-12 p-md-6">
-              <label for="bin"><strong>BIN No</strong></label> <br />
-              <InputNumber v-model="value" placeholder="Enter BIN No." />
+            <div class="p-field p-col-12 p-md-6 p-mt-2">
+              <span class="p-float-label">
+                <InputNumber v-model="bin" id="bin" />
+                <label for="bin"><strong>BIN No</strong></label>
+              </span>
             </div>
-            <div class="p-field p-col-12 p-md-6">
-              <label for="creditLimit"><strong>Credit Limit</strong></label> <br />
-              <InputNumber v-model="value" placeholder="Enter Credit Limit" :useGrouping="false" />
+            <div class="p-field p-col-12 p-md-6 p-mt-2">
+              <span class="p-float-label">
+                <InputNumber
+                  v-model="creditLimit"
+                  :useGrouping="false"
+                  id="creditLimit"
+                />
+                <label for="creditLimit"><strong>Credit Limit</strong></label>
+              </span>
             </div>
-            <div class="p-field p-col-12 p-md-6">
-              <label for="parentClient"><strong>Branch</strong></label> <br />
-              <Dropdown
-                v-model="selectedBranch"
-                :options="branches"
-                optionLabel="branches"
-                placeholder="Select Branch"
-              />
+            <div class="p-field p-col-12 p-md-6 p-mt-2">
+              <span class="p-float-label">
+                <Dropdown
+                  v-model="selectedBranch"
+                  :options="branches"
+                  optionLabel="branches"
+                  id="parentClient"
+                />
+                <label for="parentClient"><strong>Branch</strong></label>
+              </span>
             </div>
-            <div class="p-field p-col-12 p-md-6">
-              <label for="password"><strong>Password</strong></label> <br />
-              <InputText
-                type="password"
-                v-model="value"
-                placeholder="Enter Password"
-              />
+            <div class="p-field p-col-12 p-md-6 p-mt-2">
+              <span class="p-float-label">
+                <InputText type="password" v-model="password" id="password" />
+                <label for="password"><strong>Password</strong></label>
+              </span>
             </div>
-            <div class="p-field p-col-12 p-md-6">
-              <label for="password"><strong>Confirm Password</strong></label> <br />
-              <InputText
-                type="password"
-                v-model="value"
-                placeholder="Re-type Password"
-              />
+            <div class="p-field p-col-12 p-md-6 p-mt-2">
+              <span class="p-float-label">
+                <InputText type="password" v-model="cPassword" id="cPassword" />
+                <label for="cPassword"><strong>Confirm Password</strong></label>
+              </span>
             </div>
           </div>
           <div>
-            <Button type="submit" class="btn btn-success" >Create</Button>
+            <Button type="submit" class="btn btn-success">Save</Button>
           </div>
         </form>
-        </template>
-      </Card>
+      </template>
+    </Card>
   </div>
 </template>
 
@@ -170,7 +206,7 @@ import Textarea from "primevue/textarea";
 import MultiSelect from "primevue/multiselect";
 import Password from "primevue/password";
 import InputNumber from "primevue/inputnumber";
-import Calendar from 'primevue/calendar';
+import Calendar from "primevue/calendar";
 export default {
   name: "CreateCustomer",
   components: {
@@ -184,7 +220,22 @@ export default {
   data() {
     return {
       selectedCompany: null,
-       value: null,
+      value: null,
+      name: null,
+      email: null,
+      regDate: null,
+      pNumber: null,
+      refPerson: null,
+      address: null,
+      birthDate: null,
+      dNumber: null,
+      credit: null,
+      Return: null,
+      tin: null,
+      bin: null,
+      creditLimit: null,
+      password: null,
+      cPassword: null,
       companies: [
         { name: "New York", code: "NY" },
         { name: "Rome", code: "RM" },
@@ -232,13 +283,13 @@ export default {
         { branches: "Istanbul", code: "IST" },
         { branches: "Paris", code: "PRS" },
       ],
-       home: {icon: 'pi pi-home', to: '/'},
-            items: [
-                {label: 'CRM'},
-                {label: 'Customers'},
-                {label: 'Customer List', to: '/CustomerList'},
-                {label: 'Create Customer', to: '/CreateCustomer'}
-            ]
+      home: { icon: "pi pi-home", to: "/" },
+      items: [
+        { label: "CRM" },
+        { label: "Customers" },
+        { label: "Customer List", to: "/CustomerList" },
+        { label: "Create Customer", to: "/CreateCustomer" },
+      ],
     };
   },
 };

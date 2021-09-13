@@ -92,6 +92,12 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
 
 
 
@@ -109,6 +115,9 @@ __webpack_require__.r(__webpack_exports__);
       selectedShift: null,
       value: null,
       status: true,
+      title: null,
+      startDate: null,
+      endDate: null,
       shifts: [{
         shift: "New York",
         code: "NY"
@@ -5319,171 +5328,209 @@ var render = function() {
                   _c("div", { staticClass: "p-fluid p-formgrid p-grid" }, [
                     _c(
                       "div",
-                      { staticClass: "p-field p-col-12 p-md-12" },
+                      { staticClass: "p-field p-col-12 p-md-6 p-mt-2" },
                       [
-                        _c("label", { attrs: { for: "title" } }, [
-                          _c("strong", [_vm._v(" Title")])
-                        ]),
-                        _vm._v(" "),
-                        _c("br"),
-                        _vm._v(" "),
-                        _c("InputText", {
-                          attrs: { type: "text", placeholder: "Enter Title" },
-                          model: {
-                            value: _vm.value,
-                            callback: function($$v) {
-                              _vm.value = $$v
-                            },
-                            expression: "value"
-                          }
-                        })
-                      ],
-                      1
+                        _c(
+                          "span",
+                          { staticClass: "p-float-label" },
+                          [
+                            _c("InputText", {
+                              attrs: { type: "text", id: "title" },
+                              model: {
+                                value: _vm.title,
+                                callback: function($$v) {
+                                  _vm.title = $$v
+                                },
+                                expression: "title"
+                              }
+                            }),
+                            _vm._v(" "),
+                            _c("label", { attrs: { for: "title" } }, [
+                              _c("strong", [_vm._v(" Title")])
+                            ])
+                          ],
+                          1
+                        )
+                      ]
                     ),
                     _vm._v(" "),
                     _c(
                       "div",
-                      { staticClass: "p-field p-col-12 p-md-12" },
+                      { staticClass: "p-field p-col-12 p-md-6 p-mt-2" },
                       [
-                        _c("label", { attrs: { for: "shiftType" } }, [
-                          _c("strong", [_vm._v("Shift Type")])
-                        ]),
-                        _vm._v(" "),
-                        _c("br"),
-                        _vm._v(" "),
-                        _c("Dropdown", {
-                          attrs: {
-                            options: _vm.shifts,
-                            optionLabel: "shift",
-                            placeholder: "Select Shift Type"
+                        _c(
+                          "span",
+                          { staticClass: "p-float-label" },
+                          [
+                            _c("Dropdown", {
+                              attrs: {
+                                options: _vm.shifts,
+                                optionLabel: "shift",
+                                id: "shiftType"
+                              },
+                              model: {
+                                value: _vm.selectedShift,
+                                callback: function($$v) {
+                                  _vm.selectedShift = $$v
+                                },
+                                expression: "selectedShift"
+                              }
+                            }),
+                            _vm._v(" "),
+                            _c("label", { attrs: { for: "shiftType" } }, [
+                              _c("strong", [_vm._v("Shift Type")])
+                            ])
+                          ],
+                          1
+                        )
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      { staticClass: "p-field p-col-12 p-md-6 p-mt-2" },
+                      [
+                        _c(
+                          "span",
+                          { staticClass: "p-float-label" },
+                          [
+                            _c("Calendar", {
+                              attrs: { id: "startDate" },
+                              model: {
+                                value: _vm.startDate,
+                                callback: function($$v) {
+                                  _vm.startDate = $$v
+                                },
+                                expression: "startDate"
+                              }
+                            }),
+                            _vm._v(" "),
+                            _c("label", { attrs: { for: "startDate" } }, [
+                              _c("strong", [_vm._v("Start Date")])
+                            ])
+                          ],
+                          1
+                        )
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      { staticClass: "p-field p-col-12 p-md-6 p-mt-2" },
+                      [
+                        _c(
+                          "span",
+                          { staticClass: "p-float-label" },
+                          [
+                            _c("Calendar", {
+                              attrs: { id: "endDate" },
+                              model: {
+                                value: _vm.endDate,
+                                callback: function($$v) {
+                                  _vm.endDate = $$v
+                                },
+                                expression: "endDate"
+                              }
+                            }),
+                            _vm._v(" "),
+                            _c("label", { attrs: { for: "endDate" } }, [
+                              _c("strong", [_vm._v("End Date")])
+                            ])
+                          ],
+                          1
+                        )
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      { staticClass: "p-field p-col-12 p-md-6 p-mt-2" },
+                      [
+                        _c(
+                          "span",
+                          { staticClass: "p-float-label" },
+                          [
+                            _c("MultiSelect", {
+                              attrs: {
+                                options: _vm.branches,
+                                optionLabel: "branches",
+                                id: "contactPerson"
+                              },
+                              model: {
+                                value: _vm.selectedBranch,
+                                callback: function($$v) {
+                                  _vm.selectedBranch = $$v
+                                },
+                                expression: "selectedBranch"
+                              }
+                            }),
+                            _vm._v(" "),
+                            _c("label", { attrs: { for: "contactPerson" } }, [
+                              _c("strong", [_vm._v("Branch Name")])
+                            ])
+                          ],
+                          1
+                        )
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      { staticClass: "p-field p-col-12 p-md-1 p-mt-2 p-mt-2 " },
+                      [
+                        _c(
+                          "div",
+                          { staticClass: "p-d-flex" },
+                          [
+                            _c("Checkbox", {
+                              attrs: { binary: true },
+                              model: {
+                                value: _vm.status,
+                                callback: function($$v) {
+                                  _vm.status = $$v
+                                },
+                                expression: "status"
+                              }
+                            }),
+                            _vm._v(" "),
+                            _c(
+                              "label",
+                              {
+                                staticClass: "p-ml-3",
+                                attrs: { for: "status" }
+                              },
+                              [
+                                _vm.status
+                                  ? _c("strong", { staticClass: "p-pt-1" }, [
+                                      _vm._v("Active")
+                                    ])
+                                  : _c("strong", { staticClass: "p-pt-1" }, [
+                                      _vm._v("Inactive")
+                                    ])
+                              ]
+                            )
+                          ],
+                          1
+                        )
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      { staticClass: " p-col-12 p-md-2 p-ml-5 p-pl-0" },
+                      [
+                        _c(
+                          "Button",
+                          {
+                            staticClass: "btn btn-success",
+                            attrs: { type: "submit" }
                           },
-                          model: {
-                            value: _vm.selectedShift,
-                            callback: function($$v) {
-                              _vm.selectedShift = $$v
-                            },
-                            expression: "selectedShift"
-                          }
-                        })
-                      ],
-                      1
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "div",
-                      { staticClass: "p-field p-col-12 p-md-12" },
-                      [
-                        _c("label", { attrs: { for: "startDate" } }, [
-                          _c("strong", [_vm._v("Start Date")])
-                        ]),
-                        _vm._v(" "),
-                        _c("br"),
-                        _vm._v(" "),
-                        _c("Calendar", {
-                          attrs: { placeholder: "Enter Start Date" },
-                          model: {
-                            value: _vm.value,
-                            callback: function($$v) {
-                              _vm.value = $$v
-                            },
-                            expression: "value"
-                          }
-                        })
-                      ],
-                      1
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "div",
-                      { staticClass: "p-field p-col-12 p-md-12" },
-                      [
-                        _c("label", { attrs: { for: "endDate" } }, [
-                          _c("strong", [_vm._v("End Date")])
-                        ]),
-                        _vm._v(" "),
-                        _c("br"),
-                        _vm._v(" "),
-                        _c("Calendar", {
-                          attrs: { placeholder: "Enter End Date" },
-                          model: {
-                            value: _vm.value,
-                            callback: function($$v) {
-                              _vm.value = $$v
-                            },
-                            expression: "value"
-                          }
-                        })
-                      ],
-                      1
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "div",
-                      { staticClass: "p-field p-col-12 p-md-12" },
-                      [
-                        _c("label", { attrs: { for: "contactPerson" } }, [
-                          _c("strong", [_vm._v("Branch Name")])
-                        ]),
-                        _vm._v(" "),
-                        _c("br"),
-                        _vm._v(" "),
-                        _c("MultiSelect", {
-                          attrs: {
-                            options: _vm.branches,
-                            optionLabel: "branches",
-                            placeholder: "Select Branch Name"
-                          },
-                          model: {
-                            value: _vm.selectedBranch,
-                            callback: function($$v) {
-                              _vm.selectedBranch = $$v
-                            },
-                            expression: "selectedBranch"
-                          }
-                        })
-                      ],
-                      1
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "div",
-                      { staticClass: "p-field p-col-12 p-md-6" },
-                      [
-                        _c("Checkbox", {
-                          attrs: { binary: true },
-                          model: {
-                            value: _vm.status,
-                            callback: function($$v) {
-                              _vm.status = $$v
-                            },
-                            expression: "status"
-                          }
-                        }),
-                        _vm._v(" "),
-                        _c("label", { attrs: { for: "status" } }, [
-                          _vm.status
-                            ? _c("strong", [_vm._v("Active")])
-                            : _c("strong", [_vm._v("Inactive")])
-                        ])
+                          [_vm._v("Save Changes")]
+                        )
                       ],
                       1
                     )
-                  ]),
-                  _vm._v(" "),
-                  _c(
-                    "div",
-                    [
-                      _c(
-                        "Button",
-                        {
-                          staticClass: "btn btn-success",
-                          attrs: { type: "submit" }
-                        },
-                        [_vm._v("Create")]
-                      )
-                    ],
-                    1
-                  )
+                  ])
                 ])
               ]
             },

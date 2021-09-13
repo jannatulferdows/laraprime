@@ -1,6 +1,41 @@
 <template>
   <div>
     <Breadcrumb :home="home" :model="items" />
+    <br>
+    <div>
+    <card >
+      <template #content>
+      <div class="p-mb-0 "><h2 class="title">Filter Options</h2></div>
+        <div class="p-fluid p-formgrid p-grid ">
+            <div class="p-field p-col-12 p-md-5 p-mt-3 p-pt-0 p-pl-0 p-pb-0 ">
+              <span class="p-float-label">
+                <Dropdown
+                  v-model="selectedBranch"
+                  :options="branch"
+                  optionLabel="branch"
+                  id="branch"
+                />
+                <label for="branch"><strong>Branch</strong></label>
+              </span>
+            </div>
+                  <div class="p-field p-col-12 p-md-5 p-mt-3 p-pt-0 p-pl-0 p-pb-0">
+              <span class="p-float-label">
+                <Dropdown
+                  v-model="selectedGroup"
+                  :options="customerGroup"
+                  optionLabel="customerGroup"
+                  id="customerGroup"
+                />
+                <label for="customerGroup"><strong>Customer Group</strong></label>
+              </span>
+            </div>
+            <div class="p-field p-col-12 p-md-2 p-mt-2">
+               <Button type="submit" class="btn btn-success">Filter</Button>
+            </div>
+            </div>
+      </template>
+    </card>
+    </div>
     <div class="p-d-flex p-jc-between p-mt-4 p-mb-2">
       <div><h2 class="title">List of Customers</h2></div>
       <div>
@@ -159,6 +194,23 @@ export default {
       selectedCustomers: [],
       filters: {},
       editingRows: [],
+      selectedBranch: null,
+      branch: [
+        { branch: "New York", code: "NY" },
+        { branch: "Rome", code: "RM" },
+        { branch: "London", code: "LDN" },
+        { branch: "Istanbul", code: "IST" },
+        { branch: "Paris", code: "PRS" },
+      ],
+       selectedGroup: null,
+      customerGroup: [
+        { customerGroup: "New York", code: "NY" },
+        { customerGroup: "Rome", code: "RM" },
+        { customerGroup: "London", code: "LDN" },
+        { customerGroup: "Istanbul", code: "IST" },
+        { customerGroup: "Paris", code: "PRS" },
+      ],
+
       cutomers: [
         {
           id: "1",

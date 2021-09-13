@@ -11,320 +11,312 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var primevue_calendar__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! primevue/calendar */ "./node_modules/primevue/calendar/index.js");
-/* harmony import */ var primevue_inputnumber__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! primevue/inputnumber */ "./node_modules/primevue/inputnumber/index.js");
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+/* harmony import */ var primevue_textarea__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! primevue/textarea */ "./node_modules/primevue/textarea/index.js");
+/* harmony import */ var primevue_calendar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! primevue/calendar */ "./node_modules/primevue/calendar/index.js");
+/* harmony import */ var primevue_dropdown__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! primevue/dropdown */ "./node_modules/primevue/dropdown/index.js");
+/* harmony import */ var primevue_inputnumber__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! primevue/inputnumber */ "./node_modules/primevue/inputnumber/index.js");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
+
 
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
-  name: "SaleList",
+  name: "Createsale",
   components: {
-    Calendar: primevue_calendar__WEBPACK_IMPORTED_MODULE_0__.default,
-    InputNumber: primevue_inputnumber__WEBPACK_IMPORTED_MODULE_1__.default
+    Textarea: primevue_textarea__WEBPACK_IMPORTED_MODULE_0__.default,
+    Calendar: primevue_calendar__WEBPACK_IMPORTED_MODULE_1__.default,
+    Dropdown: primevue_dropdown__WEBPACK_IMPORTED_MODULE_2__.default,
+    InputNumber: primevue_inputnumber__WEBPACK_IMPORTED_MODULE_3__.default
   },
   data: function data() {
-    var _ref;
-
-    return _ref = {
-      value: null,
+    return {
+      total_price: null,
+      subtotal_price: null,
+      total_quantity: null,
+      total_product: null,
+      sale_discount: null,
+      total_discount: null,
+      total_tax: null,
+      shipping_cost: null,
+      grand_total: null,
+      privious: null,
+      net_total: null,
+      paid_amount: null,
+      due: null,
+      home: {
+        icon: "pi pi-home",
+        to: "/"
+      },
       items: [{
-        productName: "",
-        qty: "",
-        perPiece: "",
-        totalPrice: "",
-        productModel: "",
-        tax: "",
-        discount: ""
+        label: "Base"
+      }, {
+        label: "List sale",
+        to: "/list-sale"
+      }, {
+        label: "Create sale"
       }],
-      selectedStatus: null,
-      status: [{
-        status: "New York",
+      sales: [{
+        name: "",
+        qty: "",
+        per_price: "",
+        total_price: ""
+      }],
+      icon: null,
+      selectedWarehouse: null,
+      warehouse: [{
+        name: "Kawsar Ahmed",
         code: "NY"
       }, {
-        status: "Rome",
+        name: "Rafiqul Islam",
         code: "RM"
-      }, {
-        status: "London",
-        code: "LDN"
-      }, {
-        status: "Istanbul",
-        code: "IST"
-      }, {
-        status: "Paris",
-        code: "PRS"
       }],
-      paymentStatus: null
-    }, _defineProperty(_ref, "paymentStatus", [{
-      paymentStatus: "New York",
-      code: "NY"
-    }, {
-      paymentStatus: "Rome",
-      code: "RM"
-    }, {
-      paymentStatus: "London",
-      code: "LDN"
-    }, {
-      paymentStatus: "Istanbul",
-      code: "IST"
-    }, {
-      paymentStatus: "Paris",
-      code: "PRS"
-    }]), _defineProperty(_ref, "salesBy", null), _defineProperty(_ref, "salesBy", [{
-      salesBy: "New York",
-      code: "NY"
-    }, {
-      salesBy: "Rome",
-      code: "RM"
-    }, {
-      salesBy: "London",
-      code: "LDN"
-    }, {
-      salesBy: "Istanbul",
-      code: "IST"
-    }, {
-      salesBy: "Paris",
-      code: "PRS"
-    }]), _defineProperty(_ref, "home", {
-      icon: 'pi pi-home',
-      to: '/'
-    }), _defineProperty(_ref, "itemsh", [{
-      label: 'Sales'
-    }, {
-      label: 'Sale List',
-      to: '/SaleList'
-    }, {
-      label: 'Create Sale',
-      to: '/CreateSales'
-    }]), _ref;
+      selectedSuplier: null,
+      suplier: [{
+        name: "Kawsar Ahmed",
+        code: "NY"
+      }, {
+        name: "Rafiqul Islam",
+        code: "RM"
+      }],
+      selectedSaleStatus: null,
+      saleStatus: [{
+        saleStatus: "Dhaka Division",
+        code: "NY"
+      }, {
+        saleStatus: "Khulna Division",
+        code: "RM"
+      }],
+      selectedPaymentStatus: null,
+      paymentStatus: [{
+        paymentStatus: "Dhaka Division",
+        code: "NY"
+      }, {
+        paymentStatus: "Khulna Division",
+        code: "RM"
+      }],
+      selectedSaleBy: null,
+      saleBy: [{
+        saleBy: "Dhaka Division",
+        code: "NY"
+      }, {
+        saleBy: "Khulna Division",
+        code: "RM"
+      }]
+    };
   },
   methods: {
     add: function add() {
-      this.items.push({
-        productName: "",
+      this.sales.push({
+        name: "",
         qty: "",
-        perPiece: "",
-        totalPrice: "",
-        productModel: "",
-        tax: "",
-        discount: ""
+        per_price: "",
+        total_price: ""
       });
     },
-    remove: function remove(b) {
-      this.items.splice(b, 1);
+    remove: function remove(index) {
+      this.sales.splice(index, 1);
+
+      if (index === 0) {
+        this.add();
+      }
     }
   }
 });
@@ -377,6 +369,29 @@ ___CSS_LOADER_EXPORT___.push([module.id, "\n.p-inputnumber {\n    display: inlin
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/primevue/textarea/Textarea.vue?vue&type=style&index=0&lang=css&":
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/primevue/textarea/Textarea.vue?vue&type=style&index=0&lang=css& ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "\n.p-inputtextarea-resizable {\n    overflow: hidden;\n    resize: none;\n}\n.p-fluid .p-inputtextarea {\n    width: 100%;\n}\n", ""]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
 /***/ "./node_modules/primevue/calendar/index.js":
 /*!*************************************************!*\
   !*** ./node_modules/primevue/calendar/index.js ***!
@@ -396,6 +411,17 @@ module.exports = __webpack_require__(/*! ./Calendar.vue */ "./node_modules/prime
 
 
 module.exports = __webpack_require__(/*! ./InputNumber.vue */ "./node_modules/primevue/inputnumber/InputNumber.vue");
+
+/***/ }),
+
+/***/ "./node_modules/primevue/textarea/index.js":
+/*!*************************************************!*\
+  !*** ./node_modules/primevue/textarea/index.js ***!
+  \*************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+
+module.exports = __webpack_require__(/*! ./Textarea.vue */ "./node_modules/primevue/textarea/Textarea.vue");
 
 /***/ }),
 
@@ -454,6 +480,35 @@ var update = _style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMP
 
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_vue_loader_lib_loaders_stylePostLoader_js_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_vue_loader_lib_index_js_vue_loader_options_InputNumber_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_1__.default.locals || {});
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/primevue/textarea/Textarea.vue?vue&type=style&index=0&lang=css&":
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/primevue/textarea/Textarea.vue?vue&type=style&index=0&lang=css& ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_vue_loader_lib_loaders_stylePostLoader_js_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_vue_loader_lib_index_js_vue_loader_options_Textarea_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!../../vue-loader/lib/loaders/stylePostLoader.js!../../postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!../../vue-loader/lib/index.js??vue-loader-options!./Textarea.vue?vue&type=style&index=0&lang=css& */ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/primevue/textarea/Textarea.vue?vue&type=style&index=0&lang=css&");
+
+            
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = _style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_vue_loader_lib_loaders_stylePostLoader_js_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_vue_loader_lib_index_js_vue_loader_options_Textarea_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_1__.default, options);
+
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_vue_loader_lib_loaders_stylePostLoader_js_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_vue_loader_lib_index_js_vue_loader_options_Textarea_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_1__.default.locals || {});
 
 /***/ }),
 
@@ -3726,6 +3781,114 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/primevue/textarea/Textarea.vue":
+/*!*****************************************************!*\
+  !*** ./node_modules/primevue/textarea/Textarea.vue ***!
+  \*****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _Textarea_vue_vue_type_template_id_7b3edeee___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Textarea.vue?vue&type=template&id=7b3edeee& */ "./node_modules/primevue/textarea/Textarea.vue?vue&type=template&id=7b3edeee&");
+/* harmony import */ var _Textarea_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Textarea.vue?vue&type=script&lang=js& */ "./node_modules/primevue/textarea/Textarea.vue?vue&type=script&lang=js&");
+/* harmony import */ var _Textarea_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Textarea.vue?vue&type=style&index=0&lang=css& */ "./node_modules/primevue/textarea/Textarea.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+;
+
+
+/* normalize component */
+
+var component = (0,_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__.default)(
+  _Textarea_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _Textarea_vue_vue_type_template_id_7b3edeee___WEBPACK_IMPORTED_MODULE_0__.render,
+  _Textarea_vue_vue_type_template_id_7b3edeee___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "node_modules/primevue/textarea/Textarea.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/primevue/textarea/Textarea.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/primevue/textarea/Textarea.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+//
+//
+//
+//
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+    props: {
+        value: null,
+        autoResize: Boolean
+    },
+    mounted() {
+        if (this.$el.offsetParent && this.autoResize) {
+            this.resize();
+        }
+    },
+    updated() {
+        if (this.$el.offsetParent && this.autoResize) {
+            this.resize();
+        }
+    },
+    methods: {
+        resize() {
+            const style = window.getComputedStyle(this.$el);
+            this.$el.style.height = 'auto';
+            this.$el.style.height = `calc(${style.borderTopWidth} + ${style.borderBottomWidth} + ${this.$el.scrollHeight}px)`;
+
+            if (parseFloat(this.$el.style.height) >= parseFloat(this.$el.style.maxHeight)) {
+                this.$el.style.overflow = "scroll";
+                this.$el.style.height = this.$el.style.maxHeight;
+            }
+
+            else {
+                this.$el.style.overflow = "hidden";
+            }
+        }
+    },
+    computed: {
+        listeners() {
+            return {
+                ...this.$listeners,
+                input: event => {
+                    if (this.autoResize) {
+                        this.resize();
+                    }
+
+                    this.$emit('input', event.target.value);
+                }
+            };
+        },
+        filled() {
+            return (this.value != null && this.value.toString().length > 0)
+        }
+    }
+});
+
+
+/***/ }),
+
 /***/ "./resources/js/views/Sales/CreateSales.vue":
 /*!**************************************************!*\
   !*** ./resources/js/views/Sales/CreateSales.vue ***!
@@ -3799,6 +3962,18 @@ __webpack_require__.r(__webpack_exports__);
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _style_loader_dist_cjs_js_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_vue_loader_lib_loaders_stylePostLoader_js_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_vue_loader_lib_index_js_vue_loader_options_InputNumber_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../style-loader/dist/cjs.js!../../css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!../../vue-loader/lib/loaders/stylePostLoader.js!../../postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!../../vue-loader/lib/index.js??vue-loader-options!./InputNumber.vue?vue&type=style&index=0&lang=css& */ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/primevue/inputnumber/InputNumber.vue?vue&type=style&index=0&lang=css&");
+
+
+/***/ }),
+
+/***/ "./node_modules/primevue/textarea/Textarea.vue?vue&type=style&index=0&lang=css&":
+/*!**************************************************************************************!*\
+  !*** ./node_modules/primevue/textarea/Textarea.vue?vue&type=style&index=0&lang=css& ***!
+  \**************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _style_loader_dist_cjs_js_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_vue_loader_lib_loaders_stylePostLoader_js_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_vue_loader_lib_index_js_vue_loader_options_Textarea_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../style-loader/dist/cjs.js!../../css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!../../vue-loader/lib/loaders/stylePostLoader.js!../../postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!../../vue-loader/lib/index.js??vue-loader-options!./Textarea.vue?vue&type=style&index=0&lang=css& */ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/primevue/textarea/Textarea.vue?vue&type=style&index=0&lang=css&");
 
 
 /***/ }),
@@ -3892,6 +4067,37 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "staticRenderFns": () => (/* reexport safe */ _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_InputNumber_vue_vue_type_template_id_e4d95394___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
 /* harmony export */ });
 /* harmony import */ var _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_InputNumber_vue_vue_type_template_id_e4d95394___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../vue-loader/lib/index.js??vue-loader-options!./InputNumber.vue?vue&type=template&id=e4d95394& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/primevue/inputnumber/InputNumber.vue?vue&type=template&id=e4d95394&");
+
+
+/***/ }),
+
+/***/ "./node_modules/primevue/textarea/Textarea.vue?vue&type=script&lang=js&":
+/*!******************************************************************************!*\
+  !*** ./node_modules/primevue/textarea/Textarea.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _vue_loader_lib_index_js_vue_loader_options_Textarea_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../vue-loader/lib/index.js??vue-loader-options!./Textarea.vue?vue&type=script&lang=js& */ "./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/primevue/textarea/Textarea.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_vue_loader_lib_index_js_vue_loader_options_Textarea_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
+/***/ "./node_modules/primevue/textarea/Textarea.vue?vue&type=template&id=7b3edeee&":
+/*!************************************************************************************!*\
+  !*** ./node_modules/primevue/textarea/Textarea.vue?vue&type=template&id=7b3edeee& ***!
+  \************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_Textarea_vue_vue_type_template_id_7b3edeee___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_Textarea_vue_vue_type_template_id_7b3edeee___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_Textarea_vue_vue_type_template_id_7b3edeee___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../vue-loader/lib/index.js??vue-loader-options!./Textarea.vue?vue&type=template&id=7b3edeee& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/primevue/textarea/Textarea.vue?vue&type=template&id=7b3edeee&");
 
 
 /***/ }),
@@ -5191,6 +5397,45 @@ render._withStripped = true
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/primevue/textarea/Textarea.vue?vue&type=template&id=7b3edeee&":
+/*!***************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/primevue/textarea/Textarea.vue?vue&type=template&id=7b3edeee& ***!
+  \***************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "textarea",
+    _vm._g(
+      {
+        class: [
+          "p-inputtextarea p-inputtext p-component",
+          {
+            "p-filled": _vm.filled,
+            "p-inputtextarea-resizable ": _vm.autoResize
+          }
+        ],
+        domProps: { value: _vm.value }
+      },
+      _vm.listeners
+    )
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/views/Sales/CreateSales.vue?vue&type=template&id=0f3f0b3e&":
 /*!************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/views/Sales/CreateSales.vue?vue&type=template&id=0f3f0b3e& ***!
@@ -5206,751 +5451,692 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c(
-    "div",
-    [
-      _c("Breadcrumb", { attrs: { home: _vm.home, model: _vm.itemsh } }),
-      _vm._v(" "),
-      _c("div", { staticClass: "p-d-flex p-jc-between p-mt-4 p-mb-2" }, [
-        _vm._m(0),
-        _vm._v(" "),
-        _c("div", [
-          _c(
-            "button",
-            { staticClass: "btn btn-success" },
-            [
+  return _c("div", [
+    _c(
+      "div",
+      {
+        staticClass: "page-breadcrumb d-none d-sm-flex align-items-center mb-3"
+      },
+      [
+        _c("div", { staticClass: "ps-3 mx-2" }, [
+          _c("nav", { attrs: { "aria-label": "breadcrumb" } }, [
+            _c("ol", { staticClass: "breadcrumb mb-0 p-0" }, [
+              _vm._m(0),
+              _vm._v(" "),
+              _vm._m(1),
+              _vm._v(" "),
+              _c("li", { staticClass: "breadcrumb-item mr-2" }, [
+                _c(
+                  "a",
+                  [
+                    _c(
+                      "router-link",
+                      {
+                        staticStyle: { "text-decoration": "none" },
+                        attrs: { to: "/SaleList" }
+                      },
+                      [_vm._v("Sale List")]
+                    )
+                  ],
+                  1
+                )
+              ]),
+              _vm._v(" "),
               _c(
-                "router-link",
+                "li",
                 {
-                  staticStyle: { "text-decoration": "none", color: "#fff" },
-                  attrs: { to: "/SaleList" }
+                  staticClass: "breadcrumb-item active",
+                  attrs: { "aria-current": "page" }
                 },
-                [_vm._v("Sale List")]
+                [_vm._v("Create Sale")]
               )
-            ],
-            1
-          )
+            ])
+          ])
         ])
-      ]),
+      ]
+    ),
+    _vm._v(" "),
+    _c("div", { staticClass: "card" }, [
+      _c(
+        "div",
+        {
+          staticClass:
+            "p-d-flex card-header p-ai-center vertical-container bg-light p-jc-between"
+        },
+        [
+          _c("h4", { staticClass: " mb-0" }, [_vm._v("Create Sale")]),
+          _vm._v(" "),
+          _c(
+            "router-link",
+            { staticClass: "btn btn-success", attrs: { to: "/SaleList" } },
+            [_vm._v("List Sale")]
+          )
+        ],
+        1
+      ),
       _vm._v(" "),
-      _c("Card", {
-        scopedSlots: _vm._u([
-          {
-            key: "content",
-            fn: function() {
-              return [
-                _c("form", { attrs: { action: "" } }, [
-                  _c(
-                    "div",
-                    { staticClass: "p-fluid p-formgrid p-grid" },
-                    [
-                      _c(
-                        "div",
-                        {
-                          staticClass: "p-field p-col-12 p-md-4 p-mb-0 p-pb-0"
-                        },
-                        [
-                          _c("label", { attrs: { for: "saleDate" } }, [
-                            _c("strong", [_vm._v("Sell Date")])
-                          ]),
-                          _vm._v(" "),
-                          _c("Calendar", {
-                            attrs: { placeholder: "Enter Sell Date" },
-                            model: {
-                              value: _vm.value,
-                              callback: function($$v) {
-                                _vm.value = $$v
-                              },
-                              expression: "value"
-                            }
-                          })
-                        ],
-                        1
-                      ),
-                      _vm._v(" "),
-                      _c(
-                        "div",
-                        {
-                          staticClass: "p-field p-col-12 p-md-4 p-mb-0 p-pb-0"
-                        },
-                        [
-                          _c("label", { attrs: { for: "name" } }, [
-                            _c("strong", [_vm._v(" Name")])
-                          ]),
-                          _vm._v(" "),
-                          _c("br"),
-                          _vm._v(" "),
-                          _c("InputText", {
-                            attrs: { type: "text", placeholder: "Enter Name" },
-                            model: {
-                              value: _vm.value,
-                              callback: function($$v) {
-                                _vm.value = $$v
-                              },
-                              expression: "value"
-                            }
-                          })
-                        ],
-                        1
-                      ),
-                      _vm._v(" "),
-                      _c(
-                        "div",
-                        { staticClass: "p-col-12 p-md-4 p-mb-0 p-pb-0" },
-                        [
-                          _c("label", { attrs: { for: "warehouse" } }, [
-                            _c("strong", [_vm._v(" Warehouse")])
-                          ]),
-                          _vm._v(" "),
-                          _c("br"),
-                          _vm._v(" "),
-                          _c("InputText", {
-                            attrs: {
-                              type: "text",
-                              placeholder: "Enter Warehouse"
-                            },
-                            model: {
-                              value: _vm.value,
-                              callback: function($$v) {
-                                _vm.value = $$v
-                              },
-                              expression: "value"
-                            }
-                          })
-                        ],
-                        1
-                      ),
-                      _vm._v(" "),
-                      _c(
-                        "div",
-                        { staticClass: "p-col-12 p-md-4 p-mb-0 p-pb-0" },
-                        [
-                          _c("label", { attrs: { for: "refNo" } }, [
-                            _c("strong", [_vm._v("Reference No")])
-                          ]),
-                          _vm._v(" "),
-                          _c("br"),
-                          _vm._v(" "),
-                          _c("InputNumber", {
-                            attrs: { placeholder: "Enter Reference Number" },
-                            model: {
-                              value: _vm.value,
-                              callback: function($$v) {
-                                _vm.value = $$v
-                              },
-                              expression: "value"
-                            }
-                          })
-                        ],
-                        1
-                      ),
-                      _vm._v(" "),
-                      _c(
-                        "div",
-                        { staticClass: "p-col-12 p-md-4 p-mb-0 p-pb-0 " },
-                        [
-                          _c("label", { attrs: { for: "invoiceNo" } }, [
-                            _c("strong", [_vm._v("Invoice No")])
-                          ]),
-                          _vm._v(" "),
-                          _c("br"),
-                          _vm._v(" "),
-                          _c("InputNumber", {
-                            attrs: { placeholder: "Enter Invoice Number" },
-                            model: {
-                              value: _vm.value,
-                              callback: function($$v) {
-                                _vm.value = $$v
-                              },
-                              expression: "value"
-                            }
-                          })
-                        ],
-                        1
-                      ),
-                      _vm._v(" "),
-                      _c(
-                        "div",
-                        { staticClass: "p-col-12 p-md-4 p-mb-0 p-pb-0" },
-                        [
-                          _c("label", { attrs: { for: "salesStatus" } }, [
-                            _c("strong", [_vm._v("Sales Status")])
-                          ]),
-                          _vm._v(" "),
-                          _c("br"),
-                          _vm._v(" "),
-                          _c("Dropdown", {
-                            attrs: {
-                              options: _vm.status,
-                              optionLabel: "status",
-                              placeholder: "Select Sales Status"
-                            },
-                            model: {
-                              value: _vm.selectedStatus,
-                              callback: function($$v) {
-                                _vm.selectedStatus = $$v
-                              },
-                              expression: "selectedStatus"
-                            }
-                          })
-                        ],
-                        1
-                      ),
-                      _vm._v(" "),
-                      _c(
-                        "div",
-                        { staticClass: "p-col-12 p-md-4 p-mb-0 p-pb-0" },
-                        [
-                          _c("label", { attrs: { for: "paymentStatus" } }, [
-                            _c("strong", [_vm._v("Payment Status")])
-                          ]),
-                          _vm._v(" "),
-                          _c("br"),
-                          _vm._v(" "),
-                          _c("Dropdown", {
-                            attrs: {
-                              options: _vm.paymentStatus,
-                              optionLabel: "paymentStatus",
-                              placeholder: "Select Payment Status"
-                            },
-                            model: {
-                              value: _vm.paymentStatus,
-                              callback: function($$v) {
-                                _vm.paymentStatus = $$v
-                              },
-                              expression: "paymentStatus"
-                            }
-                          })
-                        ],
-                        1
-                      ),
-                      _vm._v(" "),
-                      _c(
-                        "div",
-                        {
-                          staticClass: "p-field p-col-12 p-md-4 p-mb-0 p-pb-0 "
-                        },
-                        [
-                          _c("label", { attrs: { for: "salesBy" } }, [
-                            _c("strong", [_vm._v("Sales By")])
-                          ]),
-                          _vm._v(" "),
-                          _c("br"),
-                          _vm._v(" "),
-                          _c("Dropdown", {
-                            attrs: {
-                              options: _vm.salesBy,
-                              optionLabel: "salesBy",
-                              placeholder: "Select Sales By"
-                            },
-                            model: {
-                              value: _vm.salesBy,
-                              callback: function($$v) {
-                                _vm.salesBy = $$v
-                              },
-                              expression: "salesBy"
-                            }
-                          })
-                        ],
-                        1
-                      ),
-                      _vm._v(" "),
-                      _c(
-                        "div",
-                        { staticClass: "p-field p-col-12 p-md-4" },
-                        [
-                          _c("label", { attrs: { for: "note" } }, [
-                            _c("strong", [_vm._v("Note")])
-                          ]),
-                          _vm._v(" "),
-                          _c("br"),
-                          _vm._v(" "),
-                          _c("InputText", {
-                            attrs: { type: "text", placeholder: "Enter Note" },
-                            model: {
-                              value: _vm.value,
-                              callback: function($$v) {
-                                _vm.value = $$v
-                              },
-                              expression: "value"
-                            }
-                          })
-                        ],
-                        1
-                      ),
-                      _vm._v(" "),
-                      _vm._l(_vm.items, function(item, a) {
-                        return _c(
-                          "div",
+      _c("div", { staticClass: "card-body" }, [
+        _c("div", { staticClass: "p-fluid p-formgrid p-grid" }, [
+          _c("div", { staticClass: "p-field p-col-12 p-md-4 p-p-1" }, [
+            _c(
+              "span",
+              { staticClass: "p-float-label" },
+              [
+                _c("Calendar", {
+                  attrs: { id: "sale_date", showIcon: true },
+                  model: {
+                    value: _vm.icon,
+                    callback: function($$v) {
+                      _vm.icon = $$v
+                    },
+                    expression: "icon"
+                  }
+                }),
+                _vm._v(" "),
+                _c("label", { attrs: { for: "sale_date" } }, [
+                  _vm._v("Sale Date")
+                ])
+              ],
+              1
+            )
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "p-field p-col-12 p-md-4 p-p-1 p-" }, [
+            _c(
+              "span",
+              { staticClass: "p-float-label" },
+              [
+                _c("Dropdown", {
+                  attrs: { options: _vm.suplier, optionLabel: "name" },
+                  model: {
+                    value: _vm.selectedSuplier,
+                    callback: function($$v) {
+                      _vm.selectedSuplier = $$v
+                    },
+                    expression: "selectedSuplier"
+                  }
+                }),
+                _vm._v(" "),
+                _c("label", { attrs: { for: "buyer_name" } }, [
+                  _vm._v("Customer Name")
+                ])
+              ],
+              1
+            )
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "p-field p-col-12 p-md-4 p-p-1 p-" }, [
+            _c(
+              "span",
+              { staticClass: "p-float-label" },
+              [
+                _c("Dropdown", {
+                  attrs: { options: _vm.warehouse, optionLabel: "name" },
+                  model: {
+                    value: _vm.selectedWarehouse,
+                    callback: function($$v) {
+                      _vm.selectedWarehouse = $$v
+                    },
+                    expression: "selectedWarehouse"
+                  }
+                }),
+                _vm._v(" "),
+                _c("label", { attrs: { for: "warehouse" } }, [
+                  _vm._v("Warehouse")
+                ])
+              ],
+              1
+            )
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "p-field p-col-12 p-md-4 p-p-1 p-" }, [
+            _c(
+              "span",
+              { staticClass: "p-float-label" },
+              [
+                _c("InputText", {
+                  attrs: { id: "reference_no", type: "text" }
+                }),
+                _vm._v(" "),
+                _c("label", { attrs: { for: "reference_no" } }, [
+                  _vm._v("Reference No")
+                ])
+              ],
+              1
+            )
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "p-field p-col-12 p-md-4 p-p-1 p-" }, [
+            _c(
+              "span",
+              { staticClass: "p-float-label" },
+              [
+                _c("InputText", { attrs: { id: "invoice_no", type: "text" } }),
+                _vm._v(" "),
+                _c("label", { attrs: { for: "invoice_no" } }, [
+                  _vm._v("Invoice No")
+                ])
+              ],
+              1
+            )
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "p-field p-col-12 p-md-4 p-p-1 p-" }, [
+            _c(
+              "span",
+              { staticClass: "p-float-label" },
+              [
+                _c("Dropdown", {
+                  attrs: { options: _vm.saleStatus, optionLabel: "saleStatus" },
+                  model: {
+                    value: _vm.selectedSaleStatus,
+                    callback: function($$v) {
+                      _vm.selectedSaleStatus = $$v
+                    },
+                    expression: "selectedSaleStatus"
+                  }
+                }),
+                _vm._v(" "),
+                _c("label", { attrs: { for: "saleStatus" } }, [
+                  _vm._v("Sale Status")
+                ])
+              ],
+              1
+            )
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "p-field p-col-12 p-md-4 p-p-1 p-" }, [
+            _c(
+              "span",
+              { staticClass: "p-float-label" },
+              [
+                _c("Dropdown", {
+                  attrs: {
+                    options: _vm.paymentStatus,
+                    optionLabel: "paymentStatus"
+                  },
+                  model: {
+                    value: _vm.selectedPaymentStatus,
+                    callback: function($$v) {
+                      _vm.selectedPaymentStatus = $$v
+                    },
+                    expression: "selectedPaymentStatus"
+                  }
+                }),
+                _vm._v(" "),
+                _c("label", { attrs: { for: "paymentStatus" } }, [
+                  _vm._v("Payment Status")
+                ])
+              ],
+              1
+            )
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "p-field p-col-12 p-md-4 p-p-1 p-" }, [
+            _c(
+              "span",
+              { staticClass: "p-float-label" },
+              [
+                _c("Dropdown", {
+                  attrs: { options: _vm.saleBy, optionLabel: "saleBy" },
+                  model: {
+                    value: _vm.selectedSaleBy,
+                    callback: function($$v) {
+                      _vm.selectedSaleBy = $$v
+                    },
+                    expression: "selectedSaleBy"
+                  }
+                }),
+                _vm._v(" "),
+                _c("label", { attrs: { for: "saleBy" } }, [_vm._v("Sale By")])
+              ],
+              1
+            )
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "p-field p-col-12 p-md-4 p-p-1 p-" }, [
+            _c(
+              "span",
+              { staticClass: "p-float-label" },
+              [
+                _c("InputText", {
+                  attrs: { id: "payment_status", type: "text" }
+                }),
+                _vm._v(" "),
+                _c("label", { attrs: { for: "payment_status" } }, [
+                  _vm._v("Note")
+                ])
+              ],
+              1
+            )
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticStyle: { "background-color": "#f8fafc" } }, [
+          _c(
+            "table",
+            { staticClass: "table" },
+            [
+              _vm._m(2),
+              _vm._v(" "),
+              _vm._l(_vm.sales, function(sale, index) {
+                return _c("tr", { key: index }, [
+                  _c("td", { staticStyle: { width: "25%" } }, [
+                    _c(
+                      "select",
+                      {
+                        directives: [
                           {
-                            key: a,
-                            staticClass:
-                              "p-fluid p-formgrid p-grid bg-light  p-col-12 p-md-12"
-                          },
-                          [
-                            _c(
-                              "div",
-                              { staticClass: "p-field p-col-12 p-md-3 p-pt-0" },
-                              [
-                                _c("label", { attrs: { for: "productName" } }, [
-                                  _c("strong", [_vm._v("Product Name")])
-                                ]),
-                                _vm._v(" "),
-                                _c("br"),
-                                _vm._v(" "),
-                                _c("InputText", {
-                                  attrs: {
-                                    type: "text",
-                                    placeholder: "Enter Product Name"
-                                  },
-                                  model: {
-                                    value: item.productName,
-                                    callback: function($$v) {
-                                      _vm.$set(item, "productName", $$v)
-                                    },
-                                    expression: "item.productName"
-                                  }
-                                })
-                              ],
-                              1
-                            ),
-                            _vm._v(" "),
-                            _c(
-                              "div",
-                              { staticClass: "p-field p-col-12 p-md-2 p-pt-0" },
-                              [
-                                _c(
-                                  "label",
-                                  { attrs: { for: "productModel" } },
-                                  [_c("strong", [_vm._v("Model")])]
-                                ),
-                                _vm._v(" "),
-                                _c("br"),
-                                _vm._v(" "),
-                                _c("InputText", {
-                                  attrs: {
-                                    type: "text",
-                                    placeholder: "Product Model"
-                                  },
-                                  model: {
-                                    value: item.productModel,
-                                    callback: function($$v) {
-                                      _vm.$set(item, "productModel", $$v)
-                                    },
-                                    expression: "item.productModel"
-                                  }
-                                })
-                              ],
-                              1
-                            ),
-                            _vm._v(" "),
-                            _c(
-                              "div",
-                              { staticClass: "p-field p-col-12 p-md-1 p-pt-0" },
-                              [
-                                _c("label", { attrs: { for: "qty" } }, [
-                                  _c("strong", [_vm._v("Qty")])
-                                ]),
-                                _vm._v(" "),
-                                _c("br"),
-                                _vm._v(" "),
-                                _c("InputNumber", {
-                                  attrs: { placeholder: "Quantity" },
-                                  model: {
-                                    value: item.qty,
-                                    callback: function($$v) {
-                                      _vm.$set(item, "qty", $$v)
-                                    },
-                                    expression: "item.qty"
-                                  }
-                                })
-                              ],
-                              1
-                            ),
-                            _vm._v(" "),
-                            _c(
-                              "div",
-                              { staticClass: "p-field p-col-12 p-md-1 p-pt-0" },
-                              [
-                                _c("label", { attrs: { for: "discount" } }, [
-                                  _c("strong", [_vm._v("Discount")])
-                                ]),
-                                _vm._v(" "),
-                                _c("br"),
-                                _vm._v(" "),
-                                _c("InputNumber", {
-                                  attrs: { placeholder: "Discount" },
-                                  model: {
-                                    value: item.discount,
-                                    callback: function($$v) {
-                                      _vm.$set(item, "discount", $$v)
-                                    },
-                                    expression: "item.discount"
-                                  }
-                                })
-                              ],
-                              1
-                            ),
-                            _vm._v(" "),
-                            _c(
-                              "div",
-                              { staticClass: "p-field p-col-12 p-md-1 p-pt-0" },
-                              [
-                                _c("label", { attrs: { for: "tax" } }, [
-                                  _c("strong", [_vm._v("Tax")])
-                                ]),
-                                _vm._v(" "),
-                                _c("br"),
-                                _vm._v(" "),
-                                _c("InputNumber", {
-                                  attrs: { placeholder: "Tax" },
-                                  model: {
-                                    value: item.tax,
-                                    callback: function($$v) {
-                                      _vm.$set(item, "tax", $$v)
-                                    },
-                                    expression: "item.tax"
-                                  }
-                                })
-                              ],
-                              1
-                            ),
-                            _vm._v(" "),
-                            _c(
-                              "div",
-                              { staticClass: "p-field p-col-12 p-md-1 p-pt-0" },
-                              [
-                                _c("label", { attrs: { for: "perPiece" } }, [
-                                  _c("strong", [_vm._v("1 Piece")])
-                                ]),
-                                _vm._v(" "),
-                                _c("br"),
-                                _vm._v(" "),
-                                _c("InputNumber", {
-                                  attrs: { placeholder: "Per Piece Price" },
-                                  model: {
-                                    value: item.perPiece,
-                                    callback: function($$v) {
-                                      _vm.$set(item, "perPiece", $$v)
-                                    },
-                                    expression: "item.perPiece"
-                                  }
-                                })
-                              ],
-                              1
-                            ),
-                            _vm._v(" "),
-                            _c(
-                              "div",
-                              { staticClass: "p-field p-col-12 p-md-2 p-pt-0" },
-                              [
-                                _c("label", { attrs: { for: "totalPrice" } }, [
-                                  _c("strong", [_vm._v("Total Price")])
-                                ]),
-                                _vm._v(" "),
-                                _c("br"),
-                                _vm._v(" "),
-                                _c("InputNumber", {
-                                  attrs: { placeholder: "Total Price" },
-                                  model: {
-                                    value: item.totalPrice,
-                                    callback: function($$v) {
-                                      _vm.$set(item, "totalPrice", $$v)
-                                    },
-                                    expression: "item.totalPrice"
-                                  }
-                                })
-                              ],
-                              1
-                            ),
-                            _vm._v(" "),
-                            _c(
-                              "div",
-                              { staticClass: "p-field p-col-12 p-md-1 p-pt-5" },
-                              [
-                                a != 0
-                                  ? _c(
-                                      "button",
-                                      {
-                                        staticClass: "btn btn-danger",
-                                        on: {
-                                          click: function($event) {
-                                            return _vm.remove(a)
-                                          }
-                                        }
-                                      },
-                                      [_vm._v("-")]
-                                    )
-                                  : _vm._e()
-                              ]
+                            name: "model",
+                            rawName: "v-model",
+                            value: sale.name,
+                            expression: "sale.name"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "product_name" },
+                        on: {
+                          change: function($event) {
+                            var $$selectedVal = Array.prototype.filter
+                              .call($event.target.options, function(o) {
+                                return o.selected
+                              })
+                              .map(function(o) {
+                                var val = "_value" in o ? o._value : o.value
+                                return val
+                              })
+                            _vm.$set(
+                              sale,
+                              "name",
+                              $event.target.multiple
+                                ? $$selectedVal
+                                : $$selectedVal[0]
                             )
-                          ]
-                        )
-                      }),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "p-field p-col-12" }, [
+                          }
+                        }
+                      },
+                      [
                         _c(
-                          "button",
-                          {
-                            staticClass: "btn btn-success",
-                            on: { click: _vm.add }
-                          },
-                          [_vm._v("+")]
-                        )
-                      ])
-                    ],
-                    2
-                  ),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "p-grid" }, [
-                    _c("div", { staticClass: "p-col-5 p-offset-7" }, [
-                      _c(
-                        "div",
-                        { staticClass: "p-d-flex p-jc-between" },
-                        [
-                          _c("label", { attrs: { for: "saleDiscount" } }, [
-                            _c("strong", [_vm._v("Sale Discount")])
-                          ]),
-                          _vm._v(" "),
-                          _c("InputNumber", {
-                            attrs: { placeholder: "Enter Sale Discount" },
-                            model: {
-                              value: _vm.value,
-                              callback: function($$v) {
-                                _vm.value = $$v
-                              },
-                              expression: "value"
-                            }
-                          })
-                        ],
-                        1
-                      )
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "p-col-5 p-offset-7" }, [
-                      _c(
-                        "div",
-                        { staticClass: "p-d-flex p-jc-between" },
-                        [
-                          _c("label", { attrs: { for: "totalDiscount" } }, [
-                            _c("strong", [_vm._v("Total Discount")])
-                          ]),
-                          _vm._v(" "),
-                          _c("InputNumber", {
-                            attrs: { placeholder: "Enter Total Discount" },
-                            model: {
-                              value: _vm.value,
-                              callback: function($$v) {
-                                _vm.value = $$v
-                              },
-                              expression: "value"
-                            }
-                          })
-                        ],
-                        1
-                      )
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "p-col-5 p-offset-7" }, [
-                      _c(
-                        "div",
-                        { staticClass: "p-d-flex p-jc-between" },
-                        [
-                          _c("label", { attrs: { for: "totalTax" } }, [
-                            _c("strong", [_vm._v("Total Tax  ")])
-                          ]),
-                          _vm._v(" "),
-                          _c("InputNumber", {
-                            attrs: { placeholder: "Enter Total Tax" },
-                            model: {
-                              value: _vm.value,
-                              callback: function($$v) {
-                                _vm.value = $$v
-                              },
-                              expression: "value"
-                            }
-                          })
-                        ],
-                        1
-                      )
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "p-col-5 p-offset-7" }, [
-                      _c(
-                        "div",
-                        { staticClass: "p-d-flex p-jc-between" },
-                        [
-                          _c("label", { attrs: { for: "shippingCost" } }, [
-                            _c("strong", [_vm._v("Shipping Cost")])
-                          ]),
-                          _vm._v(" "),
-                          _c("InputNumber", {
-                            attrs: { placeholder: "Enter Shipping Cost" },
-                            model: {
-                              value: _vm.value,
-                              callback: function($$v) {
-                                _vm.value = $$v
-                              },
-                              expression: "value"
-                            }
-                          })
-                        ],
-                        1
-                      )
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "p-col-5 p-offset-7" }, [
-                      _c(
-                        "div",
-                        { staticClass: "p-d-flex p-jc-between" },
-                        [
-                          _c("label", { attrs: { for: "grandTotal" } }, [
-                            _c("strong", [_vm._v("Grand Total")])
-                          ]),
-                          _vm._v(" "),
-                          _c("InputNumber", {
-                            attrs: { placeholder: "Grand total" },
-                            model: {
-                              value: _vm.value,
-                              callback: function($$v) {
-                                _vm.value = $$v
-                              },
-                              expression: "value"
-                            }
-                          })
-                        ],
-                        1
-                      )
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "p-col-5 p-offset-7" }, [
-                      _c(
-                        "div",
-                        { staticClass: "p-d-flex p-jc-between" },
-                        [
-                          _c("label", { attrs: { for: "previous" } }, [
-                            _c("strong", [_vm._v("Previous")])
-                          ]),
-                          _vm._v(" "),
-                          _c("InputNumber", {
-                            attrs: { placeholder: "Previous" },
-                            model: {
-                              value: _vm.value,
-                              callback: function($$v) {
-                                _vm.value = $$v
-                              },
-                              expression: "value"
-                            }
-                          })
-                        ],
-                        1
-                      )
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "p-col-5 p-offset-7" }, [
-                      _c(
-                        "div",
-                        { staticClass: "p-d-flex p-jc-between" },
-                        [
-                          _c("label", { attrs: { for: "netTotal" } }, [
-                            _c("strong", [_vm._v("Net Total")])
-                          ]),
-                          _vm._v(" "),
-                          _c("InputNumber", {
-                            attrs: { placeholder: "Net Total" },
-                            model: {
-                              value: _vm.value,
-                              callback: function($$v) {
-                                _vm.value = $$v
-                              },
-                              expression: "value"
-                            }
-                          })
-                        ],
-                        1
-                      )
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "p-col-5 p-offset-7" }, [
-                      _c(
-                        "div",
-                        { staticClass: "p-d-flex p-jc-between" },
-                        [
-                          _c("label", { attrs: { for: "paidAmount" } }, [
-                            _c("strong", [_vm._v("Paid Amount")])
-                          ]),
-                          _vm._v(" "),
-                          _c("InputNumber", {
-                            attrs: { placeholder: "Paid Amount" },
-                            model: {
-                              value: _vm.value,
-                              callback: function($$v) {
-                                _vm.value = $$v
-                              },
-                              expression: "value"
-                            }
-                          })
-                        ],
-                        1
-                      )
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "p-col-5 p-offset-7" }, [
-                      _c(
-                        "div",
-                        { staticClass: "p-d-flex p-jc-between" },
-                        [
-                          _c("label", { attrs: { for: "due" } }, [
-                            _c("strong", [_vm._v("Due")])
-                          ]),
-                          _vm._v(" "),
-                          _c("InputNumber", {
-                            attrs: { placeholder: "Due" },
-                            model: {
-                              value: _vm.value,
-                              callback: function($$v) {
-                                _vm.value = $$v
-                              },
-                              expression: "value"
-                            }
-                          })
-                        ],
-                        1
-                      )
-                    ])
+                          "option",
+                          { attrs: { selected: "", disabled: "", hidden: "" } },
+                          [_vm._v("-- Select a Product --")]
+                        ),
+                        _vm._v(" "),
+                        _c("option", [_vm._v("Shirt")]),
+                        _vm._v(" "),
+                        _c("option", [_vm._v("pant")])
+                      ]
+                    )
                   ]),
                   _vm._v(" "),
-                  _c(
-                    "div",
-                    [
-                      _c(
-                        "Button",
+                  _c("td", { staticStyle: { width: "20%" } }, [
+                    _c("input", {
+                      directives: [
                         {
+                          name: "model",
+                          rawName: "v-model",
+                          value: sale.qty,
+                          expression: "sale.qty"
+                        }
+                      ],
+                      staticClass: "form-control",
+                      attrs: { type: "text" },
+                      domProps: { value: sale.qty },
+                      on: {
+                        input: function($event) {
+                          if ($event.target.composing) {
+                            return
+                          }
+                          _vm.$set(sale, "qty", $event.target.value)
+                        }
+                      }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c("td", { staticStyle: { width: "10%" } }, [
+                    _c("input", {
+                      directives: [
+                        {
+                          name: "model",
+                          rawName: "v-model",
+                          value: sale.qty,
+                          expression: "sale.qty"
+                        }
+                      ],
+                      staticClass: "form-control",
+                      attrs: { type: "number" },
+                      domProps: { value: sale.qty },
+                      on: {
+                        input: function($event) {
+                          if ($event.target.composing) {
+                            return
+                          }
+                          _vm.$set(sale, "qty", $event.target.value)
+                        }
+                      }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c("td", { staticStyle: { width: "10%" } }, [
+                    _c("input", {
+                      directives: [
+                        {
+                          name: "model",
+                          rawName: "v-model",
+                          value: sale.qty,
+                          expression: "sale.qty"
+                        }
+                      ],
+                      staticClass: "form-control",
+                      attrs: { type: "number" },
+                      domProps: { value: sale.qty },
+                      on: {
+                        input: function($event) {
+                          if ($event.target.composing) {
+                            return
+                          }
+                          _vm.$set(sale, "qty", $event.target.value)
+                        }
+                      }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c("td", { staticStyle: { width: "15%" } }, [
+                    _c("input", {
+                      directives: [
+                        {
+                          name: "model",
+                          rawName: "v-model",
+                          value: sale.per_price,
+                          expression: "sale.per_price"
+                        }
+                      ],
+                      staticClass: "form-control",
+                      attrs: { type: "number" },
+                      domProps: { value: sale.per_price },
+                      on: {
+                        input: function($event) {
+                          if ($event.target.composing) {
+                            return
+                          }
+                          _vm.$set(sale, "per_price", $event.target.value)
+                        }
+                      }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c("td", { staticStyle: { width: "15%" } }, [
+                    _c("input", {
+                      directives: [
+                        {
+                          name: "model",
+                          rawName: "v-model",
+                          value: sale.total_price,
+                          expression: "sale.total_price"
+                        }
+                      ],
+                      staticClass: "form-control",
+                      attrs: { type: "number" },
+                      domProps: { value: sale.total_price },
+                      on: {
+                        input: function($event) {
+                          if ($event.target.composing) {
+                            return
+                          }
+                          _vm.$set(sale, "total_price", $event.target.value)
+                        }
+                      }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c("td", [
+                    index != 0
+                      ? _c("input", {
+                          staticClass: "btn btn-danger",
+                          attrs: { type: "button", value: "-" },
+                          on: {
+                            click: function($event) {
+                              return _vm.remove(index)
+                            }
+                          }
+                        })
+                      : _vm._e(),
+                    _vm._v(" "),
+                    index == 0
+                      ? _c("input", {
                           staticClass: "btn btn-success",
-                          attrs: { type: "submit" }
-                        },
-                        [_vm._v("Create")]
-                      )
-                    ],
-                    1
-                  )
+                          attrs: { type: "button", value: "+" },
+                          on: { click: _vm.add }
+                        })
+                      : _vm._e()
+                  ])
                 ])
-              ]
-            },
-            proxy: true
-          }
+              })
+            ],
+            2
+          )
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "row" }, [
+          _vm._m(3),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-5" }, [
+            _c("table", { staticClass: "table" }, [
+              _c("tr", [
+                _c("th", [_vm._v("Sale Discount:")]),
+                _vm._v(" "),
+                _c(
+                  "td",
+                  [
+                    _c("InputNumber", {
+                      staticClass: "p-inputtext-sm",
+                      model: {
+                        value: _vm.sale_discount,
+                        callback: function($$v) {
+                          _vm.sale_discount = $$v
+                        },
+                        expression: "sale_discount"
+                      }
+                    })
+                  ],
+                  1
+                )
+              ]),
+              _vm._v(" "),
+              _c("tr", [
+                _c("th", [_vm._v("Total Tax:")]),
+                _vm._v(" "),
+                _c(
+                  "td",
+                  [
+                    _c("InputNumber", {
+                      staticClass: "p-inputtext-sm",
+                      model: {
+                        value: _vm.sale_discount,
+                        callback: function($$v) {
+                          _vm.sale_discount = $$v
+                        },
+                        expression: "sale_discount"
+                      }
+                    })
+                  ],
+                  1
+                )
+              ]),
+              _vm._v(" "),
+              _c("tr", [
+                _c("th", [_vm._v("Shipping cost:")]),
+                _vm._v(" "),
+                _c(
+                  "td",
+                  [
+                    _c("InputNumber", {
+                      staticClass: "p-inputtext-sm",
+                      model: {
+                        value: _vm.sale_discount,
+                        callback: function($$v) {
+                          _vm.sale_discount = $$v
+                        },
+                        expression: "sale_discount"
+                      }
+                    })
+                  ],
+                  1
+                )
+              ]),
+              _vm._v(" "),
+              _c("tr", [
+                _c("th", [_vm._v("Sub Total:")]),
+                _vm._v(" "),
+                _c(
+                  "td",
+                  [
+                    _c("InputNumber", {
+                      staticClass: "p-inputtext-sm",
+                      model: {
+                        value: _vm.sale_discount,
+                        callback: function($$v) {
+                          _vm.sale_discount = $$v
+                        },
+                        expression: "sale_discount"
+                      }
+                    })
+                  ],
+                  1
+                )
+              ]),
+              _vm._v(" "),
+              _c("tr", [
+                _c("th", [_vm._v("Grand Total")]),
+                _vm._v(" "),
+                _c(
+                  "td",
+                  [
+                    _c("InputNumber", {
+                      staticClass: "p-inputtext-sm",
+                      model: {
+                        value: _vm.sale_discount,
+                        callback: function($$v) {
+                          _vm.sale_discount = $$v
+                        },
+                        expression: "sale_discount"
+                      }
+                    })
+                  ],
+                  1
+                )
+              ]),
+              _vm._v(" "),
+              _c("tr", [
+                _c("th", [_vm._v("Paid Amount")]),
+                _vm._v(" "),
+                _c(
+                  "td",
+                  [
+                    _c("InputNumber", {
+                      staticClass: "p-inputtext-sm",
+                      model: {
+                        value: _vm.sale_discount,
+                        callback: function($$v) {
+                          _vm.sale_discount = $$v
+                        },
+                        expression: "sale_discount"
+                      }
+                    })
+                  ],
+                  1
+                )
+              ]),
+              _vm._v(" "),
+              _c("tr", [
+                _c("th", [_vm._v("Due Amount")]),
+                _vm._v(" "),
+                _c(
+                  "td",
+                  [
+                    _c("InputNumber", {
+                      staticClass: "p-inputtext-sm",
+                      model: {
+                        value: _vm.sale_discount,
+                        callback: function($$v) {
+                          _vm.sale_discount = $$v
+                        },
+                        expression: "sale_discount"
+                      }
+                    })
+                  ],
+                  1
+                )
+              ])
+            ])
+          ])
         ])
-      })
-    ],
-    1
-  )
+      ])
+    ])
+  ])
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", [_c("h2", { staticClass: "title" }, [_vm._v("Add Sale")])])
+    return _c("li", { staticClass: "breadcrumb-item mr-3" }, [
+      _c("a", { attrs: { href: "javascript:;" } }, [
+        _c("i", { staticClass: "pi pi-home" })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", { staticClass: "breadcrumb-item mr-2" }, [
+      _c("a", { attrs: { href: "javascript:;" } }, [_vm._v("Sale")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("tr", [
+      _c("th", [_vm._v("Product Name")]),
+      _vm._v(" "),
+      _c("th", [_vm._v("Model")]),
+      _vm._v(" "),
+      _c("th", [_vm._v("Qty")]),
+      _vm._v(" "),
+      _c("th", [_vm._v("Discount")]),
+      _vm._v(" "),
+      _c("th", [_vm._v("Price")]),
+      _vm._v(" "),
+      _c("th", [_vm._v("Total Price")]),
+      _vm._v(" "),
+      _c("th")
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-7" }, [
+      _c("label", { attrs: { for: "note" } }, [_c("b", [_vm._v("Note")])]),
+      _vm._v(" "),
+      _c("textarea", {
+        staticClass: "form-control",
+        attrs: { id: "note", rows: "5" }
+      }),
+      _vm._v(" "),
+      _c("label", { staticClass: "p-mt-3", attrs: { for: "note" } }, [
+        _c("b", [_vm._v("Terms And Condition")])
+      ]),
+      _vm._v(" "),
+      _c("textarea", {
+        staticClass: "form-control",
+        attrs: { id: "note", rows: "5" }
+      }),
+      _vm._v(" "),
+      _c("button", { staticClass: "btn btn-success p-mt-3" }, [_vm._v("Save")])
+    ])
   }
 ]
 render._withStripped = true

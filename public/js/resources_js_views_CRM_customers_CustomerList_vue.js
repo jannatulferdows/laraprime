@@ -164,6 +164,41 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   name: "CustomerList",
   data: function data() {
@@ -171,6 +206,40 @@ __webpack_require__.r(__webpack_exports__);
       selectedCustomers: [],
       filters: {},
       editingRows: [],
+      selectedBranch: null,
+      branch: [{
+        branch: "New York",
+        code: "NY"
+      }, {
+        branch: "Rome",
+        code: "RM"
+      }, {
+        branch: "London",
+        code: "LDN"
+      }, {
+        branch: "Istanbul",
+        code: "IST"
+      }, {
+        branch: "Paris",
+        code: "PRS"
+      }],
+      selectedGroup: null,
+      customerGroup: [{
+        customerGroup: "New York",
+        code: "NY"
+      }, {
+        customerGroup: "Rome",
+        code: "RM"
+      }, {
+        customerGroup: "London",
+        code: "LDN"
+      }, {
+        customerGroup: "Istanbul",
+        code: "IST"
+      }, {
+        customerGroup: "Paris",
+        code: "PRS"
+      }],
       cutomers: [{
         id: "1",
         logo: "images/color.png",
@@ -342,6 +411,120 @@ var render = function() {
     "div",
     [
       _c("Breadcrumb", { attrs: { home: _vm.home, model: _vm.items } }),
+      _vm._v(" "),
+      _c("br"),
+      _vm._v(" "),
+      _c(
+        "div",
+        [
+          _c("card", {
+            scopedSlots: _vm._u([
+              {
+                key: "content",
+                fn: function() {
+                  return [
+                    _c("div", { staticClass: "p-mb-0 " }, [
+                      _c("h2", { staticClass: "title" }, [
+                        _vm._v("Filter Options")
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "p-fluid p-formgrid p-grid " }, [
+                      _c(
+                        "div",
+                        {
+                          staticClass:
+                            "p-field p-col-12 p-md-5 p-mt-3 p-pt-0 p-pl-0 p-pb-0 "
+                        },
+                        [
+                          _c(
+                            "span",
+                            { staticClass: "p-float-label" },
+                            [
+                              _c("Dropdown", {
+                                attrs: {
+                                  options: _vm.branch,
+                                  optionLabel: "branch",
+                                  id: "branch"
+                                },
+                                model: {
+                                  value: _vm.selectedBranch,
+                                  callback: function($$v) {
+                                    _vm.selectedBranch = $$v
+                                  },
+                                  expression: "selectedBranch"
+                                }
+                              }),
+                              _vm._v(" "),
+                              _c("label", { attrs: { for: "branch" } }, [
+                                _c("strong", [_vm._v("Branch")])
+                              ])
+                            ],
+                            1
+                          )
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        {
+                          staticClass:
+                            "p-field p-col-12 p-md-5 p-mt-3 p-pt-0 p-pl-0 p-pb-0"
+                        },
+                        [
+                          _c(
+                            "span",
+                            { staticClass: "p-float-label" },
+                            [
+                              _c("Dropdown", {
+                                attrs: {
+                                  options: _vm.customerGroup,
+                                  optionLabel: "customerGroup",
+                                  id: "customerGroup"
+                                },
+                                model: {
+                                  value: _vm.selectedGroup,
+                                  callback: function($$v) {
+                                    _vm.selectedGroup = $$v
+                                  },
+                                  expression: "selectedGroup"
+                                }
+                              }),
+                              _vm._v(" "),
+                              _c("label", { attrs: { for: "customerGroup" } }, [
+                                _c("strong", [_vm._v("Customer Group")])
+                              ])
+                            ],
+                            1
+                          )
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "p-field p-col-12 p-md-2 p-mt-2" },
+                        [
+                          _c(
+                            "Button",
+                            {
+                              staticClass: "btn btn-success",
+                              attrs: { type: "submit" }
+                            },
+                            [_vm._v("Filter")]
+                          )
+                        ],
+                        1
+                      )
+                    ])
+                  ]
+                },
+                proxy: true
+              }
+            ])
+          })
+        ],
+        1
+      ),
       _vm._v(" "),
       _c("div", { staticClass: "p-d-flex p-jc-between p-mt-4 p-mb-2" }, [
         _vm._m(0),

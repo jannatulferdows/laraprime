@@ -11,7 +11,7 @@
                 </li>
                 <li class="breadcrumb-item mr-2"><a><router-link to="/SaleList" style=" text-decoration:none;">Sale List</router-link></a>
                 </li>
-                <li class="breadcrumb-item active" aria-current="page">Create Sale</li>
+                <li class="breadcrumb-item active" aria-current="page">Edit Sale</li>
               </ol>
             </nav>
           </div>
@@ -20,7 +20,7 @@
 
     <div class="card">
       <div class="p-d-flex card-header p-ai-center vertical-container bg-light p-jc-between">
-        <h4 class=" mb-0">Create Sale</h4>
+        <h4 class=" mb-0">Edit Sale</h4>
           <router-link to="/SaleList" class="btn btn-success">List Sale</router-link>
       </div>
 

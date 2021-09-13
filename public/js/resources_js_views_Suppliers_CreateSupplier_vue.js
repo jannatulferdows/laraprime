@@ -183,6 +183,60 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 
@@ -201,6 +255,21 @@ __webpack_require__.r(__webpack_exports__);
     return {
       selectedCompany: null,
       value: null,
+      name: null,
+      email: null,
+      regDate: null,
+      pNumber: null,
+      refPerson: null,
+      address: null,
+      birthDate: null,
+      dNumber: null,
+      credit: null,
+      Return: null,
+      tin: null,
+      bin: null,
+      creditLimit: null,
+      password: null,
+      cPassword: null,
       companies: [{
         name: "New York",
         code: "NY"
@@ -6040,544 +6109,613 @@ var render = function() {
                   _c("div", { staticClass: "p-fluid p-formgrid p-grid" }, [
                     _c(
                       "div",
-                      { staticClass: "p-field p-col-12 p-md-6" },
+                      { staticClass: "p-field p-col-12 p-md-6 p-mt-2" },
                       [
-                        _c("label", { attrs: { for: "name" } }, [
-                          _c("strong", [_vm._v(" Name")])
-                        ]),
-                        _vm._v(" "),
-                        _c("br"),
-                        _vm._v(" "),
-                        _c("InputText", {
-                          attrs: { type: "text", placeholder: "Enter Name" },
-                          model: {
-                            value: _vm.value,
-                            callback: function($$v) {
-                              _vm.value = $$v
-                            },
-                            expression: "value"
-                          }
-                        })
-                      ],
-                      1
+                        _c(
+                          "span",
+                          { staticClass: "p-float-label" },
+                          [
+                            _c("InputText", {
+                              attrs: { type: "text", id: "name" },
+                              model: {
+                                value: _vm.name,
+                                callback: function($$v) {
+                                  _vm.name = $$v
+                                },
+                                expression: "name"
+                              }
+                            }),
+                            _vm._v(" "),
+                            _c("label", { attrs: { for: "name" } }, [
+                              _c("strong", [_vm._v(" Name")])
+                            ])
+                          ],
+                          1
+                        )
+                      ]
                     ),
                     _vm._v(" "),
                     _c(
                       "div",
-                      { staticClass: "p-field p-col-12 p-md-6" },
+                      { staticClass: "p-field p-col-12 p-md-6 p-mt-2" },
                       [
-                        _c("label", { attrs: { for: "email" } }, [
-                          _c("strong", [_vm._v("Email")])
-                        ]),
-                        _vm._v(" "),
-                        _c("br"),
-                        _vm._v(" "),
-                        _c("InputText", {
-                          attrs: { type: "email", placeholder: "Enter Email" },
-                          model: {
-                            value: _vm.value,
-                            callback: function($$v) {
-                              _vm.value = $$v
-                            },
-                            expression: "value"
-                          }
-                        })
-                      ],
-                      1
+                        _c(
+                          "span",
+                          { staticClass: "p-float-label" },
+                          [
+                            _c("InputText", {
+                              attrs: { type: "email", id: "email" },
+                              model: {
+                                value: _vm.email,
+                                callback: function($$v) {
+                                  _vm.email = $$v
+                                },
+                                expression: "email"
+                              }
+                            }),
+                            _vm._v(" "),
+                            _c("label", { attrs: { for: "email" } }, [
+                              _c("strong", [_vm._v("Email")])
+                            ]),
+                            _vm._v(" "),
+                            _c("br")
+                          ],
+                          1
+                        )
+                      ]
                     ),
                     _vm._v(" "),
                     _c(
                       "div",
-                      { staticClass: "p-field p-col-12 p-md-6" },
+                      { staticClass: "p-field p-col-12 p-md-6 p-mt-2" },
                       [
-                        _c("label", { attrs: { for: "companyName" } }, [
-                          _c("strong", [_vm._v("Company Name")])
-                        ]),
-                        _vm._v(" "),
-                        _c("br"),
-                        _vm._v(" "),
-                        _c("Dropdown", {
-                          attrs: {
-                            options: _vm.companies,
-                            optionLabel: "name",
-                            placeholder: "Select Company Name"
-                          },
-                          model: {
-                            value: _vm.selectedCompany,
-                            callback: function($$v) {
-                              _vm.selectedCompany = $$v
-                            },
-                            expression: "selectedCompany"
-                          }
-                        })
-                      ],
-                      1
+                        _c(
+                          "span",
+                          { staticClass: "p-float-label" },
+                          [
+                            _c("Dropdown", {
+                              attrs: {
+                                options: _vm.companies,
+                                optionLabel: "name",
+                                id: "companyName"
+                              },
+                              model: {
+                                value: _vm.selectedCompany,
+                                callback: function($$v) {
+                                  _vm.selectedCompany = $$v
+                                },
+                                expression: "selectedCompany"
+                              }
+                            }),
+                            _vm._v(" "),
+                            _c("label", { attrs: { for: "companyName" } }, [
+                              _c("strong", [_vm._v("Company Name")])
+                            ])
+                          ],
+                          1
+                        )
+                      ]
                     ),
                     _vm._v(" "),
                     _c(
                       "div",
-                      { staticClass: "p-field p-col-12 p-md-6" },
+                      { staticClass: "p-field p-col-12 p-md-6 p-mt-2" },
                       [
-                        _c("label", { attrs: { for: "designation" } }, [
-                          _c("strong", [_vm._v("Designation")])
-                        ]),
-                        _vm._v(" "),
-                        _c("br"),
-                        _vm._v(" "),
-                        _c("Dropdown", {
-                          attrs: {
-                            options: _vm.designations,
-                            optionLabel: "designation",
-                            placeholder: "Select Designation"
-                          },
-                          model: {
-                            value: _vm.selectedDesignation,
-                            callback: function($$v) {
-                              _vm.selectedDesignation = $$v
-                            },
-                            expression: "selectedDesignation"
-                          }
-                        })
-                      ],
-                      1
+                        _c(
+                          "span",
+                          { staticClass: "p-float-label" },
+                          [
+                            _c("Dropdown", {
+                              attrs: {
+                                options: _vm.designations,
+                                optionLabel: "designation"
+                              },
+                              model: {
+                                value: _vm.selectedDesignation,
+                                callback: function($$v) {
+                                  _vm.selectedDesignation = $$v
+                                },
+                                expression: "selectedDesignation"
+                              }
+                            }),
+                            _vm._v(" "),
+                            _c(
+                              "label",
+                              { attrs: { for: "selectedDesignation" } },
+                              [_c("strong", [_vm._v("Designation")])]
+                            )
+                          ],
+                          1
+                        )
+                      ]
                     ),
                     _vm._v(" "),
                     _c(
                       "div",
-                      { staticClass: "p-field p-col-12 p-md-6" },
+                      { staticClass: "p-field p-col-12 p-md-6 p-mt-2" },
                       [
-                        _c("label", { attrs: { for: "regDate" } }, [
-                          _c("strong", [_vm._v("Registration Date")])
-                        ]),
-                        _vm._v(" "),
-                        _c("br"),
-                        _vm._v(" "),
-                        _c("Calendar", {
-                          attrs: { placeholder: "Enter Registation Date" },
-                          model: {
-                            value: _vm.value,
-                            callback: function($$v) {
-                              _vm.value = $$v
-                            },
-                            expression: "value"
-                          }
-                        })
-                      ],
-                      1
+                        _c(
+                          "span",
+                          { staticClass: "p-float-label" },
+                          [
+                            _c("Calendar", {
+                              attrs: { id: "regDate" },
+                              model: {
+                                value: _vm.regDate,
+                                callback: function($$v) {
+                                  _vm.regDate = $$v
+                                },
+                                expression: "regDate"
+                              }
+                            }),
+                            _vm._v(" "),
+                            _c("label", { attrs: { for: "regDate" } }, [
+                              _c("strong", [_vm._v("Registration Date")])
+                            ])
+                          ],
+                          1
+                        )
+                      ]
                     ),
                     _vm._v(" "),
                     _c(
                       "div",
-                      { staticClass: "p-field p-col-12 p-md-6" },
+                      { staticClass: "p-field p-col-12 p-md-6 p-mt-2" },
                       [
-                        _c("label", { attrs: { for: "number" } }, [
-                          _c("strong", [_vm._v("Phone Number")])
-                        ]),
-                        _vm._v(" "),
-                        _c("br"),
-                        _vm._v(" "),
-                        _c("InputText", {
-                          attrs: {
-                            type: "number",
-                            placeholder: "Enter Phone Number"
-                          },
-                          model: {
-                            value: _vm.value,
-                            callback: function($$v) {
-                              _vm.value = $$v
-                            },
-                            expression: "value"
-                          }
-                        })
-                      ],
-                      1
+                        _c(
+                          "span",
+                          { staticClass: "p-float-label" },
+                          [
+                            _c("InputText", {
+                              attrs: { type: "number", id: "pNumber" },
+                              model: {
+                                value: _vm.pNumber,
+                                callback: function($$v) {
+                                  _vm.pNumber = $$v
+                                },
+                                expression: "pNumber"
+                              }
+                            }),
+                            _vm._v(" "),
+                            _c("label", { attrs: { for: "pNumber" } }, [
+                              _c("strong", [_vm._v("Phone Number")])
+                            ])
+                          ],
+                          1
+                        )
+                      ]
                     ),
                     _vm._v(" "),
                     _c(
                       "div",
-                      { staticClass: "p-field p-col-12 p-md-6" },
+                      { staticClass: "p-field p-col-12 p-md-6 p-mt-2" },
                       [
-                        _c("label", { attrs: { for: "contactPerson" } }, [
-                          _c("strong", [_vm._v("Contact Person")])
-                        ]),
+                        _c(
+                          "span",
+                          { staticClass: "p-float-label" },
+                          [
+                            _c("MultiSelect", {
+                              attrs: {
+                                options: _vm.persons,
+                                optionLabel: "persons",
+                                id: "contactPerson"
+                              },
+                              model: {
+                                value: _vm.selectedPerson,
+                                callback: function($$v) {
+                                  _vm.selectedPerson = $$v
+                                },
+                                expression: "selectedPerson"
+                              }
+                            }),
+                            _vm._v(" "),
+                            _c("label", { attrs: { for: "contactPerson" } }, [
+                              _c("strong", [_vm._v("Contact Person")])
+                            ])
+                          ],
+                          1
+                        ),
                         _vm._v(" "),
                         _c("br"),
                         _vm._v(" "),
-                        _c("MultiSelect", {
-                          attrs: {
-                            options: _vm.persons,
-                            optionLabel: "persons",
-                            placeholder: "Select Contact Persons"
-                          },
-                          model: {
-                            value: _vm.selectedPerson,
-                            callback: function($$v) {
-                              _vm.selectedPerson = $$v
-                            },
-                            expression: "selectedPerson"
-                          }
-                        }),
-                        _vm._v(" "),
-                        _c("br"),
-                        _vm._v(" "),
-                        _c("label", { attrs: { for: "refPerson" } }, [
-                          _c("strong", [_vm._v("Reference Person")])
-                        ]),
-                        _vm._v(" "),
-                        _c("br"),
-                        _vm._v(" "),
-                        _c("InputText", {
-                          attrs: {
-                            type: "text",
-                            placeholder: "Enter Reference Person"
-                          },
-                          model: {
-                            value: _vm.value,
-                            callback: function($$v) {
-                              _vm.value = $$v
-                            },
-                            expression: "value"
-                          }
-                        })
-                      ],
-                      1
+                        _c(
+                          "span",
+                          { staticClass: "p-float-label" },
+                          [
+                            _c("InputText", {
+                              attrs: { type: "text", id: "refPerson" },
+                              model: {
+                                value: _vm.refPerson,
+                                callback: function($$v) {
+                                  _vm.refPerson = $$v
+                                },
+                                expression: "refPerson"
+                              }
+                            }),
+                            _vm._v(" "),
+                            _c("label", { attrs: { for: "refPerson" } }, [
+                              _c("strong", [_vm._v("Reference Person")])
+                            ])
+                          ],
+                          1
+                        )
+                      ]
                     ),
                     _vm._v(" "),
                     _c(
                       "div",
-                      { staticClass: "p-field p-col-12 p-md-6" },
+                      { staticClass: "p-field p-col-12 p-md-6 p-mt-2" },
                       [
-                        _c("label", { attrs: { for: "address" } }, [
-                          _c("strong", [_vm._v("Address")])
-                        ]),
-                        _vm._v(" "),
-                        _c("br"),
-                        _vm._v(" "),
-                        _c("Textarea", {
-                          attrs: {
-                            rows: "5",
-                            cols: "60",
-                            placeholder: "Enter Address"
-                          },
-                          model: {
-                            value: _vm.value,
-                            callback: function($$v) {
-                              _vm.value = $$v
-                            },
-                            expression: "value"
-                          }
-                        })
-                      ],
-                      1
+                        _c(
+                          "span",
+                          { staticClass: "p-float-label" },
+                          [
+                            _c("Textarea", {
+                              attrs: { rows: "5", cols: "60", id: "address" },
+                              model: {
+                                value: _vm.address,
+                                callback: function($$v) {
+                                  _vm.address = $$v
+                                },
+                                expression: "address"
+                              }
+                            }),
+                            _vm._v(" "),
+                            _c("label", { attrs: { for: "address" } }, [
+                              _c("strong", [_vm._v("Address")])
+                            ])
+                          ],
+                          1
+                        )
+                      ]
                     ),
                     _vm._v(" "),
                     _c(
                       "div",
-                      { staticClass: "p-field p-col-12 p-md-6" },
+                      { staticClass: "p-field p-col-12 p-md-6 p-mt-2" },
                       [
-                        _c("label", { attrs: { for: "birthDate" } }, [
-                          _c("strong", [_vm._v("Date of Birth")])
-                        ]),
-                        _vm._v(" "),
-                        _c("br"),
-                        _vm._v(" "),
-                        _c("Calendar", {
-                          attrs: { placeholder: "Enter Birth Date" },
-                          model: {
-                            value: _vm.value,
-                            callback: function($$v) {
-                              _vm.value = $$v
-                            },
-                            expression: "value"
-                          }
-                        })
-                      ],
-                      1
+                        _c(
+                          "span",
+                          { staticClass: "p-float-label" },
+                          [
+                            _c("Calendar", {
+                              attrs: { id: "birthDate" },
+                              model: {
+                                value: _vm.birthDate,
+                                callback: function($$v) {
+                                  _vm.birthDate = $$v
+                                },
+                                expression: "birthDate"
+                              }
+                            }),
+                            _vm._v(" "),
+                            _c("label", { attrs: { for: "birthDate" } }, [
+                              _c("strong", [_vm._v("Date of Birth")])
+                            ])
+                          ],
+                          1
+                        )
+                      ]
                     ),
                     _vm._v(" "),
                     _c(
                       "div",
-                      { staticClass: "p-field p-col-12 p-md-6" },
+                      { staticClass: "p-field p-col-12 p-md-6 p-mt-2" },
                       [
-                        _c("label", { attrs: { for: "clientCategory" } }, [
-                          _c("strong", [_vm._v("Client Category")])
-                        ]),
-                        _vm._v(" "),
-                        _c("br"),
-                        _vm._v(" "),
-                        _c("Dropdown", {
-                          attrs: {
-                            options: _vm.clientCategories,
-                            optionLabel: "category",
-                            placeholder: "Select Client Category"
-                          },
-                          model: {
-                            value: _vm.selectedCategory,
-                            callback: function($$v) {
-                              _vm.selectedCategory = $$v
-                            },
-                            expression: "selectedCategory"
-                          }
-                        })
-                      ],
-                      1
+                        _c(
+                          "span",
+                          { staticClass: "p-float-label" },
+                          [
+                            _c("Dropdown", {
+                              attrs: {
+                                options: _vm.clientCategories,
+                                optionLabel: "category",
+                                id: "clientCategory"
+                              },
+                              model: {
+                                value: _vm.selectedCategory,
+                                callback: function($$v) {
+                                  _vm.selectedCategory = $$v
+                                },
+                                expression: "selectedCategory"
+                              }
+                            }),
+                            _vm._v(" "),
+                            _c("label", { attrs: { for: "clientCategory" } }, [
+                              _c("strong", [_vm._v("Client Category")])
+                            ])
+                          ],
+                          1
+                        )
+                      ]
                     ),
                     _vm._v(" "),
                     _c(
                       "div",
-                      { staticClass: "p-field p-col-12 p-md-6" },
+                      { staticClass: "p-field p-col-12 p-md-6 p-mt-2" },
                       [
-                        _c("label", { attrs: { for: "parentClient" } }, [
-                          _c("strong", [_vm._v("Parent Client")])
-                        ]),
-                        _vm._v(" "),
-                        _c("br"),
-                        _vm._v(" "),
-                        _c("Dropdown", {
-                          attrs: {
-                            options: _vm.parentClients,
-                            optionLabel: "parentClients",
-                            placeholder: "Select Parent Client"
-                          },
-                          model: {
-                            value: _vm.selectedParent,
-                            callback: function($$v) {
-                              _vm.selectedParent = $$v
-                            },
-                            expression: "selectedParent"
-                          }
-                        })
-                      ],
-                      1
+                        _c(
+                          "span",
+                          { staticClass: "p-float-label" },
+                          [
+                            _c("Dropdown", {
+                              attrs: {
+                                options: _vm.parentClients,
+                                optionLabel: "parentClients",
+                                id: "parentClient"
+                              },
+                              model: {
+                                value: _vm.selectedParent,
+                                callback: function($$v) {
+                                  _vm.selectedParent = $$v
+                                },
+                                expression: "selectedParent"
+                              }
+                            }),
+                            _vm._v(" "),
+                            _c("label", { attrs: { for: "parentClient" } }, [
+                              _c("strong", [_vm._v("Parent Client")])
+                            ])
+                          ],
+                          1
+                        )
+                      ]
                     ),
                     _vm._v(" "),
                     _c(
                       "div",
-                      { staticClass: "p-field p-col-12 p-md-6" },
+                      { staticClass: "p-field p-col-12 p-md-6 p-mt-2" },
                       [
-                        _c("label", { attrs: { for: "number" } }, [
-                          _c("strong", [_vm._v("Discount")])
-                        ]),
-                        _vm._v(" "),
-                        _c("br"),
-                        _vm._v(" "),
-                        _c("InputNumber", {
-                          attrs: { placeholder: "Enter Discount Amount" },
-                          model: {
-                            value: _vm.value,
-                            callback: function($$v) {
-                              _vm.value = $$v
-                            },
-                            expression: "value"
-                          }
-                        })
-                      ],
-                      1
+                        _c(
+                          "span",
+                          { staticClass: "p-float-label" },
+                          [
+                            _c("InputNumber", {
+                              attrs: { id: "dNumber" },
+                              model: {
+                                value: _vm.dNumber,
+                                callback: function($$v) {
+                                  _vm.dNumber = $$v
+                                },
+                                expression: "dNumber"
+                              }
+                            }),
+                            _vm._v(" "),
+                            _c("label", { attrs: { for: "dNumber" } }, [
+                              _c("strong", [_vm._v("Discount")])
+                            ])
+                          ],
+                          1
+                        )
+                      ]
                     ),
                     _vm._v(" "),
                     _c(
                       "div",
-                      { staticClass: "p-field p-col-12 p-md-6" },
+                      { staticClass: "p-field p-col-12 p-md-6 p-mt-2" },
                       [
-                        _c("label", { attrs: { for: "credit" } }, [
-                          _c("strong", [_vm._v("Credit Tx")])
-                        ]),
-                        _vm._v(" "),
-                        _c("br"),
-                        _vm._v(" "),
-                        _c("InputNumber", {
-                          attrs: { placeholder: "Enter Credit Tx" },
-                          model: {
-                            value: _vm.value,
-                            callback: function($$v) {
-                              _vm.value = $$v
-                            },
-                            expression: "value"
-                          }
-                        })
-                      ],
-                      1
+                        _c(
+                          "span",
+                          { staticClass: "p-float-label" },
+                          [
+                            _c("InputNumber", {
+                              attrs: { id: "credit" },
+                              model: {
+                                value: _vm.credit,
+                                callback: function($$v) {
+                                  _vm.credit = $$v
+                                },
+                                expression: "credit"
+                              }
+                            }),
+                            _vm._v(" "),
+                            _c("label", { attrs: { for: "credit" } }, [
+                              _c("strong", [_vm._v("Credit Tx")])
+                            ])
+                          ],
+                          1
+                        )
+                      ]
                     ),
                     _vm._v(" "),
                     _c(
                       "div",
-                      { staticClass: "p-field p-col-12 p-md-6" },
+                      { staticClass: "p-field p-col-12 p-md-6 p-mt-2" },
                       [
-                        _c("label", { attrs: { for: "return" } }, [
-                          _c("strong", [_vm._v("Return No")])
-                        ]),
-                        _vm._v(" "),
-                        _c("br"),
-                        _vm._v(" "),
-                        _c("InputNumber", {
-                          attrs: { placeholder: "Enter Return No." },
-                          model: {
-                            value: _vm.value,
-                            callback: function($$v) {
-                              _vm.value = $$v
-                            },
-                            expression: "value"
-                          }
-                        })
-                      ],
-                      1
+                        _c(
+                          "span",
+                          { staticClass: "p-float-label" },
+                          [
+                            _c("InputNumber", {
+                              attrs: { id: "return" },
+                              model: {
+                                value: _vm.Return,
+                                callback: function($$v) {
+                                  _vm.Return = $$v
+                                },
+                                expression: "Return"
+                              }
+                            }),
+                            _vm._v(" "),
+                            _c("label", { attrs: { for: "Return" } }, [
+                              _c("strong", [_vm._v("Return No")])
+                            ])
+                          ],
+                          1
+                        )
+                      ]
                     ),
                     _vm._v(" "),
                     _c(
                       "div",
-                      { staticClass: "p-field p-col-12 p-md-6" },
+                      { staticClass: "p-field p-col-12 p-md-6 p-mt-2" },
                       [
-                        _c("label", { attrs: { for: "tin" } }, [
-                          _c("strong", [_vm._v("TIN No")])
-                        ]),
-                        _vm._v(" "),
-                        _c("br"),
-                        _vm._v(" "),
-                        _c("InputNumber", {
-                          attrs: { placeholder: "Enter TIN No." },
-                          model: {
-                            value: _vm.value,
-                            callback: function($$v) {
-                              _vm.value = $$v
-                            },
-                            expression: "value"
-                          }
-                        })
-                      ],
-                      1
+                        _c(
+                          "span",
+                          { staticClass: "p-float-label" },
+                          [
+                            _c("InputNumber", {
+                              attrs: { id: "tin" },
+                              model: {
+                                value: _vm.tin,
+                                callback: function($$v) {
+                                  _vm.tin = $$v
+                                },
+                                expression: "tin"
+                              }
+                            }),
+                            _vm._v(" "),
+                            _c("label", { attrs: { for: "tin" } }, [
+                              _c("strong", [_vm._v("TIN No")])
+                            ])
+                          ],
+                          1
+                        )
+                      ]
                     ),
                     _vm._v(" "),
                     _c(
                       "div",
-                      { staticClass: "p-field p-col-12 p-md-6" },
+                      { staticClass: "p-field p-col-12 p-md-6 p-mt-2" },
                       [
-                        _c("label", { attrs: { for: "bin" } }, [
-                          _c("strong", [_vm._v("BIN No")])
-                        ]),
-                        _vm._v(" "),
-                        _c("br"),
-                        _vm._v(" "),
-                        _c("InputNumber", {
-                          attrs: { placeholder: "Enter BIN No." },
-                          model: {
-                            value: _vm.value,
-                            callback: function($$v) {
-                              _vm.value = $$v
-                            },
-                            expression: "value"
-                          }
-                        })
-                      ],
-                      1
+                        _c(
+                          "span",
+                          { staticClass: "p-float-label" },
+                          [
+                            _c("InputNumber", {
+                              attrs: { id: "bin" },
+                              model: {
+                                value: _vm.bin,
+                                callback: function($$v) {
+                                  _vm.bin = $$v
+                                },
+                                expression: "bin"
+                              }
+                            }),
+                            _vm._v(" "),
+                            _c("label", { attrs: { for: "bin" } }, [
+                              _c("strong", [_vm._v("BIN No")])
+                            ])
+                          ],
+                          1
+                        )
+                      ]
                     ),
                     _vm._v(" "),
                     _c(
                       "div",
-                      { staticClass: "p-field p-col-12 p-md-6" },
+                      { staticClass: "p-field p-col-12 p-md-6 p-mt-2" },
                       [
-                        _c("label", { attrs: { for: "creditLimit" } }, [
-                          _c("strong", [_vm._v("Credit Limit")])
-                        ]),
-                        _vm._v(" "),
-                        _c("br"),
-                        _vm._v(" "),
-                        _c("InputNumber", {
-                          attrs: {
-                            placeholder: "Enter Credit Limit",
-                            useGrouping: false
-                          },
-                          model: {
-                            value: _vm.value,
-                            callback: function($$v) {
-                              _vm.value = $$v
-                            },
-                            expression: "value"
-                          }
-                        })
-                      ],
-                      1
+                        _c(
+                          "span",
+                          { staticClass: "p-float-label" },
+                          [
+                            _c("InputNumber", {
+                              attrs: { useGrouping: false, id: "creditLimit" },
+                              model: {
+                                value: _vm.creditLimit,
+                                callback: function($$v) {
+                                  _vm.creditLimit = $$v
+                                },
+                                expression: "creditLimit"
+                              }
+                            }),
+                            _vm._v(" "),
+                            _c("label", { attrs: { for: "creditLimit" } }, [
+                              _c("strong", [_vm._v("Credit Limit")])
+                            ])
+                          ],
+                          1
+                        )
+                      ]
                     ),
                     _vm._v(" "),
                     _c(
                       "div",
-                      { staticClass: "p-field p-col-12 p-md-6" },
+                      { staticClass: "p-field p-col-12 p-md-6 p-mt-2" },
                       [
-                        _c("label", { attrs: { for: "parentClient" } }, [
-                          _c("strong", [_vm._v("Branch")])
-                        ]),
-                        _vm._v(" "),
-                        _c("br"),
-                        _vm._v(" "),
-                        _c("Dropdown", {
-                          attrs: {
-                            options: _vm.branches,
-                            optionLabel: "branches",
-                            placeholder: "Select Branch"
-                          },
-                          model: {
-                            value: _vm.selectedBranch,
-                            callback: function($$v) {
-                              _vm.selectedBranch = $$v
-                            },
-                            expression: "selectedBranch"
-                          }
-                        })
-                      ],
-                      1
+                        _c(
+                          "span",
+                          { staticClass: "p-float-label" },
+                          [
+                            _c("Dropdown", {
+                              attrs: {
+                                options: _vm.branches,
+                                optionLabel: "branches",
+                                id: "parentClient"
+                              },
+                              model: {
+                                value: _vm.selectedBranch,
+                                callback: function($$v) {
+                                  _vm.selectedBranch = $$v
+                                },
+                                expression: "selectedBranch"
+                              }
+                            }),
+                            _vm._v(" "),
+                            _c("label", { attrs: { for: "parentClient" } }, [
+                              _c("strong", [_vm._v("Branch")])
+                            ])
+                          ],
+                          1
+                        )
+                      ]
                     ),
                     _vm._v(" "),
                     _c(
                       "div",
-                      { staticClass: "p-field p-col-12 p-md-6" },
+                      { staticClass: "p-field p-col-12 p-md-6 p-mt-2" },
                       [
-                        _c("label", { attrs: { for: "password" } }, [
-                          _c("strong", [_vm._v("Password")])
-                        ]),
-                        _vm._v(" "),
-                        _c("br"),
-                        _vm._v(" "),
-                        _c("InputText", {
-                          attrs: {
-                            type: "password",
-                            placeholder: "Enter Password"
-                          },
-                          model: {
-                            value: _vm.value,
-                            callback: function($$v) {
-                              _vm.value = $$v
-                            },
-                            expression: "value"
-                          }
-                        })
-                      ],
-                      1
+                        _c(
+                          "span",
+                          { staticClass: "p-float-label" },
+                          [
+                            _c("InputText", {
+                              attrs: { type: "password", id: "password" },
+                              model: {
+                                value: _vm.password,
+                                callback: function($$v) {
+                                  _vm.password = $$v
+                                },
+                                expression: "password"
+                              }
+                            }),
+                            _vm._v(" "),
+                            _c("label", { attrs: { for: "password" } }, [
+                              _c("strong", [_vm._v("Password")])
+                            ])
+                          ],
+                          1
+                        )
+                      ]
                     ),
                     _vm._v(" "),
                     _c(
                       "div",
-                      { staticClass: "p-field p-col-12 p-md-6" },
+                      { staticClass: "p-field p-col-12 p-md-6 p-mt-2" },
                       [
-                        _c("label", { attrs: { for: "password" } }, [
-                          _c("strong", [_vm._v("Confirm Password")])
-                        ]),
-                        _vm._v(" "),
-                        _c("br"),
-                        _vm._v(" "),
-                        _c("InputText", {
-                          attrs: {
-                            type: "password",
-                            placeholder: "Re-type Password"
-                          },
-                          model: {
-                            value: _vm.value,
-                            callback: function($$v) {
-                              _vm.value = $$v
-                            },
-                            expression: "value"
-                          }
-                        })
-                      ],
-                      1
+                        _c(
+                          "span",
+                          { staticClass: "p-float-label" },
+                          [
+                            _c("InputText", {
+                              attrs: { type: "password", id: "cPassword" },
+                              model: {
+                                value: _vm.cPassword,
+                                callback: function($$v) {
+                                  _vm.cPassword = $$v
+                                },
+                                expression: "cPassword"
+                              }
+                            }),
+                            _vm._v(" "),
+                            _c("label", { attrs: { for: "cPassword" } }, [
+                              _c("strong", [_vm._v("Confirm Password")])
+                            ])
+                          ],
+                          1
+                        )
+                      ]
                     )
                   ]),
                   _vm._v(" "),
@@ -6590,7 +6728,7 @@ var render = function() {
                           staticClass: "btn btn-success",
                           attrs: { type: "submit" }
                         },
-                        [_vm._v("Create")]
+                        [_vm._v("Save")]
                       )
                     ],
                     1

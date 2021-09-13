@@ -1,6 +1,41 @@
 <template>
   <div>
     <Breadcrumb :home="home" :model="items" />
+     <br>
+    <div>
+    <card >
+      <template #content>
+      <div class="p-mb-0 "><h2 class="title">Filter Options</h2></div>
+        <div class="p-fluid p-formgrid p-grid ">
+            <div class="p-field p-col-12 p-md-5 p-mt-3 p-pt-0 p-pl-0 p-pb-0 ">
+              <span class="p-float-label">
+                <Dropdown
+                  v-model="selectedBranch"
+                  :options="branch"
+                  optionLabel="branch"
+                  id="branch"
+                />
+                <label for="branch"><strong>Branch</strong></label>
+              </span>
+            </div>
+                  <div class="p-field p-col-12 p-md-5 p-mt-3 p-pt-0 p-pl-0 p-pb-0">
+              <span class="p-float-label">
+                <Dropdown
+                  v-model="selectedGroup"
+                  :options="supplierGroup"
+                  optionLabel="supplierGroup"
+                  id="supplierGroup"
+                />
+                <label for="supplierGroup"><strong>Supplier Group</strong></label>
+              </span>
+            </div>
+            <div class="p-field p-col-12 p-md-2 p-mt-2">
+               <Button type="submit" class="btn btn-success">Filter</Button>
+            </div>
+            </div>
+      </template>
+    </card>
+    </div>
     <div class="p-d-flex p-jc-between p-mt-4 p-mb-2">
       <div><h2 class="title">List of Suppliers</h2></div>
       <div>
@@ -159,6 +194,22 @@ export default {
       selectedSuppliers: [],
       filters: {},
       editingRows: [],
+       selectedBranch: null,
+      branch: [
+        { branch: "New York", code: "NY" },
+        { branch: "Rome", code: "RM" },
+        { branch: "London", code: "LDN" },
+        { branch: "Istanbul", code: "IST" },
+        { branch: "Paris", code: "PRS" },
+      ],
+       selectedGroup: null,
+      supplierGroup: [
+        { supplierGroup: "New York", code: "NY" },
+        { supplierGroup: "Rome", code: "RM" },
+        { supplierGroup: "London", code: "LDN" },
+        { supplierGroup: "Istanbul", code: "IST" },
+        { supplierGroup: "Paris", code: "PRS" },
+      ],
       cutomers: [
         {
           id: "1",

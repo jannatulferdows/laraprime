@@ -122,6 +122,11 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
 
 
 
@@ -137,6 +142,7 @@ __webpack_require__.r(__webpack_exports__);
   data: function data() {
     return {
       value: null,
+      title: null,
       status: true,
       selectedTypes: [],
       filters: {},
@@ -5337,89 +5343,100 @@ var render = function() {
                   return [
                     _c("form", { attrs: { action: "" } }, [
                       _c("div", { staticClass: "p-fluid p-formgrid p-grid" }, [
-                        _c(
-                          "div",
-                          { staticClass: "p-field p-col-12 p-md-12" },
-                          [
-                            _c("h2", { staticClass: "title " }, [
-                              _vm._v("Add Duty Type")
-                            ]),
-                            _vm._v(" "),
-                            _c("label", { attrs: { for: "title" } }, [
-                              _c("strong", [_vm._v(" Title")])
-                            ]),
-                            _vm._v(" "),
-                            _c("br"),
-                            _vm._v(" "),
-                            _c("InputText", {
-                              attrs: {
-                                type: "text",
-                                placeholder: "Enter Title"
-                              },
-                              model: {
-                                value: _vm.value,
-                                callback: function($$v) {
-                                  _vm.value = $$v
-                                },
-                                expression: "value"
-                              }
-                            })
-                          ],
-                          1
-                        ),
+                        _c("div", { staticClass: "p-field p-col-12 p-md-12" }, [
+                          _c("h2", { staticClass: "title" }, [
+                            _vm._v("Add Duty Type")
+                          ])
+                        ]),
                         _vm._v(" "),
                         _c("div", { staticClass: "p-field p-col-12 p-md-6" }, [
                           _c(
-                            "div",
-                            { staticClass: "p-d-flex" },
+                            "span",
+                            { staticClass: "p-float-label p-mt-4" },
                             [
-                              _c("Checkbox", {
-                                attrs: { binary: true },
+                              _c("InputText", {
+                                attrs: { type: "text", id: "title" },
                                 model: {
-                                  value: _vm.status,
+                                  value: _vm.title,
                                   callback: function($$v) {
-                                    _vm.status = $$v
+                                    _vm.title = $$v
                                   },
-                                  expression: "status"
+                                  expression: "title"
                                 }
                               }),
                               _vm._v(" "),
-                              _c(
-                                "label",
-                                {
-                                  staticClass: "p-ml-3",
-                                  attrs: { for: "status" }
-                                },
-                                [
-                                  _vm.status
-                                    ? _c("strong", { staticClass: "p-pt-1" }, [
-                                        _vm._v("Active")
-                                      ])
-                                    : _c("strong", { staticClass: "p-pt-1" }, [
-                                        _vm._v("Inactive")
-                                      ])
-                                ]
-                              )
+                              _c("label", { attrs: { for: "title" } }, [
+                                _c("strong", [_vm._v(" Title")])
+                              ])
                             ],
                             1
                           )
-                        ])
-                      ]),
-                      _vm._v(" "),
-                      _c(
-                        "div",
-                        [
-                          _c(
-                            "Button",
-                            {
-                              staticClass: "btn btn-success",
-                              attrs: { type: "submit" }
-                            },
-                            [_vm._v("Create")]
-                          )
-                        ],
-                        1
-                      )
+                        ]),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          { staticClass: "p-field p-col-12 p-md-1 p-mt-5" },
+                          [
+                            _c(
+                              "div",
+                              { staticClass: "p-d-flex" },
+                              [
+                                _c("Checkbox", {
+                                  attrs: { binary: true },
+                                  model: {
+                                    value: _vm.status,
+                                    callback: function($$v) {
+                                      _vm.status = $$v
+                                    },
+                                    expression: "status"
+                                  }
+                                }),
+                                _vm._v(" "),
+                                _c(
+                                  "label",
+                                  {
+                                    staticClass: "p-ml-3",
+                                    attrs: { for: "status" }
+                                  },
+                                  [
+                                    _vm.status
+                                      ? _c(
+                                          "strong",
+                                          { staticClass: "p-pt-1" },
+                                          [_vm._v("Active")]
+                                        )
+                                      : _c(
+                                          "strong",
+                                          { staticClass: "p-pt-1" },
+                                          [_vm._v("Inactive")]
+                                        )
+                                  ]
+                                )
+                              ],
+                              1
+                            )
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          {
+                            staticClass:
+                              "p-field p-col-12 p-md-2 p-mt-3 p-ml-4 "
+                          },
+                          [
+                            _c(
+                              "Button",
+                              {
+                                staticClass: "btn btn-success",
+                                attrs: { type: "submit" }
+                              },
+                              [_vm._v("Save")]
+                            )
+                          ],
+                          1
+                        )
+                      ])
                     ])
                   ]
                 },

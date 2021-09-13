@@ -44,11 +44,12 @@
           </div>
         </div>
         <DataTable :value="saleInvoice" class="p-datatable-striped" >
-          <Column field="num" header="#" headerStyle="width: 50px"></Column>
+
+          <Column field="num" header="#" ></Column>
           <Column field="item" header="Item"></Column>
-          <Column field="quantity" header="Quantity" headerStyle="width: 150px"></Column>
-          <Column field="unitPrice" header="Unit Price" headerStyle="width: 150px"></Column>
-          <Column field="totalPrice" header="Total Price" headerStyle="width: 150px"></Column>
+          <Column field="quantity" header="Quantity" ></Column>
+          <Column field="unitPrice" header="Unit Price" ></Column>
+          <Column field="totalPrice" header="Total Price" ></Column>
 
       </DataTable>
         <div class="p-grid p-mt-2">

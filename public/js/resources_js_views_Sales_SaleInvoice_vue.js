@@ -105,6 +105,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   name: "SaleInvoice",
@@ -553,38 +554,20 @@ var render = function() {
                     attrs: { value: _vm.saleInvoice }
                   },
                   [
-                    _c("Column", {
-                      attrs: {
-                        field: "num",
-                        header: "#",
-                        headerStyle: "width: 50px"
-                      }
-                    }),
+                    _c("Column", { attrs: { field: "num", header: "#" } }),
                     _vm._v(" "),
                     _c("Column", { attrs: { field: "item", header: "Item" } }),
                     _vm._v(" "),
                     _c("Column", {
-                      attrs: {
-                        field: "quantity",
-                        header: "Quantity",
-                        headerStyle: "width: 150px"
-                      }
+                      attrs: { field: "quantity", header: "Quantity" }
                     }),
                     _vm._v(" "),
                     _c("Column", {
-                      attrs: {
-                        field: "unitPrice",
-                        header: "Unit Price",
-                        headerStyle: "width: 150px"
-                      }
+                      attrs: { field: "unitPrice", header: "Unit Price" }
                     }),
                     _vm._v(" "),
                     _c("Column", {
-                      attrs: {
-                        field: "totalPrice",
-                        header: "Total Price",
-                        headerStyle: "width: 150px"
-                      }
+                      attrs: { field: "totalPrice", header: "Total Price" }
                     })
                   ],
                   1

@@ -219,12 +219,7 @@
                   ><router-link to="/ShiftList">Shift List</router-link></a
                 >
               </li>
-              <li>
-                <a
-                  ><i class="pi pi-arrow-right"></i
-                  ><router-link to="/demo">Demo</router-link></a
-                >
-              </li>
+             
             </ul>
           </li>
           <li>
@@ -274,6 +269,12 @@
               <li>
                 <a
                   ><i class="pi pi-arrow-right"></i
+                  ><router-link to="/EditSales">Edit Sales</router-link></a
+                >
+              </li>
+              <li>
+                <a
+                  ><i class="pi pi-arrow-right"></i
                   ><router-link to="/SaleList">Sales List</router-link></a
                 >
               </li>
@@ -285,6 +286,54 @@
               </li>
             </ul>
           </li>
+            <li>
+            <a href="javascript:;" class="has-arrow">
+              <div class="parent-icon"><i class="pi pi-folder"></i></div>
+              <div class="menu-title">Leave Type</div>
+            </a>
+            <ul>
+              <li>
+                <a
+                  ><i class="pi pi-arrow-right"></i
+                  ><router-link to="/CreateLeaveType">Create Leave Type</router-link></a
+                >
+              </li>
+              <li>
+                <a
+                  ><i class="pi pi-arrow-right"></i
+                  ><router-link to="/LeaveTypeList">Leave Type List</router-link></a
+                >
+              </li>
+               
+            </ul>
+          </li>
+           <li>
+            <a href="javascript:;" class="has-arrow">
+              <div class="parent-icon"><i class="pi pi-folder"></i></div>
+              <div class="menu-title">Leave Applications</div>
+            </a>
+            <ul>
+              <li>
+                <a
+                  ><i class="pi pi-arrow-right"></i
+                  ><router-link to="/CreateLeaveApplication">Create Leave Application</router-link></a
+                >
+              </li>
+              <li>
+                <a
+                  ><i class="pi pi-arrow-right"></i
+                  ><router-link to="/EditLeaveApplication">Edit Leave Application</router-link></a
+                >
+              </li>
+               <li>
+                <a
+                  ><i class="pi pi-arrow-right"></i
+                  ><router-link to="/LeaveApplicationList">Leave Application List</router-link></a
+                >
+              </li>
+            </ul>
+          </li>
+          
           <li class="menu-label">UI Elements</li>
           <li>
             <a href="widgets.html">

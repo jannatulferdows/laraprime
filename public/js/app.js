@@ -3306,6 +3306,55 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 
@@ -3959,6 +4008,10 @@ var CreateSales = function CreateSales() {
   return __webpack_require__.e(/*! import() */ "resources_js_views_Sales_CreateSales_vue").then(__webpack_require__.bind(__webpack_require__, /*! ./views/Sales/CreateSales.vue */ "./resources/js/views/Sales/CreateSales.vue"));
 };
 
+var EditSales = function EditSales() {
+  return __webpack_require__.e(/*! import() */ "resources_js_views_Sales_EditSales_vue").then(__webpack_require__.bind(__webpack_require__, /*! ./views/Sales/EditSales.vue */ "./resources/js/views/Sales/EditSales.vue"));
+};
+
 var SaleList = function SaleList() {
   return __webpack_require__.e(/*! import() */ "resources_js_views_Sales_SaleList_vue").then(__webpack_require__.bind(__webpack_require__, /*! ./views/Sales/SaleList.vue */ "./resources/js/views/Sales/SaleList.vue"));
 };
@@ -3977,6 +4030,26 @@ var SupplierList = function SupplierList() {
 
 var EditSupplier = function EditSupplier() {
   return __webpack_require__.e(/*! import() */ "resources_js_views_Suppliers_EditSupplier_vue").then(__webpack_require__.bind(__webpack_require__, /*! ./views/Suppliers/EditSupplier.vue */ "./resources/js/views/Suppliers/EditSupplier.vue"));
+};
+
+var CreateLeaveType = function CreateLeaveType() {
+  return __webpack_require__.e(/*! import() */ "resources_js_views_HRM_leaveTypes_CreateLeaveType_vue").then(__webpack_require__.bind(__webpack_require__, /*! ./views/HRM/leaveTypes/CreateLeaveType.vue */ "./resources/js/views/HRM/leaveTypes/CreateLeaveType.vue"));
+};
+
+var LeaveTypeList = function LeaveTypeList() {
+  return __webpack_require__.e(/*! import() */ "resources_js_views_HRM_leaveTypes_LeaveList_vue").then(__webpack_require__.bind(__webpack_require__, /*! ./views/HRM/leaveTypes/LeaveList.vue */ "./resources/js/views/HRM/leaveTypes/LeaveList.vue"));
+};
+
+var CreateLeaveApplication = function CreateLeaveApplication() {
+  return __webpack_require__.e(/*! import() */ "resources_js_views_HRM_leaveApplications_CreateLeaveApplication_vue").then(__webpack_require__.bind(__webpack_require__, /*! ./views/HRM/leaveApplications/CreateLeaveApplication.vue */ "./resources/js/views/HRM/leaveApplications/CreateLeaveApplication.vue"));
+};
+
+var EditLeaveApplication = function EditLeaveApplication() {
+  return __webpack_require__.e(/*! import() */ "resources_js_views_HRM_leaveApplications_EditLeaveApplication_vue").then(__webpack_require__.bind(__webpack_require__, /*! ./views/HRM/leaveApplications/EditLeaveApplication.vue */ "./resources/js/views/HRM/leaveApplications/EditLeaveApplication.vue"));
+};
+
+var LeaveApplicationList = function LeaveApplicationList() {
+  return __webpack_require__.e(/*! import() */ "resources_js_views_HRM_leaveApplications_LeaveApplicationList_vue").then(__webpack_require__.bind(__webpack_require__, /*! ./views/HRM/leaveApplications/LeaveApplicationList.vue */ "./resources/js/views/HRM/leaveApplications/LeaveApplicationList.vue"));
 };
 
 var routes = [{
@@ -4040,6 +4113,10 @@ var routes = [{
   name: 'CreateSales',
   component: CreateSales
 }, {
+  path: '/EditSales',
+  name: 'EditSales',
+  component: EditSales
+}, {
   path: '/SaleList',
   name: 'SaleList',
   component: SaleList
@@ -4047,6 +4124,26 @@ var routes = [{
   path: '/SaleInvoice',
   name: 'SaleInvoice',
   component: SaleInvoice
+}, {
+  path: '/CreateLeaveType',
+  name: 'CreateLeaveType',
+  component: CreateLeaveType
+}, {
+  path: '/LeaveTypeList',
+  name: 'LeaveTypeList',
+  component: LeaveTypeList
+}, {
+  path: '/CreateLeaveApplication',
+  name: 'CreateLeaveApplication',
+  component: CreateLeaveApplication
+}, {
+  path: '/EditLeaveApplication',
+  name: 'EditLeaveApplication',
+  component: EditLeaveApplication
+}, {
+  path: '/LeaveApplicationList',
+  name: 'LeaveApplicationList',
+  component: LeaveApplicationList
 }];
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (new vue_router__WEBPACK_IMPORTED_MODULE_0__.default({
   // mode: 'history',
@@ -59154,19 +59251,6 @@ var render = function() {
                     ],
                     1
                   )
-                ]),
-                _vm._v(" "),
-                _c("li", [
-                  _c(
-                    "a",
-                    [
-                      _c("i", { staticClass: "pi pi-arrow-right" }),
-                      _c("router-link", { attrs: { to: "/demo" } }, [
-                        _vm._v("Demo")
-                      ])
-                    ],
-                    1
-                  )
                 ])
               ])
             ]),
@@ -59231,6 +59315,19 @@ var render = function() {
                     "a",
                     [
                       _c("i", { staticClass: "pi pi-arrow-right" }),
+                      _c("router-link", { attrs: { to: "/EditSales" } }, [
+                        _vm._v("Edit Sales")
+                      ])
+                    ],
+                    1
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c(
+                    "a",
+                    [
+                      _c("i", { staticClass: "pi pi-arrow-right" }),
                       _c("router-link", { attrs: { to: "/SaleList" } }, [
                         _vm._v("Sales List")
                       ])
@@ -59254,11 +59351,90 @@ var render = function() {
               ])
             ]),
             _vm._v(" "),
+            _c("li", [
+              _vm._m(12),
+              _vm._v(" "),
+              _c("ul", [
+                _c("li", [
+                  _c(
+                    "a",
+                    [
+                      _c("i", { staticClass: "pi pi-arrow-right" }),
+                      _c("router-link", { attrs: { to: "/CreateLeaveType" } }, [
+                        _vm._v("Create Leave Type")
+                      ])
+                    ],
+                    1
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c(
+                    "a",
+                    [
+                      _c("i", { staticClass: "pi pi-arrow-right" }),
+                      _c("router-link", { attrs: { to: "/LeaveTypeList" } }, [
+                        _vm._v("Leave Type List")
+                      ])
+                    ],
+                    1
+                  )
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("li", [
+              _vm._m(13),
+              _vm._v(" "),
+              _c("ul", [
+                _c("li", [
+                  _c(
+                    "a",
+                    [
+                      _c("i", { staticClass: "pi pi-arrow-right" }),
+                      _c(
+                        "router-link",
+                        { attrs: { to: "/CreateLeaveApplication" } },
+                        [_vm._v("Create Leave Application")]
+                      )
+                    ],
+                    1
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c(
+                    "a",
+                    [
+                      _c("i", { staticClass: "pi pi-arrow-right" }),
+                      _c(
+                        "router-link",
+                        { attrs: { to: "/EditLeaveApplication" } },
+                        [_vm._v("Edit Leave Application")]
+                      )
+                    ],
+                    1
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c(
+                    "a",
+                    [
+                      _c("i", { staticClass: "pi pi-arrow-right" }),
+                      _c(
+                        "router-link",
+                        { attrs: { to: "/LeaveApplicationList" } },
+                        [_vm._v("Leave Application List")]
+                      )
+                    ],
+                    1
+                  )
+                ])
+              ])
+            ]),
+            _vm._v(" "),
             _c("li", { staticClass: "menu-label" }, [_vm._v("UI Elements")]),
-            _vm._v(" "),
-            _vm._m(12),
-            _vm._v(" "),
-            _vm._m(13),
             _vm._v(" "),
             _vm._m(14),
             _vm._v(" "),
@@ -59266,17 +59442,17 @@ var render = function() {
             _vm._v(" "),
             _vm._m(16),
             _vm._v(" "),
-            _c("li", { staticClass: "menu-label" }, [_vm._v("Forms & Tables")]),
-            _vm._v(" "),
             _vm._m(17),
             _vm._v(" "),
             _vm._m(18),
             _vm._v(" "),
-            _c("li", { staticClass: "menu-label" }, [_vm._v("Pages")]),
+            _c("li", { staticClass: "menu-label" }, [_vm._v("Forms & Tables")]),
             _vm._v(" "),
             _vm._m(19),
             _vm._v(" "),
             _vm._m(20),
+            _vm._v(" "),
+            _c("li", { staticClass: "menu-label" }, [_vm._v("Pages")]),
             _vm._v(" "),
             _vm._m(21),
             _vm._v(" "),
@@ -59286,24 +59462,28 @@ var render = function() {
             _vm._v(" "),
             _vm._m(24),
             _vm._v(" "),
-            _c("li", { staticClass: "menu-label" }, [_vm._v("Charts & Maps")]),
-            _vm._v(" "),
             _vm._m(25),
             _vm._v(" "),
             _vm._m(26),
             _vm._v(" "),
-            _c("li", { staticClass: "menu-label" }, [_vm._v("Others")]),
+            _c("li", { staticClass: "menu-label" }, [_vm._v("Charts & Maps")]),
             _vm._v(" "),
             _vm._m(27),
             _vm._v(" "),
             _vm._m(28),
             _vm._v(" "),
-            _vm._m(29)
+            _c("li", { staticClass: "menu-label" }, [_vm._v("Others")]),
+            _vm._v(" "),
+            _vm._m(29),
+            _vm._v(" "),
+            _vm._m(30),
+            _vm._v(" "),
+            _vm._m(31)
           ])
         ]
       ),
       _vm._v(" "),
-      _vm._m(30),
+      _vm._m(32),
       _vm._v(" "),
       _c("div", { staticClass: "page-wrapper" }, [
         _c("div", { staticClass: "page-content" }, [_c("router-view")], 1)
@@ -59311,12 +59491,12 @@ var render = function() {
       _vm._v(" "),
       _c("div", { staticClass: "overlay toggle-icon" }),
       _vm._v(" "),
-      _vm._m(31),
+      _vm._m(33),
       _vm._v(" "),
-      _vm._m(32)
+      _vm._m(34)
     ]),
     _vm._v(" "),
-    _vm._m(33)
+    _vm._m(35)
   ])
 }
 var staticRenderFns = [
@@ -59541,6 +59721,38 @@ var staticRenderFns = [
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "menu-title" }, [_vm._v("Sales")])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "a",
+      { staticClass: "has-arrow", attrs: { href: "javascript:;" } },
+      [
+        _c("div", { staticClass: "parent-icon" }, [
+          _c("i", { staticClass: "pi pi-folder" })
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "menu-title" }, [_vm._v("Leave Type")])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "a",
+      { staticClass: "has-arrow", attrs: { href: "javascript:;" } },
+      [
+        _c("div", { staticClass: "parent-icon" }, [
+          _c("i", { staticClass: "pi pi-folder" })
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "menu-title" }, [_vm._v("Leave Applications")])
       ]
     )
   },
@@ -77204,7 +77416,7 @@ Vue.compile = compileToFunctions;
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames not based on template
-/******/ 			if ({"resources_js_views_Welcome_vue":1,"resources_js_views_CRM_customers_CreateCustomer_vue":1,"resources_js_views_CRM_customers_CustomerList_vue":1,"resources_js_views_CRM_customers_EditCustomer_vue":1,"resources_js_views_HRM_shifts_CreateShift_vue":1,"resources_js_views_HRM_shifts_EditShift_vue":1,"resources_js_views_HRM_shifts_ShiftList_vue":1,"resources_js_views_HRM_dutyTypes_DutyTypes_vue":1,"resources_js_views_HRM_dutyTypes_EditDutyType_vue":1,"resources_js_views_HRM_salaryTypes_SalaryTypes_vue":1,"resources_js_views_HRM_salaryTypes_EditSalaryType_vue":1,"resources_js_views_Sales_CreateSales_vue":1,"resources_js_views_Sales_SaleList_vue":1,"resources_js_views_Sales_SaleInvoice_vue":1,"resources_js_views_Suppliers_CreateSupplier_vue":1,"resources_js_views_Suppliers_SupplierList_vue":1,"resources_js_views_Suppliers_EditSupplier_vue":1}[chunkId]) return "js/" + chunkId + ".js";
+/******/ 			if ({"resources_js_views_Welcome_vue":1,"resources_js_views_CRM_customers_CreateCustomer_vue":1,"resources_js_views_CRM_customers_CustomerList_vue":1,"resources_js_views_CRM_customers_EditCustomer_vue":1,"resources_js_views_HRM_shifts_CreateShift_vue":1,"resources_js_views_HRM_shifts_EditShift_vue":1,"resources_js_views_HRM_shifts_ShiftList_vue":1,"resources_js_views_HRM_dutyTypes_DutyTypes_vue":1,"resources_js_views_HRM_dutyTypes_EditDutyType_vue":1,"resources_js_views_HRM_salaryTypes_SalaryTypes_vue":1,"resources_js_views_HRM_salaryTypes_EditSalaryType_vue":1,"resources_js_views_Sales_CreateSales_vue":1,"resources_js_views_Sales_EditSales_vue":1,"resources_js_views_Sales_SaleList_vue":1,"resources_js_views_Sales_SaleInvoice_vue":1,"resources_js_views_Suppliers_CreateSupplier_vue":1,"resources_js_views_Suppliers_SupplierList_vue":1,"resources_js_views_Suppliers_EditSupplier_vue":1,"resources_js_views_HRM_leaveTypes_CreateLeaveType_vue":1,"resources_js_views_HRM_leaveTypes_LeaveList_vue":1,"resources_js_views_HRM_leaveApplications_CreateLeaveApplication_vue":1,"resources_js_views_HRM_leaveApplications_EditLeaveApplication_vue":1,"resources_js_views_HRM_leaveApplications_LeaveApplicationList_vue":1}[chunkId]) return "js/" + chunkId + ".js";
 /******/ 			// return url for filenames based on template
 /******/ 			return undefined;
 /******/ 		};

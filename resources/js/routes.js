@@ -11,11 +11,22 @@ const EditDutyType = () => import('./views/HRM/dutyTypes/EditDutyType.vue');
 const SalaryType = () => import('./views/HRM/salaryTypes/SalaryTypes.vue');
 const EditSalaryType = () => import('./views/HRM/salaryTypes/EditSalaryType.vue');
 const CreateSales = () => import('./views/Sales/CreateSales.vue');
+const EditSales = () => import('./views/Sales/EditSales.vue');
+
 const SaleList = () => import('./views/Sales/SaleList.vue');
 const SaleInvoice = () => import('./views/Sales/SaleInvoice.vue');
 const CreateSupplier = () => import('./views/Suppliers/CreateSupplier.vue');
 const SupplierList = () => import('./views/Suppliers/SupplierList.vue');
 const EditSupplier = () => import('./views/Suppliers/EditSupplier.vue');
+const CreateLeaveType = () => import('./views/HRM/leaveTypes/CreateLeaveType.vue');
+const LeaveTypeList = () => import('./views/HRM/leaveTypes/LeaveList.vue');
+const CreateLeaveApplication = () => import('./views/HRM/leaveApplications/CreateLeaveApplication.vue');
+const EditLeaveApplication = () => import('./views/HRM/leaveApplications/EditLeaveApplication.vue');
+const LeaveApplicationList = () => import('./views/HRM/leaveApplications/LeaveApplicationList.vue');
+
+
+
+
 
 
 
@@ -98,6 +109,11 @@ const routes = [
         component: CreateSales
     },
     {
+        path: '/EditSales',
+        name: 'EditSales',
+        component: EditSales
+    },
+    {
         path: '/SaleList',
         name: 'SaleList',
         component: SaleList
@@ -108,7 +124,31 @@ const routes = [
         name: 'SaleInvoice',
         component: SaleInvoice
     },
-    
+    {
+        path: '/CreateLeaveType',
+        name: 'CreateLeaveType',
+        component: CreateLeaveType
+    },
+    {
+        path: '/LeaveTypeList',
+        name: 'LeaveTypeList',
+        component: LeaveTypeList
+    },
+    {
+        path: '/CreateLeaveApplication',
+        name: 'CreateLeaveApplication',
+        component: CreateLeaveApplication
+    },
+    {
+        path: '/EditLeaveApplication',
+        name: 'EditLeaveApplication',
+        component: EditLeaveApplication
+    },
+    {
+        path: '/LeaveApplicationList',
+        name: 'LeaveApplicationList',
+        component: LeaveApplicationList
+    },
 ]
 
 export default new VueRouter({
